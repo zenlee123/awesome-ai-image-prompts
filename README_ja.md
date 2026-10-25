@@ -12,11 +12,17 @@
 
 8 か国語に対応した AI 画像生成プロンプト集。すべてのプロンプトに実際の生成例付き。
 
+<a href="https://aiimage.com/ja?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts"><img src="https://img.shields.io/badge/%F0%9F%8E%A8%20AIImage%20で試す-AIImage.com-ff5a5f?style=for-the-badge" alt="AIImage で試す"></a>
+
 </div>
 
 以下のプロンプトはすべて実際のモデルで生成し、その結果を横に掲載しています。お好きな言語のプロンプトをコピーして、Nano Banana、GPT Image、Gemini、Midjourney、Seedream、Flux などの画像生成 AI に貼り付けてください。
 
 > プレビュー画像は英語のプロンプトから生成しています。最新の多言語モデルなら、翻訳版のプロンプトでもほぼ同じ結果が得られます。
+
+### 🎨 AIImage.com でこのプロンプトを試す
+
+API キーも設定も不要：[AIImage.com](https://aiimage.com/ja?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts) を開いて Nano Banana Pro、Nano Banana 2、GPT Image 2.5 から選び、プロンプトを貼り付けるだけで数秒で画像が完成。**無料で始められます。**
 
 ## ギャラリー
 
@@ -69,6 +75,7 @@
 - [3D・アイコン](#3d)
 - [建築・インテリア](#architecture)
 - [ファンタジー・コンセプトアート](#fantasy)
+- [無料画像ツール](#tools)
 - [API で生成する](#api)
 - [プロンプト作成のコツ](#tips)
 - [コントリビュート](#contributing)
@@ -87,7 +94,7 @@
 松林の雪に覆われた倒木の上に立つアカギツネの野生動物写真、舞い落ちる雪、カメラを真っ直ぐ見つめるキツネ、浅い被写界深度、柔らかな曇天の光、600mm 望遠レンズ f/4 で撮影、ナショナルジオグラフィック風、毛並みの超高精細描写
 ```
 
-**モデル:** Nano Banana 2.1 · **アスペクト比:** `3:2`
+**モデル:** Nano Banana 2.1 · **アスペクト比:** `3:2` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -107,7 +114,7 @@ Wildlife photograph of a red fox standing on a snow-covered log in a pine forest
 雨上がりの夜、東京の狭い路地のストリートフォト、濡れたアスファルトに映るネオン看板と提灯、ビニール傘を差して遠ざかる一人の人物、ラーメン屋から立ち上る湯気、ティール＆オレンジのシネマティックなカラーグレーディング、35mm フィルムの粒子感、ライカで撮影
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `2:3`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `2:3` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -127,7 +134,7 @@ Street photography in a narrow Tokyo alley at night after rain, glowing neon sig
 アイスランドのキルキュフェトル山の上空に渦巻く緑と紫のオーロラの風景写真、手前には凍った滝、星が見える夜空、長時間露光、静かな池に鏡のように映り込む、14mm 広角レンズ、シャープで高精細、受賞作品レベルの星景写真
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -151,7 +158,7 @@ Landscape photograph of green and violet aurora borealis swirling over Kirkjufel
 深いしわが刻まれた日焼けした顔と白いひげを持つ老漁師のクローズアップポートレート、黄色いレインコート、肌に飛び散る海のしぶき、鋭い青い瞳、ドラマチックなレンブラントライティング、暗くムーディーな背景、85mm f/1.4 で撮影、超リアルな肌の質感
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `3:4`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `3:4` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -171,7 +178,7 @@ Close-up portrait of an elderly fisherman with a deeply wrinkled weathered face 
 サイバーパンク都市の若い女性ハッカーのシネマティックなポートレート、シルバーのショートボブ、目元を覆う光るホログラムバイザー、頬にクロームのサイバネティックインプラント、黒いテックウェアジャケット、両側からのピンクとシアンのネオン光、雨粒、背景にボケた街の灯り、ブレードランナー2049の美学
 ```
 
-**モデル:** Nano Banana 2.1 · **アスペクト比:** `3:4`
+**モデル:** Nano Banana 2.1 · **アスペクト比:** `3:4` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -191,7 +198,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 ピクサー風の3Dアニメキャラクター、背の高い白いコック帽と小さなエプロンを着けたぽっちゃりした茶トラ猫のシェフ、湯気の立つラーメンを誇らしげに持っている、大きく表情豊かな目、暖かく居心地のよいキッチンの背景、柔らかなグローバルイルミネーション、毛のサブサーフェススキャタリング、遊び心がありほっこりする雰囲気
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `1:1`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `1:1` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -215,7 +222,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 ゴールドのキャップが付いたカットガラスの香水瓶の高級広告商品写真、濡れた黒い石の上に立ち、その周りで王冠状の水しぶきが空中で静止している、浮かぶピンクの芍薬の花びら、深いエメラルドグリーンのグラデーション背景、リムライト、ハイスピードフラッシュ、超シャープ、広告キャンペーン
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `4:5`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `4:5` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -235,7 +242,7 @@ Luxury commercial product photography of a faceted glass perfume bottle with a g
 白とオレンジの近未来的なランニングスニーカーの技術的な分解図、すべての層が分離して横一列にきれいに浮かんでいる：アウトソール、フォームミッドソール、カーボンプレート、メッシュアッパー、靴ひも、インソール、細い引き出し線と小さなラベル、すっきりしたライトグレーのスタジオ背景、柔らかな影、プロダクトデザインのプレゼンテーション、フォトリアルな3Dレンダリング
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -255,7 +262,7 @@ Technical exploded view of a futuristic white and orange running sneaker, every 
 真上から撮影したフラットレイのフード写真、手作りの陶器カップに注がれたリーフラテアートの抹茶ラテ、竹の茶筅、抹茶パウダーの小鉢、散らばった緑茶の葉と大福2つ、明るいオーク材のテーブルに敷いたリネンの上、柔らかな自然の窓明かり、ミニマルな和の美学、落ち着いたアースカラー、雑誌のエディトリアル風
 ```
 
-**モデル:** Nano Banana 2.1 · **アスペクト比:** `1:1`
+**モデル:** Nano Banana 2.1 · **アスペクト比:** `1:1` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -279,7 +286,7 @@ Top-down flat lay food photography of a matcha latte with leaf latte art in a ha
 ジャズフェスティバルのためのスイス・インターナショナル・タイポグラフィック・スタイルのポスター、赤・黒・クリームの重なる円と斜めのバーによる大胆な幾何学構成、抽象的なサックスのシルエット、大きくクリーンなサンセリフの見出し "JAZZ NIGHTS" と小さな文字 "MONTREUX 2026"、厳格なグリッドレイアウト、さりげない紙の質感、ヨゼフ・ミューラー＝ブロックマンへのオマージュ
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `2:3`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `2:3` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -299,7 +306,7 @@ Swiss International Typographic Style poster for a jazz festival, bold geometric
 1930年代の京都のレトロな旅行ポスター、赤いもみじに縁取られた五重塔、夕暮れの遠景に比叡山、朱色・ティール・マスタードのフラットなリトグラフ配色、上部にアールデコ調の文字 "KYOTO"、下部に "VISIT JAPAN"、すり切れた紙の縁、シルクスクリーンの質感
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `2:3`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `2:3` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -319,7 +326,7 @@ Swiss International Typographic Style poster for a jazz festival, bold geometric
 居心地のよいコーヒーショップの手描き黒板メニュー、装飾的なチョークの筆記体でタイトル "MORNING BREW"、価格付きのメニュー項目："Espresso $3"、"Flat White $4.5"、"Oat Latte $5"、"Cold Brew $4"、コーヒーカップや豆、湯気の渦を描いた小さなチョークの落書き、少しにじんだチョークの質感、木製フレーム、暖かいカフェの照明
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `3:4`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `3:4` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -343,7 +350,7 @@ Hand-lettered chalkboard menu for a cozy coffee shop, title "MORNING BREW" in de
 スタジオジブリ風の手描きアニメ背景、白いワンピースと麦わら帽子の少女が青々とした田んぼ沿いの田舎道を自転車で走っている、明るい青空にそびえる入道雲、赤い屋根の小さな家と巨大なクスノキ、豊かな水彩とガッシュの質感、ノスタルジックで穏やかな雰囲気
 ```
 
-**モデル:** Nano Banana 2.1 · **アスペクト比:** `16:9`
+**モデル:** Nano Banana 2.1 · **アスペクト比:** `16:9` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -363,7 +370,7 @@ Hand-painted anime background in the style of Studio Ghibli, a girl in a white s
 伝統的な浮世絵木版画、巨大な波の上でサーフィンをする宇宙飛行士、葛飾北斎の「神奈川沖浪裏」に着想、空には地球と三日月、プルシアンブルーとクリームの配色、木目の質感が見える、太い黒の輪郭線、隅に赤い落款印
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `3:4`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `3:4` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -383,7 +390,7 @@ Traditional Japanese ukiyo-e woodblock print of an astronaut surfing on a giant 
 子ども向け絵本のイラスト、野の花が咲く春の草原でチェック柄のシートを広げてピクニックをする3頭の茶色いクマの家族、はちみつの瓶、サンドイッチ、いちごケーキ、草むらからのぞく小さなウサギ、柔らかな色鉛筆と水彩の質感、温かいパステル配色、気まぐれでやさしい雰囲気、ビアトリクス・ポターに着想
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `4:3`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `4:3` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -407,7 +414,7 @@ Children's picture book illustration, a family of three brown bears having a pic
 居心地のよい2階建ての角のカフェのアイソメトリック3Dミニチュアジオラマ、断面図で内部を見せる：バリスタ、エスプレッソマシン、小さなお客さん、観葉植物、ストライプのオーニングとテラス席、暖かい室内照明、柔らかなパステルカラー、粘土のような質感のBlenderレンダリング、ティルトシフト効果、無地の明るい背景に浮かぶ
 ```
 
-**モデル:** Nano Banana 2.1 · **アスペクト比:** `1:1`
+**モデル:** Nano Banana 2.1 · **アスペクト比:** `1:1` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -427,7 +434,7 @@ Isometric 3D miniature diorama of a cozy two-story corner coffee shop, cutaway v
 すりガラスのグラスモーフィズム風3Dアプリアイコンを3×3のグリッドで配置：カメラ、音符、カレンダー、天気の雲、チャットの吹き出し、マップピン、設定の歯車、ハート、ショッピングバッグ、それぞれ半透明ガラスの角丸スクエアで柔らかな内側の光、青から紫、ピンクへの鮮やかなグラデーション、繊細な反射、統一されたライティング、クリーンな白背景、Dribbbleショーケース品質
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `1:1`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `1:1` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -447,7 +454,7 @@ A 3x3 grid of 3D app icons in frosted glassmorphism style: camera, music note, c
 小さな惑星を抱えたちびキャラの宇宙飛行士のかわいいソフビ製コレクションフィギュアの写真、透明なプラスチック窓と "SPACE BUDDY" のラベルが付いたカラフルな販売用パッケージの横に飾られている、パソコンデスクの上、箱のアートには同じキャラクター、柔らかなスタジオ照明、リアルなプラスチック素材、デザイナーズトイの美学、ポップマートのような
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `1:1`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `1:1` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -471,7 +478,7 @@ Photo of a cute chibi vinyl collectible figure of a little astronaut holding a t
 海の断崖に張り出したミニマルなモダンヴィラの建築写真、床から天井までのガラス壁、白いコンクリートと温かみのあるチーク材、海の水平線に溶け込むインフィニティプール、ゴールデンアワーの陽光、柔らかく灯る室内照明、ローアングルから撮影、アーキテクチュラル・ダイジェスト風、超リアル
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `16:9`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `16:9` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -491,7 +498,7 @@ Architectural photography of a minimalist modern villa cantilevered over a sea c
 静謐なジャパンディスタイルのリビングのインテリア写真、オートミール色の低いリネンソファ、明るいアッシュ材のコーヒーテーブル、大きな和紙のフロアランプ、陶器の台に置かれた盆栽、障子の引き戸から差し込む柔らかな朝の光、ニュートラルなベージュと温かみのある白の配色、自然素材の質感、すっきりと片付いた空間、広角、雑誌クオリティ
 ```
 
-**モデル:** Nano Banana 2.1 · **アスペクト比:** `4:3`
+**モデル:** Nano Banana 2.1 · **アスペクト比:** `4:3` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -511,7 +518,7 @@ Interior design photography of a serene Japandi living room, low linen sofa in o
 ソーラーパンクの未来都市の空撮、垂直庭園と流れ落ちる滝に覆われた有機的な白い超高層ビル、ソーラーパネルの天蓋、花の形をした風力タービン、タワー同士をつなぐ空中歩道、ボートが行き交う澄んだ川、自転車に乗る人々、あふれる緑の木々、明るく楽観的な陽光、高精細なコンセプトアート
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -535,7 +542,7 @@ Aerial view of a solarpunk future city, organic white skyscrapers covered in ver
 空に浮かぶ島に建つ青い尖塔の白い城の壮大なファンタジー・マットペインティング、島の縁から下の雲海へ流れ落ちる滝、吊り橋でつながった小さな浮遊岩、遠くを飛ぶドラゴンの群れ、光芒が差す日の出、鮮やかな色彩、高精細、AAAゲームのコンセプトアート風
 ```
 
-**モデル:** Nano Banana 2.1 · **アスペクト比:** `16:9`
+**モデル:** Nano Banana 2.1 · **アスペクト比:** `16:9` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -555,7 +562,7 @@ Epic fantasy matte painting of a white castle with blue spires on a floating isl
 夜の霧深い古代の森に佇む、半透明の生物発光する光でできた荘厳な精霊の鹿、小さな花を咲かせた光る枝へと伸びる角、浮遊するホタルと胞子、苔むした巨木、光を映す小さく澄んだ小川、幻想的な青とターコイズの輝き、魔法のような雰囲気、デジタルペインティング
 ```
 
-**モデル:** Gemini 3 Pro Image · **アスペクト比:** `3:4`
+**モデル:** Gemini 3 Pro Image · **アスペクト比:** `3:4` · [**▶ AIImage で試す**](https://aiimage.com/ja/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -575,7 +582,7 @@ A majestic spirit deer made of translucent bioluminescent light standing in an a
 雲の上の真鍮の塔の間に停泊する賑やかなスチームパンクの空中市場、継ぎはぎの帆布の気嚢と銅のプロペラを備えた何十隻もの飛行船、歯車や時計、異国のスパイスが並ぶ露店、ゴーグルを着けたヴィクトリア朝の服装の群衆、漂う蒸気と煙、温かみのあるセピアと琥珀色のトーン、緻密なディテール、シネマティックなワイドショット
 ```
 
-**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9`
+**モデル:** GPT Image 2.5 · **アスペクト比:** `16:9` · [**▶ AIImage で試す**](https://aiimage.com/ja/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -584,6 +591,20 @@ A bustling steampunk sky market docked between brass towers above the clouds, do
 ```
 
 </details>
+
+<a id="tools"></a>
+
+## 無料画像ツール
+
+生成した画像は AIImage.com の無料オンラインツールでさらに仕上げられます：
+
+- [背景削除](https://aiimage.com/ja/background-remover?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [オブジェクト削除](https://aiimage.com/ja/remove-object?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [背景色の変更](https://aiimage.com/ja/change-background-color?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [画像から画像](https://aiimage.com/ja/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [GIF メーカー](https://aiimage.com/ja/gif-maker?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [画像圧縮](https://aiimage.com/ja/compress-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [無料画像ツール →](https://aiimage.com/ja/tools?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <a id="api"></a>
 

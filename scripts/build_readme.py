@@ -5,6 +5,7 @@ Usage:
     python3 scripts/build_readme.py
 """
 import json
+from urllib.parse import quote
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -23,6 +24,12 @@ MODEL_NAMES = {
 
 UI = {
     "en": {
+        "promo_title": 'Try these prompts on AIImage.com',
+        "promo_desc": 'No API key or setup needed: open [AIImage.com]({home}), pick Nano Banana Pro, Nano Banana 2 or GPT Image 2.5, paste a prompt and get your image in seconds. **Start free.**',
+        "try": 'Try on AIImage',
+        "tools": 'Free Image Tools',
+        "tools_desc": 'Polish your generated images with free online tools on AIImage.com:',
+        "tool_names": ['Background Remover', 'Remove Object', 'Change Background Color', 'Image to Image', 'GIF Maker', 'Compress Image'],
         "tagline": "A curated collection of AI image generator prompts in 8 languages, each with a real generated preview.",
         "intro": "Every prompt below was run on a real model and the result is shown right next to it. Copy a prompt in your own language and paste it into Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux or any other image generator.",
         "gallery": "Gallery", "contents": "Contents",
@@ -45,6 +52,12 @@ UI = {
         "star": "If this collection helps you, please give it a ⭐ star!",
     },
     "zh": {
+        "promo_title": '在 AIImage.com 上试试这些提示词',
+        "promo_desc": '无需 API key，无需任何配置：打开 [AIImage.com]({home})，选择 Nano Banana Pro、Nano Banana 2 或 GPT Image 2.5，粘贴提示词，几秒就能出图。**免费开始。**',
+        "try": '在 AIImage 试用',
+        "tools": '免费图片工具',
+        "tools_desc": 'AIImage.com 还提供免费在线工具，帮你进一步处理生成的图片：',
+        "tool_names": ['一键抠图', 'AI 消除', '更换背景色', '图生图', 'GIF 制作', '图片压缩'],
         "tagline": "精选 AI 生图提示词合集，支持 8 种语言，每条都附真实生成的效果图。",
         "intro": "下面每条提示词都在真实模型上跑过，效果图就放在旁边。复制你熟悉语言的版本，粘贴到 Nano Banana、GPT Image、Gemini、Midjourney、即梦 Seedream、Flux 等任意生图工具即可使用。",
         "gallery": "效果预览", "contents": "目录",
@@ -67,6 +80,12 @@ UI = {
         "star": "如果这个合集对你有帮助，欢迎点个 ⭐ Star！",
     },
     "ja": {
+        "promo_title": 'AIImage.com でこのプロンプトを試す',
+        "promo_desc": 'API キーも設定も不要：[AIImage.com]({home}) を開いて Nano Banana Pro、Nano Banana 2、GPT Image 2.5 から選び、プロンプトを貼り付けるだけで数秒で画像が完成。**無料で始められます。**',
+        "try": 'AIImage で試す',
+        "tools": '無料画像ツール',
+        "tools_desc": '生成した画像は AIImage.com の無料オンラインツールでさらに仕上げられます：',
+        "tool_names": ['背景削除', 'オブジェクト削除', '背景色の変更', '画像から画像', 'GIF メーカー', '画像圧縮'],
         "tagline": "8 か国語に対応した AI 画像生成プロンプト集。すべてのプロンプトに実際の生成例付き。",
         "intro": "以下のプロンプトはすべて実際のモデルで生成し、その結果を横に掲載しています。お好きな言語のプロンプトをコピーして、Nano Banana、GPT Image、Gemini、Midjourney、Seedream、Flux などの画像生成 AI に貼り付けてください。",
         "gallery": "ギャラリー", "contents": "目次",
@@ -89,6 +108,12 @@ UI = {
         "star": "役に立ったら ⭐ スターをお願いします！",
     },
     "ko": {
+        "promo_title": 'AIImage.com에서 이 프롬프트를 사용해 보세요',
+        "promo_desc": 'API 키도 설정도 필요 없습니다. [AIImage.com]({home})에서 Nano Banana Pro, Nano Banana 2, GPT Image 2.5 중 하나를 고르고 프롬프트를 붙여 넣으면 몇 초 만에 이미지가 완성됩니다. **무료로 시작하세요.**',
+        "try": 'AIImage에서 사용해 보기',
+        "tools": '무료 이미지 도구',
+        "tools_desc": '생성한 이미지는 AIImage.com의 무료 온라인 도구로 더 다듬을 수 있습니다:',
+        "tool_names": ['배경 제거', '객체 지우기', '배경색 변경', '이미지로 이미지 생성', 'GIF 만들기', '이미지 압축'],
         "tagline": "8개 언어로 제공하는 AI 이미지 생성 프롬프트 모음. 모든 프롬프트에 실제 생성 결과 포함.",
         "intro": "아래의 모든 프롬프트는 실제 모델로 생성했으며 결과 이미지를 바로 옆에 보여 줍니다. 원하는 언어의 프롬프트를 복사해 Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux 등 어떤 이미지 생성기에든 붙여 넣으세요.",
         "gallery": "갤러리", "contents": "목차",
@@ -111,6 +136,12 @@ UI = {
         "star": "도움이 되었다면 ⭐ 스타를 눌러 주세요!",
     },
     "es": {
+        "promo_title": 'Prueba estos prompts en AIImage.com',
+        "promo_desc": 'Sin API key ni configuración: abre [AIImage.com]({home}), elige Nano Banana Pro, Nano Banana 2 o GPT Image 2.5, pega un prompt y obtén tu imagen en segundos. **Empieza gratis.**',
+        "try": 'Probar en AIImage',
+        "tools": 'Herramientas de imagen gratis',
+        "tools_desc": 'Retoca tus imágenes generadas con las herramientas online gratuitas de AIImage.com:',
+        "tool_names": ['Quitar fondo', 'Eliminar objetos', 'Cambiar color de fondo', 'Imagen a imagen', 'Creador de GIF', 'Comprimir imagen'],
         "tagline": "Una colección seleccionada de prompts para generadores de imágenes con IA en 8 idiomas, cada uno con una vista previa real.",
         "intro": "Cada prompt se ha probado en un modelo real y el resultado aparece junto a él. Copia el prompt en tu idioma y pégalo en Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux o cualquier otro generador de imágenes.",
         "gallery": "Galería", "contents": "Contenido",
@@ -133,6 +164,12 @@ UI = {
         "star": "Si esta colección te resulta útil, ¡dale una ⭐ estrella!",
     },
     "fr": {
+        "promo_title": 'Essayez ces prompts sur AIImage.com',
+        "promo_desc": 'Sans clé API ni configuration : ouvrez [AIImage.com]({home}), choisissez Nano Banana Pro, Nano Banana 2 ou GPT Image 2.5, collez un prompt et obtenez votre image en quelques secondes. **Commencez gratuitement.**',
+        "try": 'Essayer sur AIImage',
+        "tools": "Outils d'image gratuits",
+        "tools_desc": "Peaufinez vos images générées avec les outils en ligne gratuits d'AIImage.com :",
+        "tool_names": ["Supprimer l'arrière-plan", 'Effacer un objet', 'Changer la couleur de fond', 'Image vers image', 'Créateur de GIF', 'Compresser une image'],
         "tagline": "Une sélection de prompts pour générateurs d'images IA en 8 langues, chacun accompagné d'un véritable aperçu généré.",
         "intro": "Chaque prompt ci-dessous a été exécuté sur un vrai modèle, et le résultat est affiché juste à côté. Copiez le prompt dans votre langue et collez-le dans Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux ou tout autre générateur d'images.",
         "gallery": "Galerie", "contents": "Sommaire",
@@ -155,6 +192,12 @@ UI = {
         "star": "Si cette collection vous est utile, laissez-lui une ⭐ étoile !",
     },
     "de": {
+        "promo_title": 'Probiere diese Prompts auf AIImage.com aus',
+        "promo_desc": 'Kein API-Key, keine Einrichtung: Öffne [AIImage.com]({home}), wähle Nano Banana Pro, Nano Banana 2 oder GPT Image 2.5, füge einen Prompt ein und erhalte dein Bild in Sekunden. **Kostenlos starten.**',
+        "try": 'Auf AIImage testen',
+        "tools": 'Kostenlose Bild-Tools',
+        "tools_desc": 'Bearbeite deine generierten Bilder mit den kostenlosen Online-Tools von AIImage.com:',
+        "tool_names": ['Hintergrund entfernen', 'Objekt entfernen', 'Hintergrundfarbe ändern', 'Bild zu Bild', 'GIF-Ersteller', 'Bild komprimieren'],
         "tagline": "Eine kuratierte Sammlung von Prompts für KI-Bildgeneratoren in 8 Sprachen, jeweils mit einer echten generierten Vorschau.",
         "intro": "Jeder Prompt wurde auf einem echten Modell ausgeführt, das Ergebnis steht direkt daneben. Kopiere den Prompt in deiner Sprache und füge ihn in Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux oder einen anderen Bildgenerator ein.",
         "gallery": "Galerie", "contents": "Inhalt",
@@ -177,6 +220,12 @@ UI = {
         "star": "Wenn dir diese Sammlung hilft, gib ihr gern einen ⭐ Stern!",
     },
     "pt": {
+        "promo_title": 'Teste estes prompts no AIImage.com',
+        "promo_desc": 'Sem chave de API nem configuração: abra o [AIImage.com]({home}), escolha Nano Banana Pro, Nano Banana 2 ou GPT Image 2.5, cole um prompt e receba sua imagem em segundos. **Comece grátis.**',
+        "try": 'Testar no AIImage',
+        "tools": 'Ferramentas de imagem grátis',
+        "tools_desc": 'Dê o toque final nas imagens geradas com as ferramentas online gratuitas do AIImage.com:',
+        "tool_names": ['Remover fundo', 'Remover objeto', 'Mudar cor de fundo', 'Imagem para imagem', 'Criador de GIF', 'Comprimir imagem'],
         "tagline": "Uma coleção selecionada de prompts para geradores de imagens com IA em 8 idiomas, cada um com uma prévia real gerada.",
         "intro": "Cada prompt abaixo foi executado num modelo real, e o resultado aparece logo ao lado. Copie o prompt no seu idioma e cole no Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux ou qualquer outro gerador de imagens.",
         "gallery": "Galeria", "contents": "Sumário",
@@ -208,6 +257,23 @@ curl https://routerbase.com/v1/images/generations \\
 ```"""
 
 
+MODEL_PAGES = {
+    "google/gemini-nano-banana-2.1-t2i": "nano-banana-2",
+    "google/gemini-3-pro-image-t2i": "nano-banana-pro",
+    "openai/gpt-image-2.5-flare-t2i": "gpt-image-2-5",
+}
+
+TOOL_PAGES = ["background-remover", "remove-object", "change-background-color",
+              "image-to-image", "gif-maker", "compress-image"]
+
+UTM = "utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts"
+
+
+def site(lang, path=""):
+    parts = [x for x in ("" if lang == "en" else lang, path) if x]
+    return f"https://aiimage.com/{'/'.join(parts)}?{UTM}"
+
+
 def readme_name(lang):
     return "README.md" if lang == "en" else f"README_{lang}.md"
 
@@ -237,11 +303,19 @@ def build(lang, data):
         "",
         t["tagline"],
         "",
+        f'<a href="{site(lang)}"><img src="https://img.shields.io/badge/'
+        f'%F0%9F%8E%A8%20{t["try"].replace(" ", "%20")}-AIImage.com-ff5a5f?style=for-the-badge" '
+        f'alt="{t["try"]}"></a>',
+        "",
         "</div>",
         "",
         t["intro"],
         "",
         f"> {t['note']}",
+        "",
+        f"### 🎨 {t['promo_title']}",
+        "",
+        t["promo_desc"].format(home=site(lang)),
         "",
     ]
 
@@ -259,7 +333,7 @@ def build(lang, data):
     out += [f"## {t['contents']}", ""]
     for c in cats:
         out.append(f'- [{c["title"][lang]}](#{c["id"]})')
-    out += [f"- [{t['api']}](#api)", f"- [{t['tips']}](#tips)",
+    out += [f"- [{t['tools']}](#tools)", f"- [{t['api']}](#api)", f"- [{t['tips']}](#tips)",
             f"- [{t['contrib']}](#contributing)", ""]
 
     for c in cats:
@@ -277,13 +351,17 @@ def build(lang, data):
                 "```",
                 "",
                 f'**{t["model"]}:** {MODEL_NAMES.get(p["model"], p["model"])} · '
-                f'**{t["ratio"]}:** `{p["aspect_ratio"]}`',
+                f'**{t["ratio"]}:** `{p["aspect_ratio"]}` · '
+                f'[**▶ {t["try"]}**]({site(lang, MODEL_PAGES[p["model"]])})',
                 "",
             ]
             if lang != "en":
                 out += ["<details><summary>English</summary>", "", "```text",
                         p["prompt"]["en"], "```", "", "</details>", ""]
 
+    out += ['<a id="tools"></a>', "", f"## {t['tools']}", "", t["tools_desc"], ""]
+    out += [f"- [{name}]({site(lang, path)})" for name, path in zip(t["tool_names"], TOOL_PAGES)]
+    out += [f"- [{t['tools']} →]({site(lang, 'tools')})", ""]
     out += ['<a id="api"></a>', "", f"## {t['api']}", "", t["api_desc"], "", API_SNIPPET, ""]
     out += ['<a id="tips"></a>', "", f"## {t['tips']}", ""]
     out += [f"{i}. {tip}" for i, tip in enumerate(t["tips_list"], 1)]

@@ -12,11 +12,17 @@
 
 精选 AI 生图提示词合集，支持 8 种语言，每条都附真实生成的效果图。
 
+<a href="https://aiimage.com/zh?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts"><img src="https://img.shields.io/badge/%F0%9F%8E%A8%20在%20AIImage%20试用-AIImage.com-ff5a5f?style=for-the-badge" alt="在 AIImage 试用"></a>
+
 </div>
 
 下面每条提示词都在真实模型上跑过，效果图就放在旁边。复制你熟悉语言的版本，粘贴到 Nano Banana、GPT Image、Gemini、Midjourney、即梦 Seedream、Flux 等任意生图工具即可使用。
 
 > 效果图使用英文提示词生成。主流多语言模型使用翻译后的提示词也能得到非常接近的效果。
+
+### 🎨 在 AIImage.com 上试试这些提示词
+
+无需 API key，无需任何配置：打开 [AIImage.com](https://aiimage.com/zh?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)，选择 Nano Banana Pro、Nano Banana 2 或 GPT Image 2.5，粘贴提示词，几秒就能出图。**免费开始。**
 
 ## 效果预览
 
@@ -69,6 +75,7 @@
 - [3D 与图标](#3d)
 - [建筑与室内](#architecture)
 - [奇幻与概念艺术](#fantasy)
+- [免费图片工具](#tools)
 - [通过 API 生成](#api)
 - [提示词写作技巧](#tips)
 - [参与贡献](#contributing)
@@ -87,7 +94,7 @@
 野生动物摄影：一只赤狐站在松林中覆雪的倒木上，雪花飘落，狐狸直视镜头，浅景深，柔和的阴天光线，600mm 长焦镜头 f/4 拍摄，国家地理风格，毛发细节极其清晰
 ```
 
-**模型:** Nano Banana 2.1 · **画面比例:** `3:2`
+**模型:** Nano Banana 2.1 · **画面比例:** `3:2` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -107,7 +114,7 @@ Wildlife photograph of a red fox standing on a snow-covered log in a pine forest
 街头摄影：雨后夜晚的东京小巷，霓虹招牌和纸灯笼的光倒映在湿漉漉的柏油路上，一个撑透明雨伞的人独自走远，拉面店升起蒸汽，电影感青橙色调，35mm 胶片颗粒，徕卡拍摄
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `2:3`
+**模型:** Gemini 3 Pro Image · **画面比例:** `2:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -127,7 +134,7 @@ Street photography in a narrow Tokyo alley at night after rain, glowing neon sig
 风光摄影：绿色和紫色的北极光在冰岛草帽山上空旋转，前景是结冰的瀑布，繁星可见，长曝光，平静水面形成镜面倒影，14mm 广角镜头，清晰锐利，细节丰富，获奖级星空摄影
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `16:9`
+**模型:** GPT Image 2.5 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -151,7 +158,7 @@ Landscape photograph of green and violet aurora borealis swirling over Kirkjufel
 特写肖像：一位老渔夫，饱经风霜的脸上布满深深的皱纹，白色胡须，身穿黄色雨衣，皮肤上沾着海水飞沫，锐利的蓝眼睛，戏剧性的伦勃朗光，暗调氛围背景，85mm f/1.4 拍摄，超写实皮肤质感
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `3:4`
+**模型:** Gemini 3 Pro Image · **画面比例:** `3:4` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -171,7 +178,7 @@ Close-up portrait of an elderly fisherman with a deeply wrinkled weathered face 
 电影感肖像：赛博朋克城市中的年轻女黑客，银色短波波头，眼前是发光的全息护目镜，脸颊上有金属义体植入，身穿黑色机能风夹克，两侧打来粉色和青色霓虹光，雨滴，背景是虚化的城市灯光，《银翼杀手 2049》美学
 ```
 
-**模型:** Nano Banana 2.1 · **画面比例:** `3:4`
+**模型:** Nano Banana 2.1 · **画面比例:** `3:4` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -191,7 +198,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 皮克斯风格 3D 动画角色：一只胖乎乎的橘色虎斑猫厨师，戴着高高的白色厨师帽和小围裙，骄傲地捧着一碗冒热气的拉面，大而有神的眼睛，温馨暖色的厨房背景，柔和的全局光照，毛发次表面散射，俏皮又暖心
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `1:1`
+**模型:** GPT Image 2.5 · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -215,7 +222,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 奢华商业产品摄影：一只多切面玻璃香水瓶配金色瓶盖，立在湿润的黑色石头上，周围是定格在半空中的皇冠状水花，粉色牡丹花瓣漂浮，深祖母绿渐变背景，轮廓光，高速闪光，极致锐利，广告大片
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `4:5`
+**模型:** Gemini 3 Pro Image · **画面比例:** `4:5` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -235,7 +242,7 @@ Luxury commercial product photography of a faceted glass perfume bottle with a g
 未来感白橙配色跑鞋的技术爆炸图，各层分离并整齐地水平悬浮排列：大底、泡棉中底、碳板、网面鞋面、鞋带和鞋垫，细引线配小标签，干净的浅灰色影棚背景，柔和阴影，产品设计展示，照片级 3D 渲染
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `16:9`
+**模型:** GPT Image 2.5 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -255,7 +262,7 @@ Technical exploded view of a futuristic white and orange running sneaker, every 
 俯拍平铺美食摄影：手工陶瓷杯里的抹茶拿铁，表面是叶子拉花，旁边放着竹制茶筅、一小碗抹茶粉、散落的绿茶叶和两个麻薯，铺在浅橡木桌上的亚麻布上，柔和的自然窗光，极简日式美学，低饱和大地色调，杂志大片风格
 ```
 
-**模型:** Nano Banana 2.1 · **画面比例:** `1:1`
+**模型:** Nano Banana 2.1 · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -279,7 +286,7 @@ Top-down flat lay food photography of a matcha latte with leaf latte art in a ha
 瑞士国际主义平面风格的爵士音乐节海报，红、黑、米白三色的重叠圆形和斜向色块构成大胆的几何构图，抽象萨克斯风剪影，醒目干净的无衬线大标题 "JAZZ NIGHTS"，下方小字 "MONTREUX 2026"，严格的网格排版，细微的纸张纹理，致敬约瑟夫·米勒-布罗克曼
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `2:3`
+**模型:** GPT Image 2.5 · **画面比例:** `2:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -299,7 +306,7 @@ Swiss International Typographic Style poster for a jazz festival, bold geometric
 1930 年代复古旅行海报，主题日本京都：红色枫叶环绕着一座五重塔，远处是夕阳下的比叡山，朱红、青绿、芥末黄的平涂石版印刷色彩，顶部是装饰艺术风格字体 "KYOTO"，底部写着 "VISIT JAPAN"，纸张边缘磨损，丝网印刷质感
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `2:3`
+**模型:** Gemini 3 Pro Image · **画面比例:** `2:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -319,7 +326,7 @@ Swiss International Typographic Style poster for a jazz festival, bold geometric
 温馨咖啡店的手绘黑板菜单，标题 "MORNING BREW" 采用装饰性粉笔花体字，菜单项和价格："Espresso $3"、"Flat White $4.5"、"Oat Latte $5"、"Cold Brew $4"，配有咖啡杯、咖啡豆和蒸汽漩涡的粉笔小涂鸦，略带擦痕的粉笔质感，木质边框，温暖的咖啡馆灯光
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `3:4`
+**模型:** GPT Image 2.5 · **画面比例:** `3:4` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -343,7 +350,7 @@ Hand-lettered chalkboard menu for a cozy coffee shop, title "MORNING BREW" in de
 吉卜力工作室风格的手绘动画背景：一个穿白色吊带裙、戴草帽的女孩骑着自行车，沿着绿油油稻田旁的乡间小路前行，明亮湛蓝的夏日天空中耸立着巨大的积云，一座红屋顶小房子和一棵巨大的樟树，丰富的水彩与水粉质感，怀旧而宁静
 ```
 
-**模型:** Nano Banana 2.1 · **画面比例:** `16:9`
+**模型:** Nano Banana 2.1 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -363,7 +370,7 @@ Hand-painted anime background in the style of Studio Ghibli, a girl in a white s
 日本传统浮世绘木版画：一名宇航员在巨浪上冲浪，灵感来自葛饰北斋《神奈川冲浪里》，天空中有地球和一弯新月，普鲁士蓝与米白配色，可见的木纹肌理，粗黑轮廓线，角落盖着红色画家印章
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `3:4`
+**模型:** Gemini 3 Pro Image · **画面比例:** `3:4` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -383,7 +390,7 @@ Traditional Japanese ukiyo-e woodblock print of an astronaut surfing on a giant 
 儿童绘本插画：三只棕熊一家在开满野花的春日草地上，坐在格子野餐布上野餐，有蜂蜜罐、三明治和草莓蛋糕，一只小兔子从草丛里探出头，柔和的彩铅与水彩质感，温暖的粉彩配色，奇趣温柔，致敬碧雅翠丝·波特
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `4:3`
+**模型:** GPT Image 2.5 · **画面比例:** `4:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -407,7 +414,7 @@ Children's picture book illustration, a family of three brown bears having a pic
 等距视角 3D 微缩场景：一间温馨的两层街角咖啡店，剖面视图展示内部，有咖啡师、意式咖啡机、迷你顾客和盆栽，条纹遮阳篷和户外座位，温暖的室内灯光，柔和的粉彩色，黏土质感 Blender 渲染，移轴效果，悬浮在纯浅色背景上
 ```
 
-**模型:** Nano Banana 2.1 · **画面比例:** `1:1`
+**模型:** Nano Banana 2.1 · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -427,7 +434,7 @@ Isometric 3D miniature diorama of a cozy two-story corner coffee shop, cutaway v
 3×3 网格排列的磨砂玻璃拟态风格 3D 应用图标：相机、音符、日历、天气云朵、聊天气泡、地图定位、设置齿轮、爱心和购物袋，每个都是半透明玻璃圆角方块，带柔和内发光，由蓝到紫再到粉的鲜艳渐变色，细腻反光，统一光照，干净的白色背景，Dribbble 精选级质量
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `1:1`
+**模型:** GPT Image 2.5 · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -447,7 +454,7 @@ A 3x3 grid of 3D app icons in frosted glassmorphism style: camera, music note, c
 照片：一个可爱的 Q 版搪胶收藏手办，是抱着小星球的小宇航员，摆在它色彩鲜艳的零售包装盒旁，包装盒有透明塑料窗，标签写着 "SPACE BUDDY"，放在电脑桌上，盒面印着同一个角色，柔和的影棚光，真实的塑料材质，潮玩美学，类似泡泡玛特
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `1:1`
+**模型:** Gemini 3 Pro Image · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -471,7 +478,7 @@ Photo of a cute chibi vinyl collectible figure of a little astronaut holding a t
 建筑摄影：一座悬挑在海边悬崖上的极简现代别墅，落地玻璃墙，白色清水混凝土与暖色柚木，无边泳池与海平线融为一体，黄金时刻的阳光，室内灯光柔和亮起，低角度仰拍，《建筑文摘》风格，超写实
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `16:9`
+**模型:** Gemini 3 Pro Image · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -491,7 +498,7 @@ Architectural photography of a minimalist modern villa cantilevered over a sea c
 室内设计摄影：宁静的日式北欧（Japandi）风客厅，燕麦色低矮亚麻沙发，浅色白蜡木茶几，大号纸质落地灯，陶瓷台座上的盆景，障子推拉门透进柔和的晨光，中性米色与暖白配色，自然材质，简洁不杂乱，广角，杂志级画质
 ```
 
-**模型:** Nano Banana 2.1 · **画面比例:** `4:3`
+**模型:** Nano Banana 2.1 · **画面比例:** `4:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -511,7 +518,7 @@ Interior design photography of a serene Japandi living room, low linen sofa in o
 太阳朋克未来城市鸟瞰图：有机造型的白色摩天楼覆盖着垂直花园和层叠瀑布，太阳能板天棚，花朵造型的风力发电机，空中连廊连接各栋高楼，清澈的河流上有小船，人们骑着自行车，到处是茂盛的树木，明亮乐观的阳光，高细节概念设计图
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `16:9`
+**模型:** GPT Image 2.5 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -535,7 +542,7 @@ Aerial view of a solarpunk future city, organic white skyscrapers covered in ver
 史诗奇幻接景画：天空中一座浮空岛上矗立着蓝色尖塔的白色城堡，瀑布从岛屿边缘倾泻进下方云海，较小的浮空岩石由绳桥相连，远处一群巨龙飞过，日出时分的丁达尔光线，色彩鲜艳，细节丰富，3A 游戏概念设计风格
 ```
 
-**模型:** Nano Banana 2.1 · **画面比例:** `16:9`
+**模型:** Nano Banana 2.1 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -555,7 +562,7 @@ Epic fantasy matte painting of a white castle with blue spires on a floating isl
 一只由半透明生物荧光构成的威严灵鹿，夜晚伫立在雾气弥漫的古老森林中，鹿角长成发光的枝条并开着小花，萤火虫和孢子在空中飘浮，巨大的苔藓古树，一条清澈小溪倒映着光芒，空灵的蓝色与青绿色辉光，魔幻氛围，数字绘画
 ```
 
-**模型:** Gemini 3 Pro Image · **画面比例:** `3:4`
+**模型:** Gemini 3 Pro Image · **画面比例:** `3:4` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -575,7 +582,7 @@ A majestic spirit deer made of translucent bioluminescent light standing in an a
 熙熙攘攘的蒸汽朋克空中集市，停靠在云层之上的黄铜高塔之间，数十艘飞艇带着打着补丁的帆布气囊和铜制螺旋桨，商摊上摆满齿轮、钟表和异域香料，人群身着维多利亚时代服装、戴着护目镜，蒸汽与烟雾飘散，温暖的棕褐与琥珀色调，细节繁复，电影感宽画幅
 ```
 
-**模型:** GPT Image 2.5 · **画面比例:** `16:9`
+**模型:** GPT Image 2.5 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -584,6 +591,20 @@ A bustling steampunk sky market docked between brass towers above the clouds, do
 ```
 
 </details>
+
+<a id="tools"></a>
+
+## 免费图片工具
+
+AIImage.com 还提供免费在线工具，帮你进一步处理生成的图片：
+
+- [一键抠图](https://aiimage.com/zh/background-remover?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [AI 消除](https://aiimage.com/zh/remove-object?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [更换背景色](https://aiimage.com/zh/change-background-color?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [图生图](https://aiimage.com/zh/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [GIF 制作](https://aiimage.com/zh/gif-maker?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [图片压缩](https://aiimage.com/zh/compress-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [免费图片工具 →](https://aiimage.com/zh/tools?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <a id="api"></a>
 

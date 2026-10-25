@@ -12,11 +12,17 @@
 
 8개 언어로 제공하는 AI 이미지 생성 프롬프트 모음. 모든 프롬프트에 실제 생성 결과 포함.
 
+<a href="https://aiimage.com/ko?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts"><img src="https://img.shields.io/badge/%F0%9F%8E%A8%20AIImage에서%20사용해%20보기-AIImage.com-ff5a5f?style=for-the-badge" alt="AIImage에서 사용해 보기"></a>
+
 </div>
 
 아래의 모든 프롬프트는 실제 모델로 생성했으며 결과 이미지를 바로 옆에 보여 줍니다. 원하는 언어의 프롬프트를 복사해 Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux 등 어떤 이미지 생성기에든 붙여 넣으세요.
 
 > 미리보기 이미지는 영어 프롬프트로 생성했습니다. 최신 다국어 모델은 번역된 프롬프트로도 거의 같은 결과를 냅니다.
+
+### 🎨 AIImage.com에서 이 프롬프트를 사용해 보세요
+
+API 키도 설정도 필요 없습니다. [AIImage.com](https://aiimage.com/ko?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)에서 Nano Banana Pro, Nano Banana 2, GPT Image 2.5 중 하나를 고르고 프롬프트를 붙여 넣으면 몇 초 만에 이미지가 완성됩니다. **무료로 시작하세요.**
 
 ## 갤러리
 
@@ -69,6 +75,7 @@
 - [3D & 아이콘](#3d)
 - [건축 & 인테리어](#architecture)
 - [판타지 & 콘셉트 아트](#fantasy)
+- [무료 이미지 도구](#tools)
 - [API로 생성하기](#api)
 - [프롬프트 작성 팁](#tips)
 - [기여하기](#contributing)
@@ -87,7 +94,7 @@
 소나무 숲속 눈 덮인 통나무 위에 서 있는 붉은 여우의 야생동물 사진, 흩날리는 눈송이, 카메라를 정면으로 바라보는 여우, 얕은 피사계 심도, 부드러운 흐린 날의 빛, 600mm 망원 렌즈 f/4 촬영, 내셔널 지오그래픽 스타일, 털의 초정밀 디테일
 ```
 
-**모델:** Nano Banana 2.1 · **화면 비율:** `3:2`
+**모델:** Nano Banana 2.1 · **화면 비율:** `3:2` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -107,7 +114,7 @@ Wildlife photograph of a red fox standing on a snow-covered log in a pine forest
 비 그친 밤 도쿄 좁은 골목의 스트리트 포토, 젖은 아스팔트에 비친 네온 간판과 종이 등불, 투명 우산을 쓰고 멀어지는 한 사람, 라멘 가게에서 피어오르는 김, 시네마틱한 틸 & 오렌지 색보정, 35mm 필름 그레인, 라이카로 촬영
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `2:3`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `2:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -127,7 +134,7 @@ Street photography in a narrow Tokyo alley at night after rain, glowing neon sig
 아이슬란드 키르큐펠산 위로 소용돌이치는 초록빛과 보랏빛 오로라 풍경 사진, 전경에 얼어붙은 폭포, 별이 보이는 하늘, 장노출, 잔잔한 연못에 거울처럼 비친 반영, 14mm 광각 렌즈, 선명하고 디테일한 묘사, 수상작 수준의 천체 사진
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `16:9`
+**모델:** GPT Image 2.5 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -151,7 +158,7 @@ Landscape photograph of green and violet aurora borealis swirling over Kirkjufel
 깊은 주름이 새겨진 풍파에 시달린 얼굴과 흰 수염을 가진 늙은 어부의 클로즈업 초상, 노란 비옷 착용, 피부에 튄 바닷물, 날카로운 파란 눈, 드라마틱한 렘브란트 조명, 어둡고 무드 있는 배경, 85mm f/1.4 촬영, 초현실적인 피부 질감
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `3:4`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `3:4` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -171,7 +178,7 @@ Close-up portrait of an elderly fisherman with a deeply wrinkled weathered face 
 사이버펑크 도시의 젊은 여성 해커의 시네마틱 초상, 은색 단발 보브 헤어, 눈을 덮은 빛나는 홀로그램 바이저, 뺨의 크롬 사이버네틱 임플란트, 검은 테크웨어 재킷, 양쪽에서 비추는 핑크와 시안 네온 조명, 빗방울, 뒤로 흐릿한 도시 불빛 보케, 블레이드 러너 2049 미학
 ```
 
-**모델:** Nano Banana 2.1 · **화면 비율:** `3:4`
+**모델:** Nano Banana 2.1 · **화면 비율:** `3:4` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -191,7 +198,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 픽사 스타일의 3D 애니메이션 캐릭터, 높은 흰색 셰프 모자와 작은 앞치마를 두른 통통한 주황색 치즈 고양이 셰프, 김이 나는 라멘 한 그릇을 자랑스럽게 들고 있음, 크고 표정이 풍부한 눈, 아늑하고 따뜻한 주방 배경, 부드러운 글로벌 일루미네이션, 털의 서브서피스 스캐터링, 장난스럽고 훈훈한 분위기
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `1:1`
+**모델:** GPT Image 2.5 · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -215,7 +222,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 금색 캡이 달린 다면 커팅 유리 향수병의 럭셔리 광고 제품 사진, 젖은 검은 돌 위에 서 있고 주위로 왕관 모양의 물보라가 공중에 멈춰 있음, 떠다니는 분홍 작약 꽃잎, 짙은 에메랄드 그린 그라데이션 배경, 림 라이트, 고속 플래시, 초선명, 광고 캠페인
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `4:5`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `4:5` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -235,7 +242,7 @@ Luxury commercial product photography of a faceted glass perfume bottle with a g
 흰색과 주황색의 미래적인 러닝화 기술 분해도, 모든 층이 분리되어 가로 한 줄로 깔끔하게 떠 있음: 아웃솔, 폼 미드솔, 카본 플레이트, 메시 어퍼, 신발끈, 인솔, 가는 지시선과 작은 라벨, 깔끔한 연회색 스튜디오 배경, 부드러운 그림자, 제품 디자인 프레젠테이션, 포토리얼 3D 렌더링
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `16:9`
+**모델:** GPT Image 2.5 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -255,7 +262,7 @@ Technical exploded view of a futuristic white and orange running sneaker, every 
 위에서 내려다본 플랫레이 푸드 사진, 수제 도자기 컵에 담긴 나뭇잎 라테아트의 말차 라테, 대나무 차선, 말차 가루가 담긴 작은 그릇, 흩어진 녹차 잎과 모찌 두 개, 밝은 오크 테이블 위 린넨 천, 부드러운 자연 창가 빛, 미니멀한 일본식 미학, 차분한 어스톤, 매거진 에디토리얼 스타일
 ```
 
-**모델:** Nano Banana 2.1 · **화면 비율:** `1:1`
+**모델:** Nano Banana 2.1 · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -279,7 +286,7 @@ Top-down flat lay food photography of a matcha latte with leaf latte art in a ha
 재즈 페스티벌을 위한 스위스 국제 타이포그래피 스타일 포스터, 빨강·검정·크림색의 겹치는 원과 대각선 막대로 이루어진 대담한 기하학적 구성, 추상적인 색소폰 실루엣, 크고 깔끔한 산세리프 헤드라인 "JAZZ NIGHTS"와 작은 글씨 "MONTREUX 2026", 엄격한 그리드 레이아웃, 은은한 종이 질감, 요제프 뮐러브로크만에서 영감
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `2:3`
+**모델:** GPT Image 2.5 · **화면 비율:** `2:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -299,7 +306,7 @@ Swiss International Typographic Style poster for a jazz festival, bold geometric
 1930년대 일본 교토 빈티지 여행 포스터, 붉은 단풍잎에 둘러싸인 오층탑, 해 질 녘 멀리 보이는 히에이산, 주홍·청록·머스터드의 평면 석판화 색감, 상단에 아르데코 레터링 "KYOTO", 하단에 "VISIT JAPAN", 닳은 종이 가장자리, 실크스크린 질감
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `2:3`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `2:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -319,7 +326,7 @@ Swiss International Typographic Style poster for a jazz festival, bold geometric
 아늑한 커피숍의 손글씨 칠판 메뉴, 장식적인 분필 필기체로 쓴 제목 "MORNING BREW", 가격이 적힌 메뉴: "Espresso $3", "Flat White $4.5", "Oat Latte $5", "Cold Brew $4", 커피잔·원두·김 소용돌이의 작은 분필 낙서, 살짝 번진 분필 질감, 나무 프레임, 따뜻한 카페 조명
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `3:4`
+**모델:** GPT Image 2.5 · **화면 비율:** `3:4` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -343,7 +350,7 @@ Hand-lettered chalkboard menu for a cozy coffee shop, title "MORNING BREW" in de
 스튜디오 지브리 스타일의 손으로 그린 애니메이션 배경, 흰 원피스와 밀짚모자를 쓴 소녀가 푸른 논 옆 시골길을 자전거로 달림, 밝고 파란 여름 하늘에 우뚝 솟은 뭉게구름, 빨간 지붕의 작은 집과 거대한 녹나무, 풍부한 수채화와 과슈 질감, 향수를 자아내는 평화로운 분위기
 ```
 
-**모델:** Nano Banana 2.1 · **화면 비율:** `16:9`
+**모델:** Nano Banana 2.1 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -363,7 +370,7 @@ Hand-painted anime background in the style of Studio Ghibli, a girl in a white s
 전통 일본 우키요에 목판화, 거대한 파도 위에서 서핑하는 우주비행사, 가쓰시카 호쿠사이의 「가나가와 해변의 높은 파도 아래」에서 영감, 하늘에 지구와 초승달, 프러시안 블루와 크림 색조, 드러나는 나뭇결 질감, 굵은 검은 윤곽선, 모서리에 붉은 낙관
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `3:4`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `3:4` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -383,7 +390,7 @@ Traditional Japanese ukiyo-e woodblock print of an astronaut surfing on a giant 
 어린이 그림책 일러스트, 들꽃이 가득한 봄 초원에서 체크무늬 담요를 펴고 소풍을 즐기는 갈색 곰 세 식구, 꿀단지와 샌드위치, 딸기 케이크, 풀숲에서 빼꼼 내다보는 작은 토끼, 부드러운 색연필과 수채화 질감, 따뜻한 파스텔 색감, 동화 같고 다정한 분위기, 베아트릭스 포터에서 영감
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `4:3`
+**모델:** GPT Image 2.5 · **화면 비율:** `4:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -407,7 +414,7 @@ Children's picture book illustration, a family of three brown bears having a pic
 아늑한 2층짜리 모퉁이 카페의 아이소메트릭 3D 미니어처 디오라마, 내부가 보이는 단면도: 바리스타, 에스프레소 머신, 작은 손님들과 화분, 줄무늬 차양과 야외 좌석, 따뜻한 실내 조명, 부드러운 파스텔 색상, 점토 질감의 Blender 렌더링, 틸트시프트 효과, 단색 밝은 배경 위에 떠 있음
 ```
 
-**모델:** Nano Banana 2.1 · **화면 비율:** `1:1`
+**모델:** Nano Banana 2.1 · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -427,7 +434,7 @@ Isometric 3D miniature diorama of a cozy two-story corner coffee shop, cutaway v
 반투명 글래스모피즘 스타일 3D 앱 아이콘 3×3 그리드: 카메라, 음표, 캘린더, 날씨 구름, 채팅 말풍선, 지도 핀, 설정 톱니바퀴, 하트, 쇼핑백, 각각 부드러운 내부 발광이 있는 반투명 유리 둥근 사각형, 파랑에서 보라, 핑크로 이어지는 선명한 그라데이션, 은은한 반사, 일관된 조명, 깔끔한 흰 배경, Dribbble 쇼케이스 품질
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `1:1`
+**모델:** GPT Image 2.5 · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -447,7 +454,7 @@ A 3x3 grid of 3D app icons in frosted glassmorphism style: camera, music note, c
 작은 행성을 안고 있는 꼬마 우주비행사의 귀여운 SD 비닐 수집용 피규어 사진, 투명 플라스틱 창과 "SPACE BUDDY" 라벨이 있는 알록달록한 판매용 패키지 박스 옆에 진열, 컴퓨터 책상 위, 박스 아트에 같은 캐릭터, 부드러운 스튜디오 조명, 사실적인 플라스틱 재질, 디자이너 토이 미학, 팝마트 스타일
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `1:1`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -471,7 +478,7 @@ Photo of a cute chibi vinyl collectible figure of a little astronaut holding a t
 바다 절벽 위로 캔틸레버로 돌출된 미니멀한 모던 빌라의 건축 사진, 바닥부터 천장까지의 유리 벽, 흰 콘크리트와 따뜻한 티크 목재, 바다 수평선과 이어지는 인피니티 풀, 골든아워 햇살, 부드럽게 빛나는 실내 조명, 로우 앵글 촬영, 아키텍처럴 다이제스트 스타일, 초현실적
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `16:9`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -491,7 +498,7 @@ Architectural photography of a minimalist modern villa cantilevered over a sea c
 고요한 재팬디 스타일 거실의 인테리어 사진, 오트밀 색 낮은 린넨 소파, 밝은 애시 원목 커피 테이블, 큰 한지 플로어 램프, 도자기 받침 위의 분재, 쇼지 미닫이문으로 들어오는 은은한 아침 햇살, 뉴트럴 베이지와 따뜻한 화이트 색조, 자연 소재의 질감, 정돈된 공간, 광각, 매거진 퀄리티
 ```
 
-**모델:** Nano Banana 2.1 · **화면 비율:** `4:3`
+**모델:** Nano Banana 2.1 · **화면 비율:** `4:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -511,7 +518,7 @@ Interior design photography of a serene Japandi living room, low linen sofa in o
 솔라펑크 미래 도시의 항공 뷰, 수직 정원과 쏟아지는 폭포로 덮인 유기적인 흰색 마천루, 태양광 패널 캐노피, 꽃 모양의 풍력 터빈, 타워를 잇는 공중 보행로, 배가 떠다니는 맑은 강, 자전거 타는 사람들, 곳곳에 무성한 나무, 밝고 낙관적인 햇살, 고해상도 콘셉트 아트
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `16:9`
+**모델:** GPT Image 2.5 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -535,7 +542,7 @@ Aerial view of a solarpunk future city, organic white skyscrapers covered in ver
 하늘에 떠 있는 섬 위 파란 첨탑의 하얀 성을 그린 웅장한 판타지 매트 페인팅, 섬 가장자리에서 아래 구름바다로 쏟아지는 폭포, 밧줄 다리로 이어진 작은 공중 바위들, 멀리 날아가는 용 무리, 빛줄기가 내리는 일출, 선명한 색감, 고해상도 디테일, AAA 게임 콘셉트 아트 스타일
 ```
 
-**모델:** Nano Banana 2.1 · **화면 비율:** `16:9`
+**모델:** Nano Banana 2.1 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -555,7 +562,7 @@ Epic fantasy matte painting of a white castle with blue spires on a floating isl
 밤의 안개 낀 고대 숲에 서 있는 반투명한 생물발광 빛으로 이루어진 위엄 있는 정령 사슴, 작은 꽃이 핀 빛나는 나뭇가지로 자라난 뿔, 떠다니는 반딧불이와 포자, 이끼로 뒤덮인 거대한 나무들, 빛을 비추는 맑은 작은 개울, 신비로운 파란색과 청록색 빛, 마법 같은 분위기, 디지털 페인팅
 ```
 
-**모델:** Gemini 3 Pro Image · **화면 비율:** `3:4`
+**모델:** Gemini 3 Pro Image · **화면 비율:** `3:4` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -575,7 +582,7 @@ A majestic spirit deer made of translucent bioluminescent light standing in an a
 구름 위 황동 탑들 사이에 정박한 북적이는 스팀펑크 하늘 시장, 덧댄 캔버스 기낭과 구리 프로펠러를 단 수십 척의 비행선, 톱니바퀴·시계·이국적인 향신료를 파는 노점, 고글을 쓴 빅토리아 시대 복장의 군중, 피어오르는 증기와 연기, 따뜻한 세피아와 앰버 톤, 정교한 디테일, 시네마틱 와이드 샷
 ```
 
-**모델:** GPT Image 2.5 · **화면 비율:** `16:9`
+**모델:** GPT Image 2.5 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -584,6 +591,20 @@ A bustling steampunk sky market docked between brass towers above the clouds, do
 ```
 
 </details>
+
+<a id="tools"></a>
+
+## 무료 이미지 도구
+
+생성한 이미지는 AIImage.com의 무료 온라인 도구로 더 다듬을 수 있습니다:
+
+- [배경 제거](https://aiimage.com/ko/background-remover?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [객체 지우기](https://aiimage.com/ko/remove-object?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [배경색 변경](https://aiimage.com/ko/change-background-color?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [이미지로 이미지 생성](https://aiimage.com/ko/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [GIF 만들기](https://aiimage.com/ko/gif-maker?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [이미지 압축](https://aiimage.com/ko/compress-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [무료 이미지 도구 →](https://aiimage.com/ko/tools?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <a id="api"></a>
 

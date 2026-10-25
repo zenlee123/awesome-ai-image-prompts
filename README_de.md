@@ -12,11 +12,17 @@
 
 Eine kuratierte Sammlung von Prompts für KI-Bildgeneratoren in 8 Sprachen, jeweils mit einer echten generierten Vorschau.
 
+<a href="https://aiimage.com/de?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts"><img src="https://img.shields.io/badge/%F0%9F%8E%A8%20Auf%20AIImage%20testen-AIImage.com-ff5a5f?style=for-the-badge" alt="Auf AIImage testen"></a>
+
 </div>
 
 Jeder Prompt wurde auf einem echten Modell ausgeführt, das Ergebnis steht direkt daneben. Kopiere den Prompt in deiner Sprache und füge ihn in Nano Banana, GPT Image, Gemini, Midjourney, Seedream, Flux oder einen anderen Bildgenerator ein.
 
 > Die Vorschaubilder wurden mit dem englischen Prompt erzeugt. Moderne mehrsprachige Modelle liefern mit den übersetzten Prompts sehr ähnliche Ergebnisse.
+
+### 🎨 Probiere diese Prompts auf AIImage.com aus
+
+Kein API-Key, keine Einrichtung: Öffne [AIImage.com](https://aiimage.com/de?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts), wähle Nano Banana Pro, Nano Banana 2 oder GPT Image 2.5, füge einen Prompt ein und erhalte dein Bild in Sekunden. **Kostenlos starten.**
 
 ## Galerie
 
@@ -69,6 +75,7 @@ Jeder Prompt wurde auf einem echten Modell ausgeführt, das Ergebnis steht direk
 - [3D & Icons](#3d)
 - [Architektur & Interieur](#architecture)
 - [Fantasy & Concept Art](#fantasy)
+- [Kostenlose Bild-Tools](#tools)
 - [Per API generieren](#api)
 - [Tipps zum Prompt-Schreiben](#tips)
 - [Mitmachen](#contributing)
@@ -87,7 +94,7 @@ Jeder Prompt wurde auf einem echten Modell ausgeführt, das Ergebnis steht direk
 Wildtierfotografie eines Rotfuchses auf einem verschneiten Baumstamm in einem Kiefernwald, fallende Schneeflocken, der Fuchs blickt direkt in die Kamera, geringe Schärfentiefe, weiches Licht bei bedecktem Himmel, aufgenommen mit 600-mm-Teleobjektiv bei f/4, National-Geographic-Stil, ultradetailliertes Fell
 ```
 
-**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `3:2`
+**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `3:2` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -107,7 +114,7 @@ Wildlife photograph of a red fox standing on a snow-covered log in a pine forest
 Straßenfotografie in einer engen Gasse in Tokio bei Nacht nach dem Regen, leuchtende Neonschilder und Papierlaternen spiegeln sich auf nassem Asphalt, eine einsame Person mit transparentem Regenschirm geht davon, Dampf steigt aus einem Ramen-Laden auf, filmisches Teal-Orange-Color-Grading, 35-mm-Filmkorn, aufgenommen mit Leica
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `2:3`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `2:3` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -127,7 +134,7 @@ Street photography in a narrow Tokyo alley at night after rain, glowing neon sig
 Landschaftsfotografie von grünen und violetten Polarlichtern, die über dem Berg Kirkjufell in Island wirbeln, ein gefrorener Wasserfall im Vordergrund, sichtbare Sterne, Langzeitbelichtung, spiegelglatte Reflexion in einem ruhigen Teich, 14-mm-Weitwinkelobjektiv, scharf und hochdetailliert, preisgekrönte Astrofotografie
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -151,7 +158,7 @@ Landscape photograph of green and violet aurora borealis swirling over Kirkjufel
 Nahaufnahme-Porträt eines alten Fischers mit tief zerfurchtem, wettergegerbtem Gesicht und weißem Bart, in gelber Regenjacke, Gischt auf der Haut, durchdringende blaue Augen, dramatisches Rembrandt-Licht, dunkler stimmungsvoller Hintergrund, aufgenommen mit 85 mm f/1,4, hyperrealistische Hauttextur
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `3:4`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `3:4` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -171,7 +178,7 @@ Close-up portrait of an elderly fisherman with a deeply wrinkled weathered face 
 Filmisches Porträt einer jungen Hackerin in einer Cyberpunk-Stadt, kurzer silberner Bob, leuchtendes holografisches Visier über den Augen, verchromte kybernetische Implantate an der Wange, schwarze Techwear-Jacke, pinkes und cyanfarbenes Neonlicht von beiden Seiten, Regentropfen, Bokeh-Stadtlichter im Hintergrund, Blade-Runner-2049-Ästhetik
 ```
 
-**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `3:4`
+**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `3:4` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -191,7 +198,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 3D-Animationsfigur im Pixar-Stil, ein pummeliger orange getigerter Kater als Koch mit hoher weißer Kochmütze und kleiner Schürze, hält stolz eine dampfende Schüssel Ramen, große ausdrucksstarke Augen, gemütliche warme Küche im Hintergrund, weiche globale Beleuchtung, Subsurface Scattering im Fell, verspielt und herzerwärmend
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `1:1`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `1:1` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -215,7 +222,7 @@ Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob
 Luxuriöse Werbe-Produktfotografie eines facettierten Parfümflakons aus Glas mit goldener Kappe auf einem nassen schwarzen Stein, ein dramatischer kronenförmiger Wasserspritzer friert in der Luft um ihn herum ein, schwebende rosa Pfingstrosenblätter, tiefgrüner Smaragd-Farbverlauf als Hintergrund, Kantenlicht, Hochgeschwindigkeitsblitz, gestochen scharf, Werbekampagne
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `4:5`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `4:5` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -235,7 +242,7 @@ Luxury commercial product photography of a faceted glass perfume bottle with a g
 Technische Explosionsansicht eines futuristischen weiß-orangen Laufschuhs, jede Schicht getrennt und in einer ordentlichen horizontalen Linie schwebend: Außensohle, Schaumstoff-Zwischensohle, Carbonplatte, Mesh-Obermaterial, Schnürsenkel und Einlegesohle, dünne Hinweislinien mit kleinen Beschriftungen, sauberer hellgrauer Studiohintergrund, weiche Schatten, Produktdesign-Präsentation, fotorealistisches 3D-Rendering
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -255,7 +262,7 @@ Technical exploded view of a futuristic white and orange running sneaker, every 
 Flat-Lay-Food-Fotografie von oben: ein Matcha Latte mit Blatt-Latte-Art in einer handgemachten Keramiktasse, ein Bambusbesen, eine kleine Schale Matchapulver, verstreute Grünteeblätter und zwei Mochi auf einem Leinentuch über einem hellen Eichentisch, weiches natürliches Fensterlicht, minimalistische japanische Ästhetik, gedeckte Erdtöne, Magazin-Editorial-Stil
 ```
 
-**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `1:1`
+**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `1:1` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -279,7 +286,7 @@ Top-down flat lay food photography of a matcha latte with leaf latte art in a ha
 Poster im Internationalen Typografischen Stil (Schweizer Stil) für ein Jazzfestival, kühne geometrische Komposition aus überlappenden Kreisen und diagonalen Balken in Rot, Schwarz und Creme, abstrakte Saxofon-Silhouette, große klare serifenlose Überschrift "JAZZ NIGHTS" und kleinerer Text "MONTREUX 2026", strenges Rasterlayout, dezente Papierstruktur, inspiriert von Josef Müller-Brockmann
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `2:3`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `2:3` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -299,7 +306,7 @@ Swiss International Typographic Style poster for a jazz festival, bold geometric
 Vintage-Reiseposter aus den 1930er-Jahren von Kyoto, Japan, eine fünfstöckige Pagode umrahmt von roten Ahornblättern, der Berg Hiei in der Ferne bei Sonnenuntergang, flächige Lithografiefarben in Zinnoberrot, Petrol und Senfgelb, Art-déco-Schriftzug "KYOTO" oben und "VISIT JAPAN" unten, abgenutzte Papierränder, Siebdruck-Textur
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `2:3`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `2:3` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -319,7 +326,7 @@ Vintage-Reiseposter aus den 1930er-Jahren von Kyoto, Japan, eine fünfstöckige 
 Handgeschriebenes Kreidetafel-Menü für ein gemütliches Café, Titel "MORNING BREW" in dekorativer Kreideschreibschrift, Getränke mit Preisen: "Espresso $3", "Flat White $4.5", "Oat Latte $5", "Cold Brew $4", kleine Kreidekritzeleien von Kaffeetassen, Bohnen und Dampfwirbeln, leicht verwischte Kreidetextur, Holzrahmen, warmes Café-Licht
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `3:4`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `3:4` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -343,7 +350,7 @@ Hand-lettered chalkboard menu for a cozy coffee shop, title "MORNING BREW" in de
 Handgemalter Anime-Hintergrund im Stil von Studio Ghibli, ein Mädchen in weißem Sommerkleid und Strohhut fährt Fahrrad auf einer Landstraße neben grünen Reisfeldern, riesige Quellwolken am leuchtend blauen Sommerhimmel, ein kleines Haus mit rotem Dach und ein gewaltiger Kampferbaum, satte Aquarell- und Gouache-Texturen, nostalgisch und friedlich
 ```
 
-**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `16:9`
+**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `16:9` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -363,7 +370,7 @@ Hand-painted anime background in the style of Studio Ghibli, a girl in a white s
 Traditioneller japanischer Ukiyo-e-Holzschnitt eines Astronauten, der auf einer riesigen Welle surft, inspiriert von Hokusais Die große Welle vor Kanagawa, Erde und Mondsichel am Himmel, Palette aus Preußischblau und Creme, sichtbare Holzmaserung, kräftige schwarze Konturen, ein rotes Künstlersiegel in der Ecke
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `3:4`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `3:4` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -383,7 +390,7 @@ Traditional Japanese ukiyo-e woodblock print of an astronaut surfing on a giant 
 Kinderbuchillustration, eine dreiköpfige Braunbärenfamilie beim Picknick auf einer karierten Decke auf einer Frühlingswiese voller Wildblumen, Honiggläser, Sandwiches und ein Erdbeerkuchen, ein kleiner Hase lugt aus dem Gras, weiche Buntstift- und Aquarelltextur, warme Pastellpalette, verspielt und sanft, inspiriert von Beatrix Potter
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `4:3`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `4:3` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -407,7 +414,7 @@ Children's picture book illustration, a family of three brown bears having a pic
 Isometrisches 3D-Miniaturdiorama eines gemütlichen zweistöckigen Eckcafés, Schnittansicht zeigt das Innere mit Barista, Espressomaschine, winzigen Gästen und Topfpflanzen, gestreifte Markise und Außensitzplätze, warmes Innenlicht, sanfte Pastellfarben, knetartiges Blender-Rendering, Tilt-Shift-Effekt, schwebend vor schlichtem hellem Hintergrund
 ```
 
-**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `1:1`
+**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `1:1` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -427,7 +434,7 @@ Isometric 3D miniature diorama of a cozy two-story corner coffee shop, cutaway v
 Ein 3×3-Raster aus 3D-App-Icons im Milchglas-Glassmorphism-Stil: Kamera, Musiknote, Kalender, Wetterwolke, Sprechblase, Kartenpin, Einstellungszahnrad, Herz und Einkaufstasche, jedes ein abgerundetes Quadrat aus durchscheinendem Glas mit sanftem inneren Leuchten, lebendige Farbverläufe von Blau über Lila zu Pink, dezente Reflexionen, einheitliche Beleuchtung, sauberer weißer Hintergrund, Dribbble-Showcase-Qualität
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `1:1`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `1:1` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -447,7 +454,7 @@ A 3x3 grid of 3D app icons in frosted glassmorphism style: camera, music note, c
 Foto einer niedlichen Chibi-Vinyl-Sammelfigur eines kleinen Astronauten, der einen winzigen Planeten hält, neben ihrer bunten Verkaufsverpackung mit durchsichtigem Kunststofffenster und der Aufschrift "SPACE BUDDY" auf einem Computertisch, die Verpackung zeigt dieselbe Figur, weiches Studiolicht, realistisches Kunststoffmaterial, Designer-Toy-Ästhetik, im Stil von Pop Mart
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `1:1`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `1:1` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -471,7 +478,7 @@ Photo of a cute chibi vinyl collectible figure of a little astronaut holding a t
 Architekturfotografie einer minimalistischen modernen Villa, die über eine Meeresklippe auskragt, raumhohe Glaswände, weißer Beton und warmes Teakholz, ein Infinity-Pool, der mit dem Meereshorizont verschmilzt, Sonnenlicht zur goldenen Stunde, sanft leuchtende Innenbeleuchtung, aus niedriger Perspektive aufgenommen, Architectural-Digest-Stil, ultrarealistisch
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `16:9`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `16:9` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -491,7 +498,7 @@ Architectural photography of a minimalist modern villa cantilevered over a sea c
 Innenarchitekturfotografie eines ruhigen Wohnzimmers im Japandi-Stil, niedriges Leinensofa in Haferflockenfarbe, Couchtisch aus heller Esche, eine große Papier-Stehleuchte, ein Bonsai auf einem Keramiksockel, Shoji-Schiebetüren lassen diffuses Morgenlicht herein, neutrale Palette aus Beige und warmem Weiß, natürliche Texturen, aufgeräumt, Weitwinkel, Magazinqualität
 ```
 
-**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `4:3`
+**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `4:3` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -511,7 +518,7 @@ Interior design photography of a serene Japandi living room, low linen sofa in o
 Luftansicht einer Solarpunk-Zukunftsstadt, organisch geformte weiße Wolkenkratzer bedeckt mit vertikalen Gärten und herabstürzenden Wasserfällen, Solarpanel-Überdachungen, blumenförmige Windräder, Hochwege zwischen den Türmen, ein sauberer Fluss mit Booten, Menschen auf Fahrrädern, üppige Bäume überall, helles optimistisches Sonnenlicht, hochdetaillierte Concept Art
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -535,7 +542,7 @@ Aerial view of a solarpunk future city, organic white skyscrapers covered in ver
 Episches Fantasy-Matte-Painting einer weißen Burg mit blauen Turmspitzen auf einer schwebenden Insel am Himmel, Wasserfälle stürzen von den Inselrändern in die Wolken darunter, kleinere schwebende Felsen mit Hängebrücken verbunden, ein Schwarm Drachen fliegt in der Ferne, Sonnenaufgang mit Lichtstrahlen, lebendige Farben, hochdetailliert, im Stil von AAA-Game-Concept-Art
 ```
 
-**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `16:9`
+**Modell:** Nano Banana 2.1 · **Seitenverhältnis:** `16:9` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -555,7 +562,7 @@ Epic fantasy matte painting of a white castle with blue spires on a floating isl
 Ein majestätischer Geisterhirsch aus durchscheinendem biolumineszentem Licht steht nachts in einem uralten nebligen Wald, das Geweih wächst zu leuchtenden Ästen mit winzigen Blüten, schwebende Glühwürmchen und Sporen, riesige moosbedeckte Bäume, ein kleiner klarer Bach spiegelt das Licht, ätherisches blaues und türkises Leuchten, magische Atmosphäre, digitale Malerei
 ```
 
-**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `3:4`
+**Modell:** Gemini 3 Pro Image · **Seitenverhältnis:** `3:4` · [**▶ Auf AIImage testen**](https://aiimage.com/de/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -575,7 +582,7 @@ A majestic spirit deer made of translucent bioluminescent light standing in an a
 Ein belebter Steampunk-Himmelsmarkt, angedockt zwischen Messingtürmen über den Wolken, Dutzende Luftschiffe mit geflickten Segeltuchballons und Kupferpropellern, Händlerstände mit Zahnrädern, Uhren und exotischen Gewürzen, Menschenmengen in viktorianischer Kleidung mit Schutzbrillen, ziehender Dampf und Rauch, warme Sepia- und Bernsteintöne, kunstvolle Details, breite filmische Einstellung
 ```
 
-**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9`
+**Modell:** GPT Image 2.5 · **Seitenverhältnis:** `16:9` · [**▶ Auf AIImage testen**](https://aiimage.com/de/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <details><summary>English</summary>
 
@@ -584,6 +591,20 @@ A bustling steampunk sky market docked between brass towers above the clouds, do
 ```
 
 </details>
+
+<a id="tools"></a>
+
+## Kostenlose Bild-Tools
+
+Bearbeite deine generierten Bilder mit den kostenlosen Online-Tools von AIImage.com:
+
+- [Hintergrund entfernen](https://aiimage.com/de/background-remover?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [Objekt entfernen](https://aiimage.com/de/remove-object?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [Hintergrundfarbe ändern](https://aiimage.com/de/change-background-color?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [Bild zu Bild](https://aiimage.com/de/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [GIF-Ersteller](https://aiimage.com/de/gif-maker?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [Bild komprimieren](https://aiimage.com/de/compress-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+- [Kostenlose Bild-Tools →](https://aiimage.com/de/tools?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
 
 <a id="api"></a>
 
