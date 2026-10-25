@@ -1,0 +1,423 @@
+{
+  "languages": ["en", "zh", "ja", "ko", "es", "fr", "de", "pt"],
+  "categories": [
+    {"id": "photography", "title": {"en": "Photography", "zh": "摄影", "ja": "写真", "ko": "사진", "es": "Fotografía", "fr": "Photographie", "de": "Fotografie", "pt": "Fotografia"}},
+    {"id": "portrait", "title": {"en": "Portrait & Character", "zh": "人像与角色", "ja": "ポートレート・キャラクター", "ko": "인물 & 캐릭터", "es": "Retrato y personajes", "fr": "Portrait et personnages", "de": "Porträt & Charakter", "pt": "Retrato e personagens"}},
+    {"id": "product", "title": {"en": "Product & Commercial", "zh": "产品与商业", "ja": "商品・広告", "ko": "제품 & 광고", "es": "Producto y publicidad", "fr": "Produit et publicité", "de": "Produkt & Werbung", "pt": "Produto e publicidade"}},
+    {"id": "poster", "title": {"en": "Poster & Typography", "zh": "海报与字体", "ja": "ポスター・タイポグラフィ", "ko": "포스터 & 타이포그래피", "es": "Póster y tipografía", "fr": "Affiche et typographie", "de": "Poster & Typografie", "pt": "Pôster e tipografia"}},
+    {"id": "illustration", "title": {"en": "Illustration & Anime", "zh": "插画与动漫", "ja": "イラスト・アニメ", "ko": "일러스트 & 애니메이션", "es": "Ilustración y anime", "fr": "Illustration et anime", "de": "Illustration & Anime", "pt": "Ilustração e anime"}},
+    {"id": "3d", "title": {"en": "3D & Icons", "zh": "3D 与图标", "ja": "3D・アイコン", "ko": "3D & 아이콘", "es": "3D e iconos", "fr": "3D et icônes", "de": "3D & Icons", "pt": "3D e ícones"}},
+    {"id": "architecture", "title": {"en": "Architecture & Interior", "zh": "建筑与室内", "ja": "建築・インテリア", "ko": "건축 & 인테리어", "es": "Arquitectura e interiores", "fr": "Architecture et intérieur", "de": "Architektur & Interieur", "pt": "Arquitetura e interiores"}},
+    {"id": "fantasy", "title": {"en": "Fantasy & Concept Art", "zh": "奇幻与概念艺术", "ja": "ファンタジー・コンセプトアート", "ko": "판타지 & 콘셉트 아트", "es": "Fantasía y arte conceptual", "fr": "Fantasy et concept art", "de": "Fantasy & Concept Art", "pt": "Fantasia e arte conceitual"}}
+  ],
+  "prompts": [
+    {
+      "id": "fox-snow-forest",
+      "category": "photography",
+      "model": "google/gemini-nano-banana-2.1-t2i",
+      "aspect_ratio": "3:2",
+      "title": {"en": "Red Fox in Falling Snow", "zh": "雪中赤狐", "ja": "雪の中のアカギツネ", "ko": "눈 속의 붉은 여우", "es": "Zorro rojo bajo la nieve", "fr": "Renard roux sous la neige", "de": "Rotfuchs im Schneefall", "pt": "Raposa-vermelha na neve"},
+      "prompt": {
+        "en": "Wildlife photograph of a red fox standing on a snow-covered log in a pine forest, snowflakes falling, the fox looking directly at the camera, shallow depth of field, soft overcast light, shot on a 600mm telephoto lens at f/4, National Geographic style, ultra-detailed fur",
+        "zh": "野生动物摄影：一只赤狐站在松林中覆雪的倒木上，雪花飘落，狐狸直视镜头，浅景深，柔和的阴天光线，600mm 长焦镜头 f/4 拍摄，国家地理风格，毛发细节极其清晰",
+        "ja": "松林の雪に覆われた倒木の上に立つアカギツネの野生動物写真、舞い落ちる雪、カメラを真っ直ぐ見つめるキツネ、浅い被写界深度、柔らかな曇天の光、600mm 望遠レンズ f/4 で撮影、ナショナルジオグラフィック風、毛並みの超高精細描写",
+        "ko": "소나무 숲속 눈 덮인 통나무 위에 서 있는 붉은 여우의 야생동물 사진, 흩날리는 눈송이, 카메라를 정면으로 바라보는 여우, 얕은 피사계 심도, 부드러운 흐린 날의 빛, 600mm 망원 렌즈 f/4 촬영, 내셔널 지오그래픽 스타일, 털의 초정밀 디테일",
+        "es": "Fotografía de vida salvaje de un zorro rojo de pie sobre un tronco nevado en un bosque de pinos, copos de nieve cayendo, el zorro mirando directamente a la cámara, poca profundidad de campo, luz suave de día nublado, teleobjetivo de 600 mm a f/4, estilo National Geographic, pelaje ultradetallado",
+        "fr": "Photographie animalière d'un renard roux debout sur un tronc enneigé dans une forêt de pins, flocons de neige qui tombent, le renard regarde droit vers l'objectif, faible profondeur de champ, lumière douce de ciel couvert, téléobjectif 600 mm à f/4, style National Geographic, fourrure ultra détaillée",
+        "de": "Wildtierfotografie eines Rotfuchses auf einem verschneiten Baumstamm in einem Kiefernwald, fallende Schneeflocken, der Fuchs blickt direkt in die Kamera, geringe Schärfentiefe, weiches Licht bei bedecktem Himmel, aufgenommen mit 600-mm-Teleobjektiv bei f/4, National-Geographic-Stil, ultradetailliertes Fell",
+        "pt": "Fotografia de vida selvagem de uma raposa-vermelha em pé sobre um tronco coberto de neve numa floresta de pinheiros, flocos de neve caindo, a raposa olhando diretamente para a câmera, pouca profundidade de campo, luz suave de céu nublado, teleobjetiva de 600 mm em f/4, estilo National Geographic, pelagem ultradetalhada"
+      }
+    },
+    {
+      "id": "tokyo-rain-night",
+      "category": "photography",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "2:3",
+      "title": {"en": "Rainy Night in Tokyo", "zh": "东京雨夜", "ja": "雨の夜の東京", "ko": "비 내리는 도쿄의 밤", "es": "Noche lluviosa en Tokio", "fr": "Nuit pluvieuse à Tokyo", "de": "Regennacht in Tokio", "pt": "Noite chuvosa em Tóquio"},
+      "prompt": {
+        "en": "Street photography in a narrow Tokyo alley at night after rain, glowing neon signs and paper lanterns reflected on wet asphalt, a lone person with a transparent umbrella walking away, steam rising from a ramen shop, cinematic teal and orange color grading, 35mm film grain, shot on Leica",
+        "zh": "街头摄影：雨后夜晚的东京小巷，霓虹招牌和纸灯笼的光倒映在湿漉漉的柏油路上，一个撑透明雨伞的人独自走远，拉面店升起蒸汽，电影感青橙色调，35mm 胶片颗粒，徕卡拍摄",
+        "ja": "雨上がりの夜、東京の狭い路地のストリートフォト、濡れたアスファルトに映るネオン看板と提灯、ビニール傘を差して遠ざかる一人の人物、ラーメン屋から立ち上る湯気、ティール＆オレンジのシネマティックなカラーグレーディング、35mm フィルムの粒子感、ライカで撮影",
+        "ko": "비 그친 밤 도쿄 좁은 골목의 스트리트 포토, 젖은 아스팔트에 비친 네온 간판과 종이 등불, 투명 우산을 쓰고 멀어지는 한 사람, 라멘 가게에서 피어오르는 김, 시네마틱한 틸 & 오렌지 색보정, 35mm 필름 그레인, 라이카로 촬영",
+        "es": "Fotografía callejera en un estrecho callejón de Tokio de noche tras la lluvia, letreros de neón y farolillos de papel reflejados en el asfalto mojado, una persona solitaria con paraguas transparente alejándose, vapor saliendo de un local de ramen, gradación de color cinematográfica turquesa y naranja, grano de película de 35 mm, tomada con Leica",
+        "fr": "Photographie de rue dans une ruelle étroite de Tokyo la nuit après la pluie, enseignes néon et lanternes en papier se reflétant sur l'asphalte mouillé, une personne seule avec un parapluie transparent qui s'éloigne, vapeur s'échappant d'un restaurant de ramen, étalonnage cinématographique bleu canard et orange, grain de pellicule 35 mm, prise au Leica",
+        "de": "Straßenfotografie in einer engen Gasse in Tokio bei Nacht nach dem Regen, leuchtende Neonschilder und Papierlaternen spiegeln sich auf nassem Asphalt, eine einsame Person mit transparentem Regenschirm geht davon, Dampf steigt aus einem Ramen-Laden auf, filmisches Teal-Orange-Color-Grading, 35-mm-Filmkorn, aufgenommen mit Leica",
+        "pt": "Fotografia de rua num beco estreito de Tóquio à noite depois da chuva, letreiros de neon e lanternas de papel refletidos no asfalto molhado, uma pessoa sozinha com guarda-chuva transparente se afastando, vapor saindo de uma casa de ramen, gradação de cor cinematográfica azul-petróleo e laranja, granulação de filme 35 mm, fotografada com Leica"
+      }
+    },
+    {
+      "id": "iceland-aurora",
+      "category": "photography",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "16:9",
+      "title": {"en": "Aurora over Iceland", "zh": "冰岛极光", "ja": "アイスランドのオーロラ", "ko": "아이슬란드의 오로라", "es": "Aurora sobre Islandia", "fr": "Aurore sur l'Islande", "de": "Polarlicht über Island", "pt": "Aurora sobre a Islândia"},
+      "prompt": {
+        "en": "Landscape photograph of green and violet aurora borealis swirling over Kirkjufell mountain in Iceland, a frozen waterfall in the foreground, stars visible, long exposure, mirror-like reflection in a calm pond, wide-angle 14mm lens, crisp and highly detailed, award-winning astrophotography",
+        "zh": "风光摄影：绿色和紫色的北极光在冰岛草帽山上空旋转，前景是结冰的瀑布，繁星可见，长曝光，平静水面形成镜面倒影，14mm 广角镜头，清晰锐利，细节丰富，获奖级星空摄影",
+        "ja": "アイスランドのキルキュフェトル山の上空に渦巻く緑と紫のオーロラの風景写真、手前には凍った滝、星が見える夜空、長時間露光、静かな池に鏡のように映り込む、14mm 広角レンズ、シャープで高精細、受賞作品レベルの星景写真",
+        "ko": "아이슬란드 키르큐펠산 위로 소용돌이치는 초록빛과 보랏빛 오로라 풍경 사진, 전경에 얼어붙은 폭포, 별이 보이는 하늘, 장노출, 잔잔한 연못에 거울처럼 비친 반영, 14mm 광각 렌즈, 선명하고 디테일한 묘사, 수상작 수준의 천체 사진",
+        "es": "Fotografía de paisaje de una aurora boreal verde y violeta girando sobre la montaña Kirkjufell en Islandia, una cascada congelada en primer plano, estrellas visibles, larga exposición, reflejo como un espejo en un estanque en calma, objetivo gran angular de 14 mm, nítida y muy detallada, astrofotografía premiada",
+        "fr": "Photographie de paysage d'une aurore boréale verte et violette tourbillonnant au-dessus du mont Kirkjufell en Islande, une cascade gelée au premier plan, étoiles visibles, pose longue, reflet miroir dans un étang calme, objectif grand-angle 14 mm, net et très détaillé, astrophotographie primée",
+        "de": "Landschaftsfotografie von grünen und violetten Polarlichtern, die über dem Berg Kirkjufell in Island wirbeln, ein gefrorener Wasserfall im Vordergrund, sichtbare Sterne, Langzeitbelichtung, spiegelglatte Reflexion in einem ruhigen Teich, 14-mm-Weitwinkelobjektiv, scharf und hochdetailliert, preisgekrönte Astrofotografie",
+        "pt": "Fotografia de paisagem de uma aurora boreal verde e violeta girando sobre a montanha Kirkjufell na Islândia, uma cachoeira congelada em primeiro plano, estrelas visíveis, longa exposição, reflexo espelhado num lago calmo, lente grande-angular de 14 mm, nítida e muito detalhada, astrofotografia premiada"
+      }
+    },
+    {
+      "id": "elderly-fisherman",
+      "category": "portrait",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "3:4",
+      "title": {"en": "Old Fisherman Portrait", "zh": "老渔夫肖像", "ja": "老漁師のポートレート", "ko": "늙은 어부의 초상", "es": "Retrato de un viejo pescador", "fr": "Portrait d'un vieux pêcheur", "de": "Porträt eines alten Fischers", "pt": "Retrato de um velho pescador"},
+      "prompt": {
+        "en": "Close-up portrait of an elderly fisherman with a deeply wrinkled weathered face and a white beard, wearing a yellow raincoat, sea spray on his skin, piercing blue eyes, dramatic Rembrandt lighting, dark moody background, shot on 85mm f/1.4, hyper-realistic skin texture",
+        "zh": "特写肖像：一位老渔夫，饱经风霜的脸上布满深深的皱纹，白色胡须，身穿黄色雨衣，皮肤上沾着海水飞沫，锐利的蓝眼睛，戏剧性的伦勃朗光，暗调氛围背景，85mm f/1.4 拍摄，超写实皮肤质感",
+        "ja": "深いしわが刻まれた日焼けした顔と白いひげを持つ老漁師のクローズアップポートレート、黄色いレインコート、肌に飛び散る海のしぶき、鋭い青い瞳、ドラマチックなレンブラントライティング、暗くムーディーな背景、85mm f/1.4 で撮影、超リアルな肌の質感",
+        "ko": "깊은 주름이 새겨진 풍파에 시달린 얼굴과 흰 수염을 가진 늙은 어부의 클로즈업 초상, 노란 비옷 착용, 피부에 튄 바닷물, 날카로운 파란 눈, 드라마틱한 렘브란트 조명, 어둡고 무드 있는 배경, 85mm f/1.4 촬영, 초현실적인 피부 질감",
+        "es": "Retrato en primer plano de un pescador anciano con el rostro curtido y lleno de arrugas profundas y barba blanca, con un impermeable amarillo, salpicaduras de mar en la piel, ojos azules penetrantes, iluminación dramática Rembrandt, fondo oscuro y sombrío, tomado con 85 mm f/1.4, textura de piel hiperrealista",
+        "fr": "Portrait en gros plan d'un vieux pêcheur au visage buriné et profondément ridé, barbe blanche, vêtu d'un ciré jaune, embruns sur la peau, yeux bleus perçants, éclairage Rembrandt dramatique, fond sombre et intense, pris au 85 mm f/1,4, texture de peau hyperréaliste",
+        "de": "Nahaufnahme-Porträt eines alten Fischers mit tief zerfurchtem, wettergegerbtem Gesicht und weißem Bart, in gelber Regenjacke, Gischt auf der Haut, durchdringende blaue Augen, dramatisches Rembrandt-Licht, dunkler stimmungsvoller Hintergrund, aufgenommen mit 85 mm f/1,4, hyperrealistische Hauttextur",
+        "pt": "Retrato em close de um pescador idoso com rosto castigado pelo tempo, cheio de rugas profundas e barba branca, vestindo uma capa de chuva amarela, respingos do mar na pele, olhos azuis penetrantes, iluminação Rembrandt dramática, fundo escuro e sombrio, fotografado com 85 mm f/1.4, textura de pele hiper-realista"
+      }
+    },
+    {
+      "id": "cyberpunk-girl",
+      "category": "portrait",
+      "model": "google/gemini-nano-banana-2.1-t2i",
+      "aspect_ratio": "3:4",
+      "title": {"en": "Cyberpunk Hacker", "zh": "赛博朋克黑客", "ja": "サイバーパンクのハッカー", "ko": "사이버펑크 해커", "es": "Hacker cyberpunk", "fr": "Hackeuse cyberpunk", "de": "Cyberpunk-Hackerin", "pt": "Hacker cyberpunk"},
+      "prompt": {
+        "en": "Cinematic portrait of a young woman hacker in a cyberpunk city, short silver bob haircut, glowing holographic visor over her eyes, chrome cybernetic implants on her cheek, wearing a black techwear jacket, pink and cyan neon light from both sides, rain droplets, bokeh city lights behind, Blade Runner 2049 aesthetic",
+        "zh": "电影感肖像：赛博朋克城市中的年轻女黑客，银色短波波头，眼前是发光的全息护目镜，脸颊上有金属义体植入，身穿黑色机能风夹克，两侧打来粉色和青色霓虹光，雨滴，背景是虚化的城市灯光，《银翼杀手 2049》美学",
+        "ja": "サイバーパンク都市の若い女性ハッカーのシネマティックなポートレート、シルバーのショートボブ、目元を覆う光るホログラムバイザー、頬にクロームのサイバネティックインプラント、黒いテックウェアジャケット、両側からのピンクとシアンのネオン光、雨粒、背景にボケた街の灯り、ブレードランナー2049の美学",
+        "ko": "사이버펑크 도시의 젊은 여성 해커의 시네마틱 초상, 은색 단발 보브 헤어, 눈을 덮은 빛나는 홀로그램 바이저, 뺨의 크롬 사이버네틱 임플란트, 검은 테크웨어 재킷, 양쪽에서 비추는 핑크와 시안 네온 조명, 빗방울, 뒤로 흐릿한 도시 불빛 보케, 블레이드 러너 2049 미학",
+        "es": "Retrato cinematográfico de una joven hacker en una ciudad cyberpunk, melena bob corta plateada, visor holográfico brillante sobre los ojos, implantes cibernéticos cromados en la mejilla, chaqueta techwear negra, luz de neón rosa y cian desde ambos lados, gotas de lluvia, luces de la ciudad desenfocadas al fondo, estética de Blade Runner 2049",
+        "fr": "Portrait cinématographique d'une jeune hackeuse dans une ville cyberpunk, carré court argenté, visière holographique lumineuse sur les yeux, implants cybernétiques chromés sur la joue, veste techwear noire, néons rose et cyan des deux côtés, gouttes de pluie, lumières de la ville en bokeh à l'arrière-plan, esthétique Blade Runner 2049",
+        "de": "Filmisches Porträt einer jungen Hackerin in einer Cyberpunk-Stadt, kurzer silberner Bob, leuchtendes holografisches Visier über den Augen, verchromte kybernetische Implantate an der Wange, schwarze Techwear-Jacke, pinkes und cyanfarbenes Neonlicht von beiden Seiten, Regentropfen, Bokeh-Stadtlichter im Hintergrund, Blade-Runner-2049-Ästhetik",
+        "pt": "Retrato cinematográfico de uma jovem hacker numa cidade cyberpunk, cabelo chanel curto prateado, visor holográfico brilhante sobre os olhos, implantes cibernéticos cromados na bochecha, jaqueta techwear preta, luz neon rosa e ciano dos dois lados, gotas de chuva, luzes da cidade em bokeh ao fundo, estética de Blade Runner 2049"
+      }
+    },
+    {
+      "id": "pixar-chef-cat",
+      "category": "portrait",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "1:1",
+      "title": {"en": "Pixar-style Chef Cat", "zh": "皮克斯风厨师猫", "ja": "ピクサー風シェフ猫", "ko": "픽사 스타일 셰프 고양이", "es": "Gato chef estilo Pixar", "fr": "Chat chef façon Pixar", "de": "Koch-Katze im Pixar-Stil", "pt": "Gato chef estilo Pixar"},
+      "prompt": {
+        "en": "3D animated character in the style of Pixar, a chubby orange tabby cat chef wearing a tall white chef hat and a tiny apron, proudly holding a steaming bowl of ramen, big expressive eyes, cozy warm kitchen background, soft global illumination, subsurface scattering on fur, playful and heartwarming",
+        "zh": "皮克斯风格 3D 动画角色：一只胖乎乎的橘色虎斑猫厨师，戴着高高的白色厨师帽和小围裙，骄傲地捧着一碗冒热气的拉面，大而有神的眼睛，温馨暖色的厨房背景，柔和的全局光照，毛发次表面散射，俏皮又暖心",
+        "ja": "ピクサー風の3Dアニメキャラクター、背の高い白いコック帽と小さなエプロンを着けたぽっちゃりした茶トラ猫のシェフ、湯気の立つラーメンを誇らしげに持っている、大きく表情豊かな目、暖かく居心地のよいキッチンの背景、柔らかなグローバルイルミネーション、毛のサブサーフェススキャタリング、遊び心がありほっこりする雰囲気",
+        "ko": "픽사 스타일의 3D 애니메이션 캐릭터, 높은 흰색 셰프 모자와 작은 앞치마를 두른 통통한 주황색 치즈 고양이 셰프, 김이 나는 라멘 한 그릇을 자랑스럽게 들고 있음, 크고 표정이 풍부한 눈, 아늑하고 따뜻한 주방 배경, 부드러운 글로벌 일루미네이션, 털의 서브서피스 스캐터링, 장난스럽고 훈훈한 분위기",
+        "es": "Personaje animado en 3D al estilo Pixar, un gato atigrado naranja y regordete vestido de chef con un gorro blanco alto y un pequeño delantal, sosteniendo orgulloso un tazón humeante de ramen, ojos grandes y expresivos, fondo de cocina cálido y acogedor, iluminación global suave, dispersión subsuperficial en el pelaje, divertido y entrañable",
+        "fr": "Personnage d'animation 3D dans le style Pixar, un chat tigré roux tout rond déguisé en chef avec une haute toque blanche et un petit tablier, tenant fièrement un bol de ramen fumant, grands yeux expressifs, cuisine chaleureuse et douillette en arrière-plan, illumination globale douce, diffusion sous-surfacique sur la fourrure, espiègle et attendrissant",
+        "de": "3D-Animationsfigur im Pixar-Stil, ein pummeliger orange getigerter Kater als Koch mit hoher weißer Kochmütze und kleiner Schürze, hält stolz eine dampfende Schüssel Ramen, große ausdrucksstarke Augen, gemütliche warme Küche im Hintergrund, weiche globale Beleuchtung, Subsurface Scattering im Fell, verspielt und herzerwärmend",
+        "pt": "Personagem de animação 3D no estilo Pixar, um gato laranja rajado e gordinho vestido de chef com um chapéu branco alto e um aventalzinho, segurando orgulhoso uma tigela fumegante de lámen, olhos grandes e expressivos, fundo de cozinha aconchegante e quente, iluminação global suave, dispersão subsuperficial no pelo, divertido e encantador"
+      }
+    },
+    {
+      "id": "perfume-water-splash",
+      "category": "product",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "4:5",
+      "title": {"en": "Perfume with Water Splash", "zh": "水花香水广告", "ja": "水しぶきと香水", "ko": "물보라와 향수", "es": "Perfume con salpicadura de agua", "fr": "Parfum et éclaboussure d'eau", "de": "Parfüm mit Wasserspritzer", "pt": "Perfume com respingo de água"},
+      "prompt": {
+        "en": "Luxury commercial product photography of a faceted glass perfume bottle with a gold cap, standing on a wet black stone, a dramatic crown-shaped water splash frozen in mid-air around it, floating pink peony petals, deep emerald green gradient background, rim lighting, high-speed flash, ultra sharp, advertising campaign",
+        "zh": "奢华商业产品摄影：一只多切面玻璃香水瓶配金色瓶盖，立在湿润的黑色石头上，周围是定格在半空中的皇冠状水花，粉色牡丹花瓣漂浮，深祖母绿渐变背景，轮廓光，高速闪光，极致锐利，广告大片",
+        "ja": "ゴールドのキャップが付いたカットガラスの香水瓶の高級広告商品写真、濡れた黒い石の上に立ち、その周りで王冠状の水しぶきが空中で静止している、浮かぶピンクの芍薬の花びら、深いエメラルドグリーンのグラデーション背景、リムライト、ハイスピードフラッシュ、超シャープ、広告キャンペーン",
+        "ko": "금색 캡이 달린 다면 커팅 유리 향수병의 럭셔리 광고 제품 사진, 젖은 검은 돌 위에 서 있고 주위로 왕관 모양의 물보라가 공중에 멈춰 있음, 떠다니는 분홍 작약 꽃잎, 짙은 에메랄드 그린 그라데이션 배경, 림 라이트, 고속 플래시, 초선명, 광고 캠페인",
+        "es": "Fotografía publicitaria de lujo de un frasco de perfume de cristal facetado con tapón dorado, sobre una piedra negra mojada, una espectacular salpicadura de agua en forma de corona congelada en el aire a su alrededor, pétalos de peonía rosa flotando, fondo degradado verde esmeralda profundo, luz de contorno, flash de alta velocidad, ultranítida, campaña publicitaria",
+        "fr": "Photographie publicitaire de luxe d'un flacon de parfum en verre à facettes avec bouchon doré, posé sur une pierre noire mouillée, une spectaculaire éclaboussure d'eau en forme de couronne figée en l'air autour, pétales de pivoine rose flottants, fond en dégradé vert émeraude profond, éclairage de contour, flash haute vitesse, ultra net, campagne publicitaire",
+        "de": "Luxuriöse Werbe-Produktfotografie eines facettierten Parfümflakons aus Glas mit goldener Kappe auf einem nassen schwarzen Stein, ein dramatischer kronenförmiger Wasserspritzer friert in der Luft um ihn herum ein, schwebende rosa Pfingstrosenblätter, tiefgrüner Smaragd-Farbverlauf als Hintergrund, Kantenlicht, Hochgeschwindigkeitsblitz, gestochen scharf, Werbekampagne",
+        "pt": "Fotografia publicitária de luxo de um frasco de perfume de vidro facetado com tampa dourada, sobre uma pedra preta molhada, um respingo de água dramático em forma de coroa congelado no ar ao redor, pétalas de peônia rosa flutuando, fundo em degradê verde-esmeralda profundo, luz de contorno, flash de alta velocidade, ultranítida, campanha publicitária"
+      }
+    },
+    {
+      "id": "sneaker-exploded",
+      "category": "product",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "16:9",
+      "title": {"en": "Exploded View Sneaker", "zh": "运动鞋爆炸图", "ja": "スニーカーの分解図", "ko": "운동화 분해도", "es": "Zapatilla en vista explosionada", "fr": "Basket en vue éclatée", "de": "Sneaker in Explosionsansicht", "pt": "Tênis em vista explodida"},
+      "prompt": {
+        "en": "Technical exploded view of a futuristic white and orange running sneaker, every layer separated and floating in a neat horizontal line: outsole, foam midsole, carbon plate, mesh upper, laces and insole, thin leader lines with small labels, clean light gray studio background, soft shadows, product design presentation, photorealistic 3D render",
+        "zh": "未来感白橙配色跑鞋的技术爆炸图，各层分离并整齐地水平悬浮排列：大底、泡棉中底、碳板、网面鞋面、鞋带和鞋垫，细引线配小标签，干净的浅灰色影棚背景，柔和阴影，产品设计展示，照片级 3D 渲染",
+        "ja": "白とオレンジの近未来的なランニングスニーカーの技術的な分解図、すべての層が分離して横一列にきれいに浮かんでいる：アウトソール、フォームミッドソール、カーボンプレート、メッシュアッパー、靴ひも、インソール、細い引き出し線と小さなラベル、すっきりしたライトグレーのスタジオ背景、柔らかな影、プロダクトデザインのプレゼンテーション、フォトリアルな3Dレンダリング",
+        "ko": "흰색과 주황색의 미래적인 러닝화 기술 분해도, 모든 층이 분리되어 가로 한 줄로 깔끔하게 떠 있음: 아웃솔, 폼 미드솔, 카본 플레이트, 메시 어퍼, 신발끈, 인솔, 가는 지시선과 작은 라벨, 깔끔한 연회색 스튜디오 배경, 부드러운 그림자, 제품 디자인 프레젠테이션, 포토리얼 3D 렌더링",
+        "es": "Vista explosionada técnica de una zapatilla de running futurista blanca y naranja, cada capa separada y flotando en una línea horizontal ordenada: suela, mediasuela de espuma, placa de carbono, empeine de malla, cordones y plantilla, finas líneas guía con pequeñas etiquetas, fondo de estudio gris claro y limpio, sombras suaves, presentación de diseño de producto, render 3D fotorrealista",
+        "fr": "Vue éclatée technique d'une chaussure de running futuriste blanche et orange, chaque couche séparée et flottant sur une ligne horizontale bien alignée : semelle extérieure, semelle intermédiaire en mousse, plaque carbone, tige en mesh, lacets et semelle intérieure, fines lignes de rappel avec petites étiquettes, fond de studio gris clair épuré, ombres douces, présentation de design produit, rendu 3D photoréaliste",
+        "de": "Technische Explosionsansicht eines futuristischen weiß-orangen Laufschuhs, jede Schicht getrennt und in einer ordentlichen horizontalen Linie schwebend: Außensohle, Schaumstoff-Zwischensohle, Carbonplatte, Mesh-Obermaterial, Schnürsenkel und Einlegesohle, dünne Hinweislinien mit kleinen Beschriftungen, sauberer hellgrauer Studiohintergrund, weiche Schatten, Produktdesign-Präsentation, fotorealistisches 3D-Rendering",
+        "pt": "Vista explodida técnica de um tênis de corrida futurista branco e laranja, cada camada separada e flutuando numa linha horizontal organizada: solado, entressola de espuma, placa de carbono, cabedal de malha, cadarços e palmilha, linhas de chamada finas com pequenas etiquetas, fundo de estúdio cinza-claro e limpo, sombras suaves, apresentação de design de produto, render 3D fotorrealista"
+      }
+    },
+    {
+      "id": "matcha-latte-flatlay",
+      "category": "product",
+      "model": "google/gemini-nano-banana-2.1-t2i",
+      "aspect_ratio": "1:1",
+      "title": {"en": "Matcha Latte Flat Lay", "zh": "抹茶拿铁平铺图", "ja": "抹茶ラテのフラットレイ", "ko": "말차 라테 플랫레이", "es": "Matcha latte en flat lay", "fr": "Matcha latte en flat lay", "de": "Matcha Latte als Flat Lay", "pt": "Matcha latte em flat lay"},
+      "prompt": {
+        "en": "Top-down flat lay food photography of a matcha latte with leaf latte art in a handmade ceramic cup, a bamboo whisk, a small bowl of matcha powder, scattered green tea leaves and two mochi on a linen cloth over a light oak table, soft natural window light, minimal Japanese aesthetic, muted earthy tones, magazine editorial style",
+        "zh": "俯拍平铺美食摄影：手工陶瓷杯里的抹茶拿铁，表面是叶子拉花，旁边放着竹制茶筅、一小碗抹茶粉、散落的绿茶叶和两个麻薯，铺在浅橡木桌上的亚麻布上，柔和的自然窗光，极简日式美学，低饱和大地色调，杂志大片风格",
+        "ja": "真上から撮影したフラットレイのフード写真、手作りの陶器カップに注がれたリーフラテアートの抹茶ラテ、竹の茶筅、抹茶パウダーの小鉢、散らばった緑茶の葉と大福2つ、明るいオーク材のテーブルに敷いたリネンの上、柔らかな自然の窓明かり、ミニマルな和の美学、落ち着いたアースカラー、雑誌のエディトリアル風",
+        "ko": "위에서 내려다본 플랫레이 푸드 사진, 수제 도자기 컵에 담긴 나뭇잎 라테아트의 말차 라테, 대나무 차선, 말차 가루가 담긴 작은 그릇, 흩어진 녹차 잎과 모찌 두 개, 밝은 오크 테이블 위 린넨 천, 부드러운 자연 창가 빛, 미니멀한 일본식 미학, 차분한 어스톤, 매거진 에디토리얼 스타일",
+        "es": "Fotografía gastronómica cenital en flat lay de un matcha latte con arte latte en forma de hoja en una taza de cerámica artesanal, un batidor de bambú, un cuenco pequeño de matcha en polvo, hojas de té verde esparcidas y dos mochis sobre un mantel de lino en una mesa de roble claro, luz natural suave de ventana, estética japonesa minimalista, tonos tierra apagados, estilo editorial de revista",
+        "fr": "Photographie culinaire en flat lay vue de dessus d'un matcha latte avec latte art en forme de feuille dans une tasse en céramique artisanale, un fouet en bambou, un petit bol de poudre de matcha, des feuilles de thé vert éparpillées et deux mochis sur un linge en lin posé sur une table en chêne clair, douce lumière naturelle de fenêtre, esthétique japonaise minimaliste, tons terreux sourds, style éditorial de magazine",
+        "de": "Flat-Lay-Food-Fotografie von oben: ein Matcha Latte mit Blatt-Latte-Art in einer handgemachten Keramiktasse, ein Bambusbesen, eine kleine Schale Matchapulver, verstreute Grünteeblätter und zwei Mochi auf einem Leinentuch über einem hellen Eichentisch, weiches natürliches Fensterlicht, minimalistische japanische Ästhetik, gedeckte Erdtöne, Magazin-Editorial-Stil",
+        "pt": "Fotografia gastronômica flat lay vista de cima de um matcha latte com latte art em forma de folha numa xícara de cerâmica artesanal, um batedor de bambu, uma tigelinha de matcha em pó, folhas de chá verde espalhadas e dois mochis sobre um pano de linho numa mesa de carvalho claro, luz natural suave de janela, estética japonesa minimalista, tons terrosos suaves, estilo editorial de revista"
+      }
+    },
+    {
+      "id": "swiss-jazz-poster",
+      "category": "poster",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "2:3",
+      "title": {"en": "Swiss-style Jazz Festival Poster", "zh": "瑞士风爵士音乐节海报", "ja": "スイススタイルのジャズフェスポスター", "ko": "스위스 스타일 재즈 페스티벌 포스터", "es": "Póster de festival de jazz estilo suizo", "fr": "Affiche de festival de jazz style suisse", "de": "Jazzfestival-Poster im Schweizer Stil", "pt": "Pôster de festival de jazz estilo suíço"},
+      "prompt": {
+        "en": "Swiss International Typographic Style poster for a jazz festival, bold geometric composition of overlapping circles and diagonal bars in red, black and cream, an abstract saxophone silhouette, large clean sans-serif headline text \"JAZZ NIGHTS\" and smaller text \"MONTREUX 2026\", strict grid layout, subtle paper texture, Josef Müller-Brockmann inspired",
+        "zh": "瑞士国际主义平面风格的爵士音乐节海报，红、黑、米白三色的重叠圆形和斜向色块构成大胆的几何构图，抽象萨克斯风剪影，醒目干净的无衬线大标题 \"JAZZ NIGHTS\"，下方小字 \"MONTREUX 2026\"，严格的网格排版，细微的纸张纹理，致敬约瑟夫·米勒-布罗克曼",
+        "ja": "ジャズフェスティバルのためのスイス・インターナショナル・タイポグラフィック・スタイルのポスター、赤・黒・クリームの重なる円と斜めのバーによる大胆な幾何学構成、抽象的なサックスのシルエット、大きくクリーンなサンセリフの見出し \"JAZZ NIGHTS\" と小さな文字 \"MONTREUX 2026\"、厳格なグリッドレイアウト、さりげない紙の質感、ヨゼフ・ミューラー＝ブロックマンへのオマージュ",
+        "ko": "재즈 페스티벌을 위한 스위스 국제 타이포그래피 스타일 포스터, 빨강·검정·크림색의 겹치는 원과 대각선 막대로 이루어진 대담한 기하학적 구성, 추상적인 색소폰 실루엣, 크고 깔끔한 산세리프 헤드라인 \"JAZZ NIGHTS\"와 작은 글씨 \"MONTREUX 2026\", 엄격한 그리드 레이아웃, 은은한 종이 질감, 요제프 뮐러브로크만에서 영감",
+        "es": "Póster de estilo tipográfico internacional suizo para un festival de jazz, composición geométrica audaz de círculos superpuestos y barras diagonales en rojo, negro y crema, silueta abstracta de un saxofón, gran titular en sans serif limpia \"JAZZ NIGHTS\" y texto más pequeño \"MONTREUX 2026\", retícula estricta, sutil textura de papel, inspirado en Josef Müller-Brockmann",
+        "fr": "Affiche de style typographique international suisse pour un festival de jazz, composition géométrique audacieuse de cercles superposés et de barres diagonales en rouge, noir et crème, silhouette abstraite de saxophone, grand titre en linéale épurée \"JAZZ NIGHTS\" et texte plus petit \"MONTREUX 2026\", grille stricte, légère texture de papier, inspirée de Josef Müller-Brockmann",
+        "de": "Poster im Internationalen Typografischen Stil (Schweizer Stil) für ein Jazzfestival, kühne geometrische Komposition aus überlappenden Kreisen und diagonalen Balken in Rot, Schwarz und Creme, abstrakte Saxofon-Silhouette, große klare serifenlose Überschrift \"JAZZ NIGHTS\" und kleinerer Text \"MONTREUX 2026\", strenges Rasterlayout, dezente Papierstruktur, inspiriert von Josef Müller-Brockmann",
+        "pt": "Pôster no estilo tipográfico internacional suíço para um festival de jazz, composição geométrica ousada de círculos sobrepostos e barras diagonais em vermelho, preto e creme, silhueta abstrata de um saxofone, grande título em sem serifa limpa \"JAZZ NIGHTS\" e texto menor \"MONTREUX 2026\", grid rigoroso, textura sutil de papel, inspirado em Josef Müller-Brockmann"
+      }
+    },
+    {
+      "id": "retro-travel-kyoto",
+      "category": "poster",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "2:3",
+      "title": {"en": "Vintage Travel Poster: Kyoto", "zh": "复古旅行海报：京都", "ja": "レトロ旅行ポスター：京都", "ko": "빈티지 여행 포스터: 교토", "es": "Póster de viaje vintage: Kioto", "fr": "Affiche de voyage rétro : Kyoto", "de": "Vintage-Reiseposter: Kyoto", "pt": "Pôster de viagem vintage: Quioto"},
+      "prompt": {
+        "en": "1930s vintage travel poster of Kyoto, Japan, a five-story pagoda framed by red maple leaves, Mount Hiei in the distance at sunset, flat lithograph colors in vermilion, teal and mustard, art deco lettering \"KYOTO\" at the top and \"VISIT JAPAN\" at the bottom, worn paper edges, screen print texture",
+        "zh": "1930 年代复古旅行海报，主题日本京都：红色枫叶环绕着一座五重塔，远处是夕阳下的比叡山，朱红、青绿、芥末黄的平涂石版印刷色彩，顶部是装饰艺术风格字体 \"KYOTO\"，底部写着 \"VISIT JAPAN\"，纸张边缘磨损，丝网印刷质感",
+        "ja": "1930年代の京都のレトロな旅行ポスター、赤いもみじに縁取られた五重塔、夕暮れの遠景に比叡山、朱色・ティール・マスタードのフラットなリトグラフ配色、上部にアールデコ調の文字 \"KYOTO\"、下部に \"VISIT JAPAN\"、すり切れた紙の縁、シルクスクリーンの質感",
+        "ko": "1930년대 일본 교토 빈티지 여행 포스터, 붉은 단풍잎에 둘러싸인 오층탑, 해 질 녘 멀리 보이는 히에이산, 주홍·청록·머스터드의 평면 석판화 색감, 상단에 아르데코 레터링 \"KYOTO\", 하단에 \"VISIT JAPAN\", 닳은 종이 가장자리, 실크스크린 질감",
+        "es": "Póster de viaje vintage de los años 30 de Kioto, Japón, una pagoda de cinco pisos enmarcada por hojas de arce rojas, el monte Hiei a lo lejos al atardecer, colores planos de litografía en bermellón, turquesa y mostaza, rotulación art déco \"KYOTO\" arriba y \"VISIT JAPAN\" abajo, bordes de papel desgastados, textura de serigrafía",
+        "fr": "Affiche de voyage rétro des années 1930 de Kyoto, au Japon, une pagode à cinq étages encadrée de feuilles d'érable rouges, le mont Hiei au loin au coucher du soleil, couleurs lithographiques en aplats vermillon, bleu canard et moutarde, lettrage Art déco \"KYOTO\" en haut et \"VISIT JAPAN\" en bas, bords de papier usés, texture de sérigraphie",
+        "de": "Vintage-Reiseposter aus den 1930er-Jahren von Kyoto, Japan, eine fünfstöckige Pagode umrahmt von roten Ahornblättern, der Berg Hiei in der Ferne bei Sonnenuntergang, flächige Lithografiefarben in Zinnoberrot, Petrol und Senfgelb, Art-déco-Schriftzug \"KYOTO\" oben und \"VISIT JAPAN\" unten, abgenutzte Papierränder, Siebdruck-Textur",
+        "pt": "Pôster de viagem vintage dos anos 1930 de Quioto, Japão, um pagode de cinco andares emoldurado por folhas de bordo vermelhas, o monte Hiei ao longe no pôr do sol, cores chapadas de litografia em vermelhão, azul-petróleo e mostarda, letreiro art déco \"KYOTO\" no topo e \"VISIT JAPAN\" embaixo, bordas de papel gastas, textura de serigrafia"
+      }
+    },
+    {
+      "id": "coffee-menu-board",
+      "category": "poster",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "3:4",
+      "title": {"en": "Chalkboard Café Menu", "zh": "黑板咖啡菜单", "ja": "黒板のカフェメニュー", "ko": "칠판 카페 메뉴", "es": "Menú de café en pizarra", "fr": "Menu de café sur ardoise", "de": "Café-Menü auf Kreidetafel", "pt": "Cardápio de café em lousa"},
+      "prompt": {
+        "en": "Hand-lettered chalkboard menu for a cozy coffee shop, title \"MORNING BREW\" in decorative chalk script, menu items with prices: \"Espresso $3\", \"Flat White $4.5\", \"Oat Latte $5\", \"Cold Brew $4\", small chalk doodles of coffee cups, beans and steam swirls, slightly smudged chalk texture, wooden frame, warm café lighting",
+        "zh": "温馨咖啡店的手绘黑板菜单，标题 \"MORNING BREW\" 采用装饰性粉笔花体字，菜单项和价格：\"Espresso $3\"、\"Flat White $4.5\"、\"Oat Latte $5\"、\"Cold Brew $4\"，配有咖啡杯、咖啡豆和蒸汽漩涡的粉笔小涂鸦，略带擦痕的粉笔质感，木质边框，温暖的咖啡馆灯光",
+        "ja": "居心地のよいコーヒーショップの手描き黒板メニュー、装飾的なチョークの筆記体でタイトル \"MORNING BREW\"、価格付きのメニュー項目：\"Espresso $3\"、\"Flat White $4.5\"、\"Oat Latte $5\"、\"Cold Brew $4\"、コーヒーカップや豆、湯気の渦を描いた小さなチョークの落書き、少しにじんだチョークの質感、木製フレーム、暖かいカフェの照明",
+        "ko": "아늑한 커피숍의 손글씨 칠판 메뉴, 장식적인 분필 필기체로 쓴 제목 \"MORNING BREW\", 가격이 적힌 메뉴: \"Espresso $3\", \"Flat White $4.5\", \"Oat Latte $5\", \"Cold Brew $4\", 커피잔·원두·김 소용돌이의 작은 분필 낙서, 살짝 번진 분필 질감, 나무 프레임, 따뜻한 카페 조명",
+        "es": "Menú en pizarra rotulado a mano para una cafetería acogedora, título \"MORNING BREW\" en caligrafía decorativa de tiza, productos con precios: \"Espresso $3\", \"Flat White $4.5\", \"Oat Latte $5\", \"Cold Brew $4\", pequeños dibujos de tiza de tazas, granos y volutas de vapor, textura de tiza ligeramente difuminada, marco de madera, iluminación cálida de café",
+        "fr": "Menu sur ardoise écrit à la main pour un café chaleureux, titre \"MORNING BREW\" en calligraphie décorative à la craie, articles avec prix : \"Espresso $3\", \"Flat White $4.5\", \"Oat Latte $5\", \"Cold Brew $4\", petits dessins à la craie de tasses, de grains et de volutes de vapeur, texture de craie légèrement estompée, cadre en bois, éclairage chaleureux de café",
+        "de": "Handgeschriebenes Kreidetafel-Menü für ein gemütliches Café, Titel \"MORNING BREW\" in dekorativer Kreideschreibschrift, Getränke mit Preisen: \"Espresso $3\", \"Flat White $4.5\", \"Oat Latte $5\", \"Cold Brew $4\", kleine Kreidekritzeleien von Kaffeetassen, Bohnen und Dampfwirbeln, leicht verwischte Kreidetextur, Holzrahmen, warmes Café-Licht",
+        "pt": "Cardápio em lousa escrito à mão para uma cafeteria aconchegante, título \"MORNING BREW\" em letra cursiva decorativa de giz, itens com preços: \"Espresso $3\", \"Flat White $4.5\", \"Oat Latte $5\", \"Cold Brew $4\", pequenos desenhos de giz de xícaras, grãos e espirais de vapor, textura de giz levemente borrada, moldura de madeira, iluminação quente de café"
+      }
+    },
+    {
+      "id": "ghibli-countryside",
+      "category": "illustration",
+      "model": "google/gemini-nano-banana-2.1-t2i",
+      "aspect_ratio": "16:9",
+      "title": {"en": "Ghibli-style Summer Countryside", "zh": "吉卜力风夏日乡村", "ja": "ジブリ風の夏の田舎", "ko": "지브리풍 여름 시골", "es": "Campo de verano estilo Ghibli", "fr": "Campagne d'été façon Ghibli", "de": "Sommerliche Landschaft im Ghibli-Stil", "pt": "Campo de verão estilo Ghibli"},
+      "prompt": {
+        "en": "Hand-painted anime background in the style of Studio Ghibli, a girl in a white sundress and straw hat riding a bicycle along a country road beside green rice fields, towering cumulus clouds in a bright blue summer sky, a small red-roofed house and a giant camphor tree, lush watercolor and gouache textures, nostalgic and peaceful",
+        "zh": "吉卜力工作室风格的手绘动画背景：一个穿白色吊带裙、戴草帽的女孩骑着自行车，沿着绿油油稻田旁的乡间小路前行，明亮湛蓝的夏日天空中耸立着巨大的积云，一座红屋顶小房子和一棵巨大的樟树，丰富的水彩与水粉质感，怀旧而宁静",
+        "ja": "スタジオジブリ風の手描きアニメ背景、白いワンピースと麦わら帽子の少女が青々とした田んぼ沿いの田舎道を自転車で走っている、明るい青空にそびえる入道雲、赤い屋根の小さな家と巨大なクスノキ、豊かな水彩とガッシュの質感、ノスタルジックで穏やかな雰囲気",
+        "ko": "스튜디오 지브리 스타일의 손으로 그린 애니메이션 배경, 흰 원피스와 밀짚모자를 쓴 소녀가 푸른 논 옆 시골길을 자전거로 달림, 밝고 파란 여름 하늘에 우뚝 솟은 뭉게구름, 빨간 지붕의 작은 집과 거대한 녹나무, 풍부한 수채화와 과슈 질감, 향수를 자아내는 평화로운 분위기",
+        "es": "Fondo de anime pintado a mano al estilo de Studio Ghibli, una chica con vestido blanco de verano y sombrero de paja montando en bicicleta por un camino rural junto a verdes arrozales, enormes cúmulos en un cielo azul brillante de verano, una casita de tejado rojo y un gigantesco alcanforero, ricas texturas de acuarela y gouache, nostálgico y apacible",
+        "fr": "Décor d'anime peint à la main dans le style du Studio Ghibli, une jeune fille en robe d'été blanche et chapeau de paille à vélo sur une route de campagne longeant des rizières vertes, d'immenses cumulus dans un ciel d'été bleu éclatant, une petite maison au toit rouge et un camphrier géant, riches textures d'aquarelle et de gouache, nostalgique et paisible",
+        "de": "Handgemalter Anime-Hintergrund im Stil von Studio Ghibli, ein Mädchen in weißem Sommerkleid und Strohhut fährt Fahrrad auf einer Landstraße neben grünen Reisfeldern, riesige Quellwolken am leuchtend blauen Sommerhimmel, ein kleines Haus mit rotem Dach und ein gewaltiger Kampferbaum, satte Aquarell- und Gouache-Texturen, nostalgisch und friedlich",
+        "pt": "Cenário de anime pintado à mão no estilo do Studio Ghibli, uma menina de vestido branco de verão e chapéu de palha andando de bicicleta por uma estrada rural ao lado de arrozais verdes, enormes nuvens cúmulos num céu azul brilhante de verão, uma casinha de telhado vermelho e uma gigantesca canforeira, ricas texturas de aquarela e guache, nostálgico e tranquilo"
+      }
+    },
+    {
+      "id": "ukiyoe-astronaut",
+      "category": "illustration",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "3:4",
+      "title": {"en": "Ukiyo-e Astronaut", "zh": "浮世绘宇航员", "ja": "浮世絵の宇宙飛行士", "ko": "우키요에 우주비행사", "es": "Astronauta en estilo ukiyo-e", "fr": "Astronaute façon ukiyo-e", "de": "Astronaut im Ukiyo-e-Stil", "pt": "Astronauta em estilo ukiyo-e"},
+      "prompt": {
+        "en": "Traditional Japanese ukiyo-e woodblock print of an astronaut surfing on a giant wave, inspired by Hokusai's The Great Wave off Kanagawa, Earth and a crescent moon in the sky, Prussian blue and cream palette, visible wood grain texture, bold black outlines, a red artist's seal stamp in the corner",
+        "zh": "日本传统浮世绘木版画：一名宇航员在巨浪上冲浪，灵感来自葛饰北斋《神奈川冲浪里》，天空中有地球和一弯新月，普鲁士蓝与米白配色，可见的木纹肌理，粗黑轮廓线，角落盖着红色画家印章",
+        "ja": "伝統的な浮世絵木版画、巨大な波の上でサーフィンをする宇宙飛行士、葛飾北斎の「神奈川沖浪裏」に着想、空には地球と三日月、プルシアンブルーとクリームの配色、木目の質感が見える、太い黒の輪郭線、隅に赤い落款印",
+        "ko": "전통 일본 우키요에 목판화, 거대한 파도 위에서 서핑하는 우주비행사, 가쓰시카 호쿠사이의 「가나가와 해변의 높은 파도 아래」에서 영감, 하늘에 지구와 초승달, 프러시안 블루와 크림 색조, 드러나는 나뭇결 질감, 굵은 검은 윤곽선, 모서리에 붉은 낙관",
+        "es": "Grabado tradicional japonés ukiyo-e de un astronauta surfeando una ola gigante, inspirado en La gran ola de Kanagawa de Hokusai, la Tierra y una luna creciente en el cielo, paleta de azul de Prusia y crema, textura visible de veta de madera, contornos negros gruesos, un sello rojo del artista en la esquina",
+        "fr": "Estampe japonaise traditionnelle ukiyo-e d'un astronaute surfant sur une vague géante, inspirée de La Grande Vague de Kanagawa d'Hokusai, la Terre et un croissant de lune dans le ciel, palette bleu de Prusse et crème, texture de veinage du bois visible, contours noirs épais, un sceau rouge d'artiste dans le coin",
+        "de": "Traditioneller japanischer Ukiyo-e-Holzschnitt eines Astronauten, der auf einer riesigen Welle surft, inspiriert von Hokusais Die große Welle vor Kanagawa, Erde und Mondsichel am Himmel, Palette aus Preußischblau und Creme, sichtbare Holzmaserung, kräftige schwarze Konturen, ein rotes Künstlersiegel in der Ecke",
+        "pt": "Xilogravura japonesa tradicional ukiyo-e de um astronauta surfando uma onda gigante, inspirada em A Grande Onda de Kanagawa de Hokusai, a Terra e uma lua crescente no céu, paleta azul-da-prússia e creme, textura visível de veios de madeira, contornos pretos grossos, um selo vermelho do artista no canto"
+      }
+    },
+    {
+      "id": "storybook-bear-picnic",
+      "category": "illustration",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "4:3",
+      "title": {"en": "Storybook Bear Picnic", "zh": "绘本小熊野餐", "ja": "絵本のクマのピクニック", "ko": "그림책 곰의 소풍", "es": "Picnic de osos de cuento", "fr": "Pique-nique d'ours façon album jeunesse", "de": "Bilderbuch-Picknick der Bären", "pt": "Piquenique de ursos de livro infantil"},
+      "prompt": {
+        "en": "Children's picture book illustration, a family of three brown bears having a picnic on a checkered blanket in a spring meadow full of wildflowers, honey jars, sandwiches and a strawberry cake, a little rabbit peeking from the grass, soft colored pencil and watercolor texture, warm pastel palette, whimsical and gentle, Beatrix Potter inspired",
+        "zh": "儿童绘本插画：三只棕熊一家在开满野花的春日草地上，坐在格子野餐布上野餐，有蜂蜜罐、三明治和草莓蛋糕，一只小兔子从草丛里探出头，柔和的彩铅与水彩质感，温暖的粉彩配色，奇趣温柔，致敬碧雅翠丝·波特",
+        "ja": "子ども向け絵本のイラスト、野の花が咲く春の草原でチェック柄のシートを広げてピクニックをする3頭の茶色いクマの家族、はちみつの瓶、サンドイッチ、いちごケーキ、草むらからのぞく小さなウサギ、柔らかな色鉛筆と水彩の質感、温かいパステル配色、気まぐれでやさしい雰囲気、ビアトリクス・ポターに着想",
+        "ko": "어린이 그림책 일러스트, 들꽃이 가득한 봄 초원에서 체크무늬 담요를 펴고 소풍을 즐기는 갈색 곰 세 식구, 꿀단지와 샌드위치, 딸기 케이크, 풀숲에서 빼꼼 내다보는 작은 토끼, 부드러운 색연필과 수채화 질감, 따뜻한 파스텔 색감, 동화 같고 다정한 분위기, 베아트릭스 포터에서 영감",
+        "es": "Ilustración de libro infantil, una familia de tres osos pardos haciendo un picnic sobre una manta de cuadros en una pradera primaveral llena de flores silvestres, tarros de miel, sándwiches y una tarta de fresa, un conejito asomándose entre la hierba, textura suave de lápiz de color y acuarela, paleta pastel cálida, caprichosa y tierna, inspirada en Beatrix Potter",
+        "fr": "Illustration d'album jeunesse, une famille de trois ours bruns pique-niquant sur une nappe à carreaux dans une prairie printanière pleine de fleurs sauvages, pots de miel, sandwichs et gâteau aux fraises, un petit lapin qui pointe le nez dans l'herbe, texture douce de crayon de couleur et d'aquarelle, palette pastel chaleureuse, fantaisiste et tendre, inspirée de Beatrix Potter",
+        "de": "Kinderbuchillustration, eine dreiköpfige Braunbärenfamilie beim Picknick auf einer karierten Decke auf einer Frühlingswiese voller Wildblumen, Honiggläser, Sandwiches und ein Erdbeerkuchen, ein kleiner Hase lugt aus dem Gras, weiche Buntstift- und Aquarelltextur, warme Pastellpalette, verspielt und sanft, inspiriert von Beatrix Potter",
+        "pt": "Ilustração de livro infantil, uma família de três ursos-pardos fazendo piquenique numa toalha xadrez num prado de primavera cheio de flores silvestres, potes de mel, sanduíches e um bolo de morango, um coelhinho espiando da grama, textura suave de lápis de cor e aquarela, paleta pastel quente, fantasiosa e delicada, inspirada em Beatrix Potter"
+      }
+    },
+    {
+      "id": "isometric-coffee-shop",
+      "category": "3d",
+      "model": "google/gemini-nano-banana-2.1-t2i",
+      "aspect_ratio": "1:1",
+      "title": {"en": "Isometric Tiny Coffee Shop", "zh": "等距微缩咖啡店", "ja": "アイソメトリックの小さなカフェ", "ko": "아이소메트릭 미니 카페", "es": "Cafetería isométrica en miniatura", "fr": "Petit café isométrique", "de": "Isometrisches Mini-Café", "pt": "Cafeteria isométrica em miniatura"},
+      "prompt": {
+        "en": "Isometric 3D miniature diorama of a cozy two-story corner coffee shop, cutaway view showing the interior with a barista, espresso machine, tiny customers and potted plants, a striped awning and outdoor seating, warm interior lights, soft pastel colors, clay-like Blender render, tilt-shift effect, floating on a plain light background",
+        "zh": "等距视角 3D 微缩场景：一间温馨的两层街角咖啡店，剖面视图展示内部，有咖啡师、意式咖啡机、迷你顾客和盆栽，条纹遮阳篷和户外座位，温暖的室内灯光，柔和的粉彩色，黏土质感 Blender 渲染，移轴效果，悬浮在纯浅色背景上",
+        "ja": "居心地のよい2階建ての角のカフェのアイソメトリック3Dミニチュアジオラマ、断面図で内部を見せる：バリスタ、エスプレッソマシン、小さなお客さん、観葉植物、ストライプのオーニングとテラス席、暖かい室内照明、柔らかなパステルカラー、粘土のような質感のBlenderレンダリング、ティルトシフト効果、無地の明るい背景に浮かぶ",
+        "ko": "아늑한 2층짜리 모퉁이 카페의 아이소메트릭 3D 미니어처 디오라마, 내부가 보이는 단면도: 바리스타, 에스프레소 머신, 작은 손님들과 화분, 줄무늬 차양과 야외 좌석, 따뜻한 실내 조명, 부드러운 파스텔 색상, 점토 질감의 Blender 렌더링, 틸트시프트 효과, 단색 밝은 배경 위에 떠 있음",
+        "es": "Diorama en miniatura 3D isométrico de una acogedora cafetería de esquina de dos plantas, vista en corte que muestra el interior con un barista, una máquina de espresso, clientes diminutos y plantas en macetas, un toldo de rayas y mesas en la terraza, luces interiores cálidas, colores pastel suaves, render de Blender con aspecto de arcilla, efecto tilt-shift, flotando sobre un fondo claro liso",
+        "fr": "Diorama miniature 3D isométrique d'un café d'angle chaleureux sur deux étages, vue en coupe montrant l'intérieur avec un barista, une machine à espresso, de minuscules clients et des plantes en pot, un auvent rayé et une terrasse, lumières intérieures chaleureuses, couleurs pastel douces, rendu Blender façon pâte à modeler, effet tilt-shift, flottant sur un fond clair uni",
+        "de": "Isometrisches 3D-Miniaturdiorama eines gemütlichen zweistöckigen Eckcafés, Schnittansicht zeigt das Innere mit Barista, Espressomaschine, winzigen Gästen und Topfpflanzen, gestreifte Markise und Außensitzplätze, warmes Innenlicht, sanfte Pastellfarben, knetartiges Blender-Rendering, Tilt-Shift-Effekt, schwebend vor schlichtem hellem Hintergrund",
+        "pt": "Diorama em miniatura 3D isométrico de uma cafeteria de esquina aconchegante de dois andares, vista em corte mostrando o interior com um barista, máquina de espresso, clientes minúsculos e vasos de plantas, um toldo listrado e mesas do lado de fora, luzes internas quentes, cores pastel suaves, render do Blender com aspecto de massinha, efeito tilt-shift, flutuando sobre um fundo claro liso"
+      }
+    },
+    {
+      "id": "glass-app-icons",
+      "category": "3d",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "1:1",
+      "title": {"en": "Frosted Glass App Icons", "zh": "磨砂玻璃应用图标", "ja": "すりガラスのアプリアイコン", "ko": "반투명 유리 앱 아이콘", "es": "Iconos de app de vidrio esmerilado", "fr": "Icônes d'app en verre dépoli", "de": "App-Icons aus Milchglas", "pt": "Ícones de app em vidro fosco"},
+      "prompt": {
+        "en": "A 3x3 grid of 3D app icons in frosted glassmorphism style: camera, music note, calendar, weather cloud, chat bubble, map pin, settings gear, heart and shopping bag, each a rounded square of translucent glass with soft inner glow, vibrant gradient colors from blue to purple to pink, subtle reflections, consistent lighting, clean white background, Dribbble showcase quality",
+        "zh": "3×3 网格排列的磨砂玻璃拟态风格 3D 应用图标：相机、音符、日历、天气云朵、聊天气泡、地图定位、设置齿轮、爱心和购物袋，每个都是半透明玻璃圆角方块，带柔和内发光，由蓝到紫再到粉的鲜艳渐变色，细腻反光，统一光照，干净的白色背景，Dribbble 精选级质量",
+        "ja": "すりガラスのグラスモーフィズム風3Dアプリアイコンを3×3のグリッドで配置：カメラ、音符、カレンダー、天気の雲、チャットの吹き出し、マップピン、設定の歯車、ハート、ショッピングバッグ、それぞれ半透明ガラスの角丸スクエアで柔らかな内側の光、青から紫、ピンクへの鮮やかなグラデーション、繊細な反射、統一されたライティング、クリーンな白背景、Dribbbleショーケース品質",
+        "ko": "반투명 글래스모피즘 스타일 3D 앱 아이콘 3×3 그리드: 카메라, 음표, 캘린더, 날씨 구름, 채팅 말풍선, 지도 핀, 설정 톱니바퀴, 하트, 쇼핑백, 각각 부드러운 내부 발광이 있는 반투명 유리 둥근 사각형, 파랑에서 보라, 핑크로 이어지는 선명한 그라데이션, 은은한 반사, 일관된 조명, 깔끔한 흰 배경, Dribbble 쇼케이스 품질",
+        "es": "Cuadrícula de 3×3 iconos de app en 3D con estilo glassmorphism de vidrio esmerilado: cámara, nota musical, calendario, nube del tiempo, burbuja de chat, marcador de mapa, engranaje de ajustes, corazón y bolsa de compras, cada uno un cuadrado redondeado de vidrio translúcido con un suave brillo interior, degradados vibrantes de azul a morado y rosa, reflejos sutiles, iluminación coherente, fondo blanco limpio, calidad de Dribbble",
+        "fr": "Grille 3×3 d'icônes d'app en 3D style glassmorphism en verre dépoli : appareil photo, note de musique, calendrier, nuage météo, bulle de discussion, épingle de carte, engrenage de réglages, cœur et sac de shopping, chacune un carré arrondi en verre translucide avec une douce lueur intérieure, dégradés vifs du bleu au violet puis au rose, reflets subtils, éclairage cohérent, fond blanc épuré, qualité vitrine Dribbble",
+        "de": "Ein 3×3-Raster aus 3D-App-Icons im Milchglas-Glassmorphism-Stil: Kamera, Musiknote, Kalender, Wetterwolke, Sprechblase, Kartenpin, Einstellungszahnrad, Herz und Einkaufstasche, jedes ein abgerundetes Quadrat aus durchscheinendem Glas mit sanftem inneren Leuchten, lebendige Farbverläufe von Blau über Lila zu Pink, dezente Reflexionen, einheitliche Beleuchtung, sauberer weißer Hintergrund, Dribbble-Showcase-Qualität",
+        "pt": "Uma grade 3×3 de ícones de app em 3D no estilo glassmorphism de vidro fosco: câmera, nota musical, calendário, nuvem do tempo, balão de chat, pino de mapa, engrenagem de configurações, coração e sacola de compras, cada um um quadrado arredondado de vidro translúcido com brilho interno suave, degradês vibrantes do azul ao roxo e rosa, reflexos sutis, iluminação consistente, fundo branco limpo, qualidade de vitrine do Dribbble"
+      }
+    },
+    {
+      "id": "clay-figurine-astronaut",
+      "category": "3d",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "1:1",
+      "title": {"en": "Collectible Figure in Box", "zh": "盲盒手办", "ja": "箱入りコレクションフィギュア", "ko": "박스 속 수집용 피규어", "es": "Figura coleccionable en caja", "fr": "Figurine de collection en boîte", "de": "Sammelfigur in Verpackung", "pt": "Boneco colecionável na caixa"},
+      "prompt": {
+        "en": "Photo of a cute chibi vinyl collectible figure of a little astronaut holding a tiny planet, displayed next to its colorful retail packaging box with a clear plastic window and the label \"SPACE BUDDY\", on a computer desk, the box art shows the same character, soft studio lighting, realistic plastic material, designer toy aesthetic, like Pop Mart",
+        "zh": "照片：一个可爱的 Q 版搪胶收藏手办，是抱着小星球的小宇航员，摆在它色彩鲜艳的零售包装盒旁，包装盒有透明塑料窗，标签写着 \"SPACE BUDDY\"，放在电脑桌上，盒面印着同一个角色，柔和的影棚光，真实的塑料材质，潮玩美学，类似泡泡玛特",
+        "ja": "小さな惑星を抱えたちびキャラの宇宙飛行士のかわいいソフビ製コレクションフィギュアの写真、透明なプラスチック窓と \"SPACE BUDDY\" のラベルが付いたカラフルな販売用パッケージの横に飾られている、パソコンデスクの上、箱のアートには同じキャラクター、柔らかなスタジオ照明、リアルなプラスチック素材、デザイナーズトイの美学、ポップマートのような",
+        "ko": "작은 행성을 안고 있는 꼬마 우주비행사의 귀여운 SD 비닐 수집용 피규어 사진, 투명 플라스틱 창과 \"SPACE BUDDY\" 라벨이 있는 알록달록한 판매용 패키지 박스 옆에 진열, 컴퓨터 책상 위, 박스 아트에 같은 캐릭터, 부드러운 스튜디오 조명, 사실적인 플라스틱 재질, 디자이너 토이 미학, 팝마트 스타일",
+        "es": "Foto de una adorable figura coleccionable chibi de vinilo de un pequeño astronauta sosteniendo un planeta diminuto, expuesta junto a su colorida caja de venta con ventana de plástico transparente y la etiqueta \"SPACE BUDDY\", sobre un escritorio de ordenador, la ilustración de la caja muestra al mismo personaje, iluminación de estudio suave, material plástico realista, estética de juguete de diseño, al estilo Pop Mart",
+        "fr": "Photo d'une adorable figurine de collection chibi en vinyle représentant un petit astronaute tenant une minuscule planète, exposée à côté de sa boîte d'emballage colorée avec une fenêtre en plastique transparent et l'étiquette \"SPACE BUDDY\", sur un bureau d'ordinateur, l'illustration de la boîte montre le même personnage, éclairage de studio doux, matière plastique réaliste, esthétique designer toy, façon Pop Mart",
+        "de": "Foto einer niedlichen Chibi-Vinyl-Sammelfigur eines kleinen Astronauten, der einen winzigen Planeten hält, neben ihrer bunten Verkaufsverpackung mit durchsichtigem Kunststofffenster und der Aufschrift \"SPACE BUDDY\" auf einem Computertisch, die Verpackung zeigt dieselbe Figur, weiches Studiolicht, realistisches Kunststoffmaterial, Designer-Toy-Ästhetik, im Stil von Pop Mart",
+        "pt": "Foto de um boneco colecionável chibi de vinil fofo de um pequeno astronauta segurando um planetinha, exposto ao lado da sua caixa colorida de varejo com janela de plástico transparente e o rótulo \"SPACE BUDDY\", sobre uma mesa de computador, a arte da caixa mostra o mesmo personagem, iluminação de estúdio suave, material plástico realista, estética de designer toy, estilo Pop Mart"
+      }
+    },
+    {
+      "id": "cliff-glass-villa",
+      "category": "architecture",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "16:9",
+      "title": {"en": "Cliffside Glass Villa", "zh": "悬崖玻璃别墅", "ja": "断崖のガラスヴィラ", "ko": "절벽 위 유리 빌라", "es": "Villa de cristal en el acantilado", "fr": "Villa de verre à flanc de falaise", "de": "Glasvilla an der Klippe", "pt": "Villa de vidro no penhasco"},
+      "prompt": {
+        "en": "Architectural photography of a minimalist modern villa cantilevered over a sea cliff, floor-to-ceiling glass walls, white concrete and warm teak wood, an infinity pool merging with the ocean horizon, golden hour sunlight, interior lights glowing softly, shot from a low angle, Architectural Digest style, ultra-realistic",
+        "zh": "建筑摄影：一座悬挑在海边悬崖上的极简现代别墅，落地玻璃墙，白色清水混凝土与暖色柚木，无边泳池与海平线融为一体，黄金时刻的阳光，室内灯光柔和亮起，低角度仰拍，《建筑文摘》风格，超写实",
+        "ja": "海の断崖に張り出したミニマルなモダンヴィラの建築写真、床から天井までのガラス壁、白いコンクリートと温かみのあるチーク材、海の水平線に溶け込むインフィニティプール、ゴールデンアワーの陽光、柔らかく灯る室内照明、ローアングルから撮影、アーキテクチュラル・ダイジェスト風、超リアル",
+        "ko": "바다 절벽 위로 캔틸레버로 돌출된 미니멀한 모던 빌라의 건축 사진, 바닥부터 천장까지의 유리 벽, 흰 콘크리트와 따뜻한 티크 목재, 바다 수평선과 이어지는 인피니티 풀, 골든아워 햇살, 부드럽게 빛나는 실내 조명, 로우 앵글 촬영, 아키텍처럴 다이제스트 스타일, 초현실적",
+        "es": "Fotografía arquitectónica de una villa moderna minimalista en voladizo sobre un acantilado marino, paredes de cristal de suelo a techo, hormigón blanco y cálida madera de teca, una piscina infinita que se funde con el horizonte del océano, luz dorada del atardecer, luces interiores encendidas suavemente, tomada desde un ángulo bajo, estilo Architectural Digest, ultrarrealista",
+        "fr": "Photographie d'architecture d'une villa moderne minimaliste en porte-à-faux au-dessus d'une falaise marine, baies vitrées du sol au plafond, béton blanc et teck chaleureux, une piscine à débordement se fondant dans l'horizon de l'océan, lumière dorée de fin de journée, éclairages intérieurs doux, prise en contre-plongée, style Architectural Digest, ultra réaliste",
+        "de": "Architekturfotografie einer minimalistischen modernen Villa, die über eine Meeresklippe auskragt, raumhohe Glaswände, weißer Beton und warmes Teakholz, ein Infinity-Pool, der mit dem Meereshorizont verschmilzt, Sonnenlicht zur goldenen Stunde, sanft leuchtende Innenbeleuchtung, aus niedriger Perspektive aufgenommen, Architectural-Digest-Stil, ultrarealistisch",
+        "pt": "Fotografia de arquitetura de uma villa moderna minimalista em balanço sobre um penhasco à beira-mar, paredes de vidro do chão ao teto, concreto branco e madeira de teca quente, uma piscina de borda infinita que se funde com o horizonte do oceano, luz da hora dourada, luzes internas acesas suavemente, fotografada de um ângulo baixo, estilo Architectural Digest, ultrarrealista"
+      }
+    },
+    {
+      "id": "japandi-living-room",
+      "category": "architecture",
+      "model": "google/gemini-nano-banana-2.1-t2i",
+      "aspect_ratio": "4:3",
+      "title": {"en": "Japandi Living Room", "zh": "日式北欧风客厅", "ja": "ジャパンディのリビング", "ko": "재팬디 거실", "es": "Salón estilo japandi", "fr": "Salon japandi", "de": "Wohnzimmer im Japandi-Stil", "pt": "Sala de estar japandi"},
+      "prompt": {
+        "en": "Interior design photography of a serene Japandi living room, low linen sofa in oatmeal color, light ash wood coffee table, a large paper floor lamp, a bonsai tree on a ceramic stand, shoji screen sliding doors letting in diffused morning light, neutral beige and warm white palette, natural textures, uncluttered, wide-angle, magazine quality",
+        "zh": "室内设计摄影：宁静的日式北欧（Japandi）风客厅，燕麦色低矮亚麻沙发，浅色白蜡木茶几，大号纸质落地灯，陶瓷台座上的盆景，障子推拉门透进柔和的晨光，中性米色与暖白配色，自然材质，简洁不杂乱，广角，杂志级画质",
+        "ja": "静謐なジャパンディスタイルのリビングのインテリア写真、オートミール色の低いリネンソファ、明るいアッシュ材のコーヒーテーブル、大きな和紙のフロアランプ、陶器の台に置かれた盆栽、障子の引き戸から差し込む柔らかな朝の光、ニュートラルなベージュと温かみのある白の配色、自然素材の質感、すっきりと片付いた空間、広角、雑誌クオリティ",
+        "ko": "고요한 재팬디 스타일 거실의 인테리어 사진, 오트밀 색 낮은 린넨 소파, 밝은 애시 원목 커피 테이블, 큰 한지 플로어 램프, 도자기 받침 위의 분재, 쇼지 미닫이문으로 들어오는 은은한 아침 햇살, 뉴트럴 베이지와 따뜻한 화이트 색조, 자연 소재의 질감, 정돈된 공간, 광각, 매거진 퀄리티",
+        "es": "Fotografía de interiorismo de un sereno salón estilo japandi, sofá bajo de lino color avena, mesa de centro de fresno claro, una gran lámpara de pie de papel, un bonsái sobre un soporte de cerámica, puertas correderas shoji que dejan pasar una luz matinal difusa, paleta neutra de beige y blanco cálido, texturas naturales, despejado, gran angular, calidad de revista",
+        "fr": "Photographie de décoration d'intérieur d'un salon japandi apaisant, canapé bas en lin couleur avoine, table basse en frêne clair, grand lampadaire en papier, un bonsaï sur un support en céramique, portes coulissantes shoji laissant entrer une lumière matinale diffuse, palette neutre beige et blanc chaud, textures naturelles, épuré, grand-angle, qualité magazine",
+        "de": "Innenarchitekturfotografie eines ruhigen Wohnzimmers im Japandi-Stil, niedriges Leinensofa in Haferflockenfarbe, Couchtisch aus heller Esche, eine große Papier-Stehleuchte, ein Bonsai auf einem Keramiksockel, Shoji-Schiebetüren lassen diffuses Morgenlicht herein, neutrale Palette aus Beige und warmem Weiß, natürliche Texturen, aufgeräumt, Weitwinkel, Magazinqualität",
+        "pt": "Fotografia de design de interiores de uma serena sala de estar japandi, sofá baixo de linho cor de aveia, mesa de centro de freixo claro, uma grande luminária de chão de papel, um bonsai sobre um suporte de cerâmica, portas de correr shoji deixando entrar uma luz difusa da manhã, paleta neutra de bege e branco quente, texturas naturais, sem excessos, grande-angular, qualidade de revista"
+      }
+    },
+    {
+      "id": "solarpunk-city",
+      "category": "architecture",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "16:9",
+      "title": {"en": "Solarpunk City", "zh": "太阳朋克城市", "ja": "ソーラーパンクの都市", "ko": "솔라펑크 도시", "es": "Ciudad solarpunk", "fr": "Ville solarpunk", "de": "Solarpunk-Stadt", "pt": "Cidade solarpunk"},
+      "prompt": {
+        "en": "Aerial view of a solarpunk future city, organic white skyscrapers covered in vertical gardens and cascading waterfalls, solar panel canopies, wind turbines shaped like flowers, elevated walkways connecting towers, a clean river with boats, people cycling, lush trees everywhere, bright optimistic sunlight, highly detailed concept art",
+        "zh": "太阳朋克未来城市鸟瞰图：有机造型的白色摩天楼覆盖着垂直花园和层叠瀑布，太阳能板天棚，花朵造型的风力发电机，空中连廊连接各栋高楼，清澈的河流上有小船，人们骑着自行车，到处是茂盛的树木，明亮乐观的阳光，高细节概念设计图",
+        "ja": "ソーラーパンクの未来都市の空撮、垂直庭園と流れ落ちる滝に覆われた有機的な白い超高層ビル、ソーラーパネルの天蓋、花の形をした風力タービン、タワー同士をつなぐ空中歩道、ボートが行き交う澄んだ川、自転車に乗る人々、あふれる緑の木々、明るく楽観的な陽光、高精細なコンセプトアート",
+        "ko": "솔라펑크 미래 도시의 항공 뷰, 수직 정원과 쏟아지는 폭포로 덮인 유기적인 흰색 마천루, 태양광 패널 캐노피, 꽃 모양의 풍력 터빈, 타워를 잇는 공중 보행로, 배가 떠다니는 맑은 강, 자전거 타는 사람들, 곳곳에 무성한 나무, 밝고 낙관적인 햇살, 고해상도 콘셉트 아트",
+        "es": "Vista aérea de una ciudad futura solarpunk, rascacielos blancos orgánicos cubiertos de jardines verticales y cascadas, marquesinas de paneles solares, aerogeneradores con forma de flor, pasarelas elevadas que conectan las torres, un río limpio con barcas, gente en bicicleta, árboles frondosos por todas partes, luz solar brillante y optimista, arte conceptual muy detallado",
+        "fr": "Vue aérienne d'une ville futuriste solarpunk, gratte-ciel blancs aux formes organiques couverts de jardins verticaux et de cascades, auvents de panneaux solaires, éoliennes en forme de fleurs, passerelles suspendues reliant les tours, une rivière propre avec des bateaux, des gens à vélo, une végétation luxuriante partout, lumière solaire vive et optimiste, concept art très détaillé",
+        "de": "Luftansicht einer Solarpunk-Zukunftsstadt, organisch geformte weiße Wolkenkratzer bedeckt mit vertikalen Gärten und herabstürzenden Wasserfällen, Solarpanel-Überdachungen, blumenförmige Windräder, Hochwege zwischen den Türmen, ein sauberer Fluss mit Booten, Menschen auf Fahrrädern, üppige Bäume überall, helles optimistisches Sonnenlicht, hochdetaillierte Concept Art",
+        "pt": "Vista aérea de uma cidade futurista solarpunk, arranha-céus brancos orgânicos cobertos de jardins verticais e cascatas, coberturas de painéis solares, turbinas eólicas em forma de flor, passarelas elevadas ligando as torres, um rio limpo com barcos, pessoas pedalando, árvores exuberantes por toda parte, luz solar brilhante e otimista, arte conceitual muito detalhada"
+      }
+    },
+    {
+      "id": "floating-island-castle",
+      "category": "fantasy",
+      "model": "google/gemini-nano-banana-2.1-t2i",
+      "aspect_ratio": "16:9",
+      "title": {"en": "Floating Island Castle", "zh": "浮空岛城堡", "ja": "浮遊島の城", "ko": "공중 섬의 성", "es": "Castillo en una isla flotante", "fr": "Château sur une île flottante", "de": "Burg auf schwebender Insel", "pt": "Castelo numa ilha flutuante"},
+      "prompt": {
+        "en": "Epic fantasy matte painting of a white castle with blue spires on a floating island in the sky, waterfalls pouring off the island edges into the clouds below, smaller floating rocks connected by rope bridges, a flock of dragons flying in the distance, sunrise with god rays, vibrant colors, highly detailed, in the style of AAA game concept art",
+        "zh": "史诗奇幻接景画：天空中一座浮空岛上矗立着蓝色尖塔的白色城堡，瀑布从岛屿边缘倾泻进下方云海，较小的浮空岩石由绳桥相连，远处一群巨龙飞过，日出时分的丁达尔光线，色彩鲜艳，细节丰富，3A 游戏概念设计风格",
+        "ja": "空に浮かぶ島に建つ青い尖塔の白い城の壮大なファンタジー・マットペインティング、島の縁から下の雲海へ流れ落ちる滝、吊り橋でつながった小さな浮遊岩、遠くを飛ぶドラゴンの群れ、光芒が差す日の出、鮮やかな色彩、高精細、AAAゲームのコンセプトアート風",
+        "ko": "하늘에 떠 있는 섬 위 파란 첨탑의 하얀 성을 그린 웅장한 판타지 매트 페인팅, 섬 가장자리에서 아래 구름바다로 쏟아지는 폭포, 밧줄 다리로 이어진 작은 공중 바위들, 멀리 날아가는 용 무리, 빛줄기가 내리는 일출, 선명한 색감, 고해상도 디테일, AAA 게임 콘셉트 아트 스타일",
+        "es": "Matte painting de fantasía épica de un castillo blanco con agujas azules sobre una isla flotante en el cielo, cascadas que caen desde los bordes de la isla hacia las nubes, rocas flotantes más pequeñas unidas por puentes de cuerda, una bandada de dragones volando a lo lejos, amanecer con rayos de luz, colores vibrantes, muy detallado, al estilo del arte conceptual de un videojuego AAA",
+        "fr": "Matte painting de fantasy épique d'un château blanc aux flèches bleues sur une île flottant dans le ciel, des cascades se déversant des bords de l'île dans les nuages, de plus petits rochers flottants reliés par des ponts de corde, une nuée de dragons volant au loin, lever de soleil avec rayons divins, couleurs éclatantes, très détaillé, dans le style d'un concept art de jeu AAA",
+        "de": "Episches Fantasy-Matte-Painting einer weißen Burg mit blauen Turmspitzen auf einer schwebenden Insel am Himmel, Wasserfälle stürzen von den Inselrändern in die Wolken darunter, kleinere schwebende Felsen mit Hängebrücken verbunden, ein Schwarm Drachen fliegt in der Ferne, Sonnenaufgang mit Lichtstrahlen, lebendige Farben, hochdetailliert, im Stil von AAA-Game-Concept-Art",
+        "pt": "Matte painting de fantasia épica de um castelo branco com torres azuis numa ilha flutuante no céu, cachoeiras despencando das bordas da ilha para as nuvens abaixo, rochas flutuantes menores ligadas por pontes de corda, um bando de dragões voando ao longe, nascer do sol com raios de luz, cores vibrantes, muito detalhado, no estilo de arte conceitual de jogo AAA"
+      }
+    },
+    {
+      "id": "forest-spirit-deer",
+      "category": "fantasy",
+      "model": "google/gemini-3-pro-image-t2i",
+      "aspect_ratio": "3:4",
+      "title": {"en": "Glowing Forest Spirit", "zh": "发光的森林之灵", "ja": "光る森の精霊", "ko": "빛나는 숲의 정령", "es": "Espíritu luminoso del bosque", "fr": "Esprit lumineux de la forêt", "de": "Leuchtender Waldgeist", "pt": "Espírito luminoso da floresta"},
+      "prompt": {
+        "en": "A majestic spirit deer made of translucent bioluminescent light standing in an ancient misty forest at night, antlers growing into glowing branches with tiny blossoms, floating fireflies and spores, giant moss-covered trees, a small clear stream reflecting the light, ethereal blue and turquoise glow, magical atmosphere, digital painting",
+        "zh": "一只由半透明生物荧光构成的威严灵鹿，夜晚伫立在雾气弥漫的古老森林中，鹿角长成发光的枝条并开着小花，萤火虫和孢子在空中飘浮，巨大的苔藓古树，一条清澈小溪倒映着光芒，空灵的蓝色与青绿色辉光，魔幻氛围，数字绘画",
+        "ja": "夜の霧深い古代の森に佇む、半透明の生物発光する光でできた荘厳な精霊の鹿、小さな花を咲かせた光る枝へと伸びる角、浮遊するホタルと胞子、苔むした巨木、光を映す小さく澄んだ小川、幻想的な青とターコイズの輝き、魔法のような雰囲気、デジタルペインティング",
+        "ko": "밤의 안개 낀 고대 숲에 서 있는 반투명한 생물발광 빛으로 이루어진 위엄 있는 정령 사슴, 작은 꽃이 핀 빛나는 나뭇가지로 자라난 뿔, 떠다니는 반딧불이와 포자, 이끼로 뒤덮인 거대한 나무들, 빛을 비추는 맑은 작은 개울, 신비로운 파란색과 청록색 빛, 마법 같은 분위기, 디지털 페인팅",
+        "es": "Un majestuoso ciervo espiritual hecho de luz bioluminiscente translúcida, de pie en un antiguo bosque brumoso de noche, astas que se convierten en ramas luminosas con pequeñas flores, luciérnagas y esporas flotando, árboles gigantes cubiertos de musgo, un pequeño arroyo cristalino que refleja la luz, resplandor etéreo azul y turquesa, atmósfera mágica, pintura digital",
+        "fr": "Un majestueux cerf-esprit fait de lumière bioluminescente translucide, debout dans une ancienne forêt brumeuse la nuit, des bois qui se prolongent en branches lumineuses couvertes de petites fleurs, lucioles et spores en suspension, arbres géants couverts de mousse, un petit ruisseau limpide reflétant la lumière, lueur éthérée bleue et turquoise, atmosphère magique, peinture numérique",
+        "de": "Ein majestätischer Geisterhirsch aus durchscheinendem biolumineszentem Licht steht nachts in einem uralten nebligen Wald, das Geweih wächst zu leuchtenden Ästen mit winzigen Blüten, schwebende Glühwürmchen und Sporen, riesige moosbedeckte Bäume, ein kleiner klarer Bach spiegelt das Licht, ätherisches blaues und türkises Leuchten, magische Atmosphäre, digitale Malerei",
+        "pt": "Um majestoso cervo espiritual feito de luz bioluminescente translúcida, de pé numa antiga floresta enevoada à noite, chifres que se transformam em galhos luminosos com pequenas flores, vaga-lumes e esporos flutuando, árvores gigantes cobertas de musgo, um pequeno riacho cristalino refletindo a luz, brilho etéreo azul e turquesa, atmosfera mágica, pintura digital"
+      }
+    },
+    {
+      "id": "steampunk-airship-market",
+      "category": "fantasy",
+      "model": "openai/gpt-image-2.5-flare-t2i",
+      "aspect_ratio": "16:9",
+      "title": {"en": "Steampunk Airship Market", "zh": "蒸汽朋克飞艇集市", "ja": "スチームパンクの飛行船市場", "ko": "스팀펑크 비행선 시장", "es": "Mercado de dirigibles steampunk", "fr": "Marché de dirigeables steampunk", "de": "Steampunk-Luftschiffmarkt", "pt": "Mercado de dirigíveis steampunk"},
+      "prompt": {
+        "en": "A bustling steampunk sky market docked between brass towers above the clouds, dozens of airships with patched canvas balloons and copper propellers, merchant stalls with gears, clocks and exotic spices, crowds in Victorian clothing with goggles, steam and smoke drifting, warm sepia and amber tones, intricate detail, wide cinematic shot",
+        "zh": "熙熙攘攘的蒸汽朋克空中集市，停靠在云层之上的黄铜高塔之间，数十艘飞艇带着打着补丁的帆布气囊和铜制螺旋桨，商摊上摆满齿轮、钟表和异域香料，人群身着维多利亚时代服装、戴着护目镜，蒸汽与烟雾飘散，温暖的棕褐与琥珀色调，细节繁复，电影感宽画幅",
+        "ja": "雲の上の真鍮の塔の間に停泊する賑やかなスチームパンクの空中市場、継ぎはぎの帆布の気嚢と銅のプロペラを備えた何十隻もの飛行船、歯車や時計、異国のスパイスが並ぶ露店、ゴーグルを着けたヴィクトリア朝の服装の群衆、漂う蒸気と煙、温かみのあるセピアと琥珀色のトーン、緻密なディテール、シネマティックなワイドショット",
+        "ko": "구름 위 황동 탑들 사이에 정박한 북적이는 스팀펑크 하늘 시장, 덧댄 캔버스 기낭과 구리 프로펠러를 단 수십 척의 비행선, 톱니바퀴·시계·이국적인 향신료를 파는 노점, 고글을 쓴 빅토리아 시대 복장의 군중, 피어오르는 증기와 연기, 따뜻한 세피아와 앰버 톤, 정교한 디테일, 시네마틱 와이드 샷",
+        "es": "Un bullicioso mercado aéreo steampunk atracado entre torres de latón sobre las nubes, decenas de dirigibles con globos de lona remendada y hélices de cobre, puestos de comerciantes con engranajes, relojes y especias exóticas, multitudes con ropa victoriana y gafas de aviador, vapor y humo a la deriva, tonos cálidos sepia y ámbar, detalle intrincado, plano panorámico cinematográfico",
+        "fr": "Un marché céleste steampunk animé amarré entre des tours de laiton au-dessus des nuages, des dizaines de dirigeables aux ballons de toile rapiécée et aux hélices en cuivre, étals de marchands avec engrenages, horloges et épices exotiques, foule en tenue victorienne avec lunettes d'aviateur, vapeur et fumée qui dérivent, tons chauds sépia et ambre, détails complexes, plan large cinématographique",
+        "de": "Ein belebter Steampunk-Himmelsmarkt, angedockt zwischen Messingtürmen über den Wolken, Dutzende Luftschiffe mit geflickten Segeltuchballons und Kupferpropellern, Händlerstände mit Zahnrädern, Uhren und exotischen Gewürzen, Menschenmengen in viktorianischer Kleidung mit Schutzbrillen, ziehender Dampf und Rauch, warme Sepia- und Bernsteintöne, kunstvolle Details, breite filmische Einstellung",
+        "pt": "Um movimentado mercado aéreo steampunk ancorado entre torres de latão acima das nuvens, dezenas de dirigíveis com balões de lona remendada e hélices de cobre, barracas de mercadores com engrenagens, relógios e especiarias exóticas, multidões em roupas vitorianas com óculos de proteção, vapor e fumaça à deriva, tons quentes de sépia e âmbar, detalhes intrincados, plano aberto cinematográfico"
+      }
+    }
+  ]
+}
