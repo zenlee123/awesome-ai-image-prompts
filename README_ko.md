@@ -3,7 +3,7 @@
 # Awesome AI Image Prompts
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Prompts](https://img.shields.io/badge/prompts-24-blue)](#photography)
+[![Prompts](https://img.shields.io/badge/prompts-39-blue)](#photography)
 [![Languages](https://img.shields.io/badge/languages-8-green)](#)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/zenlee123/awesome-ai-image-prompts?style=social)](https://github.com/zenlee123/awesome-ai-image-prompts)
@@ -63,6 +63,29 @@ API 키도 설정도 필요 없습니다. [AIImage.com](https://aiimage.com/ko?u
 <td align="center" width="25%"><a href="#forest-spirit-deer"><img src="images/forest-spirit-deer.webp" alt="빛나는 숲의 정령"><br><sub>빛나는 숲의 정령</sub></a></td>
 <td align="center" width="25%"><a href="#steampunk-airship-market"><img src="images/steampunk-airship-market.webp" alt="스팀펑크 비행선 시장"><br><sub>스팀펑크 비행선 시장</sub></a></td>
 </tr>
+<tr>
+<td align="center" width="25%"><a href="#coffee-journey-infographic"><img src="images/coffee-journey-infographic.webp" alt="원두에서 커피잔까지 인포그래픽"><br><sub>원두에서 커피잔까지 인포그래픽</sub></a></td>
+<td align="center" width="25%"><a href="#volcano-cross-section"><img src="images/volcano-cross-section.webp" alt="화산 단면도"><br><sub>화산 단면도</sub></a></td>
+<td align="center" width="25%"><a href="#water-cycle-kids"><img src="images/water-cycle-kids.webp" alt="어린이를 위한 물의 순환"><br><sub>어린이를 위한 물의 순환</sub></a></td>
+<td align="center" width="25%"><a href="#ranger-turnaround-sheet"><img src="images/ranger-turnaround-sheet.webp" alt="캐릭터 턴어라운드 시트"><br><sub>캐릭터 턴어라운드 시트</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#pixel-rpg-items"><img src="images/pixel-rpg-items.webp" alt="픽셀 아트 RPG 아이템 세트"><br><sub>픽셀 아트 RPG 아이템 세트</sub></a></td>
+<td align="center" width="25%"><a href="#mobile-game-level-map"><img src="images/mobile-game-level-map.webp" alt="모바일 게임 레벨 맵"><br><sub>모바일 게임 레벨 맵</sub></a></td>
+<td align="center" width="25%"><a href="#youtube-thumbnail-30days"><img src="images/youtube-thumbnail-30days.webp" alt="바이럴 유튜브 썸네일"><br><sub>바이럴 유튜브 썸네일</sub></a></td>
+<td align="center" width="25%"><a href="#instagram-carousel-cover"><img src="images/instagram-carousel-cover.webp" alt="인스타그램 캐러셀 표지"><br><sub>인스타그램 캐러셀 표지</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#shiba-sticker-pack"><img src="images/shiba-sticker-pack.webp" alt="시바견 스티커 팩"><br><sub>시바견 스티커 팩</sub></a></td>
+<td align="center" width="25%"><a href="#y2k-digicam-night-market"><img src="images/y2k-digicam-night-market.webp" alt="Y2K 디카로 찍은 야시장"><br><sub>Y2K 디카로 찍은 야시장</sub></a></td>
+<td align="center" width="25%"><a href="#vhs-mall-1989"><img src="images/vhs-mall-1989.webp" alt="1989년 VHS 속 쇼핑몰"><br><sub>1989년 VHS 속 쇼핑몰</sub></a></td>
+<td align="center" width="25%"><a href="#polaroid-desert-roadtrip"><img src="images/polaroid-desert-roadtrip.webp" alt="폴라로이드 사막 로드트립"><br><sub>폴라로이드 사막 로드트립</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#edit-fox-autumn"><img src="images/edit-fox-autumn.webp" alt="계절 바꾸기"><br><sub>계절 바꾸기</sub></a></td>
+<td align="center" width="25%"><a href="#edit-fisherman-charcoal"><img src="images/edit-fisherman-charcoal.webp" alt="사진을 목탄 스케치로"><br><sub>사진을 목탄 스케치로</sub></a></td>
+<td align="center" width="25%"><a href="#edit-matcha-ecommerce"><img src="images/edit-matcha-ecommerce.webp" alt="라이프스타일 사진을 쇼핑몰 대표 이미지로"><br><sub>라이프스타일 사진을 쇼핑몰 대표 이미지로</sub></a></td>
+</tr>
 </table>
 
 ## 목차
@@ -75,6 +98,11 @@ API 키도 설정도 필요 없습니다. [AIImage.com](https://aiimage.com/ko?u
 - [3D & 아이콘](#3d)
 - [건축 & 인테리어](#architecture)
 - [판타지 & 콘셉트 아트](#fantasy)
+- [인포그래픽 & 교육](#infographic)
+- [캐릭터 시트 & 게임 에셋](#character)
+- [소셜 미디어 & 썸네일](#social)
+- [레트로 & 로파이 감성](#retro)
+- [이미지 편집 (전 → 후)](#editing)
 - [무료 이미지 도구](#tools)
 - [API로 생성하기](#api)
 - [프롬프트 작성 팁](#tips)
@@ -588,6 +616,326 @@ A majestic spirit deer made of translucent bioluminescent light standing in an a
 
 ```text
 A bustling steampunk sky market docked between brass towers above the clouds, dozens of airships with patched canvas balloons and copper propellers, merchant stalls with gears, clocks and exotic spices, crowds in Victorian clothing with goggles, steam and smoke drifting, warm sepia and amber tones, intricate detail, wide cinematic shot
+```
+
+</details>
+
+<a id="infographic"></a>
+
+## 인포그래픽 & 교육
+
+<a id="coffee-journey-infographic"></a>
+
+### 원두에서 커피잔까지 인포그래픽
+
+<img src="images/coffee-journey-infographic.webp" width="560" alt="원두에서 커피잔까지 인포그래픽">
+
+```text
+"FROM BEAN TO CUP"라는 제목의 깔끔한 세로형 인포그래픽, 점선 경로로 연결된 번호가 매겨진 6단계: 1 Harvest, 2 Dry, 3 Roast, 4 Grind, 5 Brew, 6 Enjoy, 단계마다 플랫 벡터 일러스트와 한 줄 설명, 따뜻한 커피 브라운과 크림 색조에 청록색 포인트, 넉넉한 여백, 모던한 산세리프 서체, 매거진 에디토리얼 스타일
+```
+
+**모델:** GPT Image 2.5 · **화면 비율:** `3:4` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Clean vertical infographic titled "FROM BEAN TO CUP", six numbered steps connected by a dotted path: 1 Harvest, 2 Dry, 3 Roast, 4 Grind, 5 Brew, 6 Enjoy, each step with a flat vector illustration and a one-line caption, warm coffee-brown and cream palette with a teal accent, generous white space, modern sans-serif typography, editorial magazine style
+```
+
+</details>
+
+<a id="volcano-cross-section"></a>
+
+### 화산 단면도
+
+<img src="images/volcano-cross-section.webp" width="560" alt="화산 단면도">
+
+```text
+학교 교과서용으로 분화 중인 성층화산의 교육용 단면도, 마그마 방, 주 화도, 측면 분화구, 화산재와 용암 층, 위로 솟은 화산재 구름을 보여 주는 절개도, 가는 지시선이 달린 명확한 영어 라벨: "Magma Chamber", "Main Vent", "Lava Flow", "Ash Cloud", "Crust", 정교한 손그림 일러스트 스타일, 차가운 흙빛 위에 따뜻한 빨강과 주황, 흰 배경
+```
+
+**모델:** Gemini 3 Pro Image · **화면 비율:** `4:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Educational cross-section diagram of an erupting stratovolcano for a school textbook, cutaway showing the magma chamber, main vent, side vent, layers of ash and lava, and an ash cloud above, clear English labels with thin leader lines: "Magma Chamber", "Main Vent", "Lava Flow", "Ash Cloud", "Crust", detailed hand-painted illustration style, warm reds and oranges against cool earth tones, white background
+```
+
+</details>
+
+<a id="water-cycle-kids"></a>
+
+### 어린이를 위한 물의 순환
+
+<img src="images/water-cycle-kids.webp" width="560" alt="어린이를 위한 물의 순환">
+
+```text
+물의 순환을 설명하는 밝은 어린이 교육 포스터, 바다와 산과 마을이 있는 풍경, 바다에서의 증발, 구름으로의 응결, 산에 내리는 비, 다시 바다로 흐르는 강을 보여 주는 곡선 화살표, 웃는 해와 귀여운 구름 캐릭터, 큼직한 둥근 글씨 라벨 "Evaporation", "Condensation", "Precipitation", "Collection", 밝고 친근한 색감, 부드러운 2D 카툰 스타일
+```
+
+**모델:** Nano Banana 2.1 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Cheerful children's educational poster explaining the water cycle, a landscape with sea, mountains and a village, curved arrows showing evaporation from the sea, condensation into clouds, rain falling on the mountains and rivers flowing back, a smiling sun and cute cloud characters, large rounded labels "Evaporation", "Condensation", "Precipitation", "Collection", bright friendly colors, soft 2D cartoon style
+```
+
+</details>
+
+<a id="character"></a>
+
+## 캐릭터 시트 & 게임 에셋
+
+<a id="ranger-turnaround-sheet"></a>
+
+### 캐릭터 턴어라운드 시트
+
+<img src="images/ranger-turnaround-sheet.webp" width="560" alt="캐릭터 턴어라운드 시트">
+
+```text
+오리지널 젊은 숲 레인저 소녀의 전문 캐릭터 디자인 턴어라운드 시트, 정면·측면·후면 전신을 나란히 배치, 적갈색 짧은 땋은 머리, 초록색 후드 망토, 가죽 갑옷, 장궁과 작은 여우 동료, 하단에 네 가지 표정 클로즈업(기쁨, 화남, 놀람, 졸림), 오른쪽에 컬러 팔레트 견본, 깔끔한 라인 아트와 플랫 셀 셰이딩, 연회색 배경
+```
+
+**모델:** Gemini 3 Pro Image · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Professional character design turnaround sheet of an original young forest ranger girl, full body shown in front view, side view and back view standing side by side, short auburn braid, green hooded cloak, leather armor, a longbow and a small fox companion, a row of four facial expression close-ups at the bottom (happy, angry, surprised, sleepy), color palette swatches on the right, clean line art with flat cel shading, light gray background
+```
+
+</details>
+
+<a id="pixel-rpg-items"></a>
+
+### 픽셀 아트 RPG 아이템 세트
+
+<img src="images/pixel-rpg-items.webp" width="560" alt="픽셀 아트 RPG 아이템 세트">
+
+```text
+짙은 슬레이트색 배경 위에 4×4 그리드로 가지런히 배열된 판타지 RPG 아이템의 16비트 픽셀 아트 스프라이트 시트: 빨간 체력 포션, 파란 마나 포션, 철검, 황금 열쇠, 나무 방패, 마법 두루마리, 보물상자, 빛나는 크리스털, 활과 화살, 가죽 부츠, 루비 반지, 빵, 폭탄, 깃털, 해골, 금화, 각 아이템은 얇은 테두리 칸의 중앙에 배치, 선명한 픽셀, 제한된 레트로 팔레트, 게임 에셋
+```
+
+**모델:** GPT Image 2.5 · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+16-bit pixel art sprite sheet of fantasy RPG items arranged in a neat 4x4 grid on a dark slate background: red health potion, blue mana potion, iron sword, golden key, wooden shield, magic scroll, treasure chest, glowing crystal, bow and arrow, leather boots, ruby ring, bread loaf, bomb, feather, skull, gold coins, each item centered in its own cell with a thin border, crisp pixels, limited retro palette, game asset
+```
+
+</details>
+
+<a id="mobile-game-level-map"></a>
+
+### 모바일 게임 레벨 맵
+
+<img src="images/mobile-game-level-map.webp" width="560" alt="모바일 게임 레벨 맵">
+
+```text
+세로형 모바일 퍼즐 게임의 레벨 선택 맵 화면, 해변, 버섯 숲, 눈 덮인 봉우리, 구름 위의 성이 있는 신비한 섬을 오르는 캔디색 구불구불한 길, 길을 따라 1부터 12까지 번호가 매겨진 둥근 레벨 버튼, 클리어한 레벨 아래 금색 별, 빛나는 현재 레벨 마커, 하트·코인·설정 버튼이 있는 상단 UI 바, 광택 있는 캐주얼 게임 아트 스타일, 밝고 채도 높은 색감
+```
+
+**모델:** Nano Banana 2.1 · **화면 비율:** `9:16` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Vertical mobile puzzle game level-select map screen, a winding candy-colored path climbing through a whimsical island with a beach, a mushroom forest, a snowy peak and a castle in the clouds, numbered round level buttons 1 to 12 along the path with gold stars under the completed ones, a glowing current level marker, top bar UI with hearts, coins and a settings button, glossy casual game art style, bright saturated colors
+```
+
+</details>
+
+<a id="social"></a>
+
+## 소셜 미디어 & 썸네일
+
+<a id="youtube-thumbnail-30days"></a>
+
+### 바이럴 유튜브 썸네일
+
+<img src="images/youtube-thumbnail-30days.webp" width="560" alt="바이럴 유튜브 썸네일">
+
+```text
+에너지 넘치는 유튜브 썸네일, 왼쪽에는 과장되게 놀란 표정으로 오른쪽을 가리키는 젊은 남성, 오른쪽에는 지저분한 책상이 완벽하게 정리된 미니멀 셋업으로 바뀌는 전후 비교 분할 화면, 그 사이에 커다란 빨간 곡선 화살표, 검은 테두리를 두른 거대한 흰색 굵은 글씨 "30 DAYS"와 작은 노란 글씨 "NO PHONE", 밝고 채도 높은 색감, 인물에 강한 림 라이트, 깔끔한 누끼 느낌, 시선을 끄는 구도
+```
+
+**모델:** GPT Image 2.5 · **화면 비율:** `16:9` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+High-energy YouTube thumbnail, on the left a young man with an exaggerated shocked expression pointing to the right, on the right a split before/after of a messy desk turning into a perfectly organized minimalist setup, a big red curved arrow between them, huge bold white text with black outline "30 DAYS" and smaller yellow text "NO PHONE", bright saturated colors, strong rim light on the person, clean cut-out look, eye-catching composition
+```
+
+</details>
+
+<a id="instagram-carousel-cover"></a>
+
+### 인스타그램 캐러셀 표지
+
+<img src="images/instagram-carousel-cover.webp" width="560" alt="인스타그램 캐러셀 표지">
+
+```text
+부드러운 감성 스타일의 인스타그램 캐러셀 표지 슬라이드, 크고 우아한 세리프 헤드라인 "5 Morning Habits That Changed My Life", 손글씨 느낌의 작은 부제 "swipe →", 하단에는 물 한 잔, 다이어리, 유칼립투스 가지가 놓인 햇살 드는 협탁 사진, 따뜻한 베이지와 세이지 그린 색조, 은은한 종이 질감, 위계가 분명한 균형 잡힌 레이아웃
+```
+
+**모델:** Gemini 3 Pro Image · **화면 비율:** `4:5` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Instagram carousel cover slide in a soft aesthetic style, large elegant serif headline "5 Morning Habits That Changed My Life", a small handwritten-style subtitle "swipe →", a photo of a sunlit bedside table with a glass of water, a journal and a sprig of eucalyptus in the lower half, warm beige and sage green palette, subtle paper grain texture, balanced layout with clear hierarchy
+```
+
+</details>
+
+<a id="shiba-sticker-pack"></a>
+
+### 시바견 스티커 팩
+
+<img src="images/shiba-sticker-pack.webp" width="560" alt="시바견 스티커 팩">
+
+```text
+같은 통통한 카툰 시바견이 등장하는 채팅 스티커 9개를 3×3 그리드로 배치한 스티커 시트, 각각 다른 감정과 짧고 굵은 문구: 손 흔들기 "Hi!", 하트 눈 "Love it", 엉엉 울기 "Nooo", 잠자기 "Zzz", 엄지척 "OK!", 화남 "Hmph", 빵 터짐 "LOL", 국수 먹기 "Yum", 이불 속에 숨기 "Bye", 스티커마다 두꺼운 흰색 다이컷 테두리, 일관된 캐릭터 디자인, 부드러운 파스텔 색상, 카와이 스타일
+```
+
+**모델:** Nano Banana 2.1 · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Sticker sheet of 9 chat stickers featuring the same chubby cartoon shiba inu in a 3x3 grid, each with a different emotion and a short bold caption: waving "Hi!", heart eyes "Love it", crying "Nooo", sleeping "Zzz", thumbs up "OK!", angry "Hmph", laughing "LOL", eating noodles "Yum", hiding under a blanket "Bye", thick white die-cut outline around each sticker, consistent character design, soft pastel colors, kawaii style
+```
+
+</details>
+
+<a id="retro"></a>
+
+## 레트로 & 로파이 감성
+
+<a id="y2k-digicam-night-market"></a>
+
+### Y2K 디카로 찍은 야시장
+
+<img src="images/y2k-digicam-night-market.webp" width="560" alt="Y2K 디카로 찍은 야시장">
+
+```text
+붐비는 아시아 야시장에서 2000년대 초 컴팩트 디지털카메라로 찍은 캔디드 사진, 꼬치와 버블티를 나눠 먹으며 웃는 세 친구, 강한 카메라 내장 플래시 직광, 살짝 과다 노출된 얼굴, 알록달록한 노점 불빛이 있는 어두운 배경, 저해상도 CCD 센서 느낌, 약간의 노이즈와 색수차, 오른쪽 아래 주황색 디지털 날짜 스탬프 "'04 07 18", 향수를 자아내는 자연스러운 분위기
+```
+
+**모델:** Gemini 3 Pro Image · **화면 비율:** `4:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Candid photo taken with an early 2000s compact digital camera at a crowded Asian night market, three friends laughing and sharing skewers and bubble tea, harsh direct on-camera flash, slightly overexposed faces, dark background with colorful stall lights, low resolution CCD sensor look, slight noise and chromatic aberration, orange digital date stamp "'04 07 18" in the bottom right corner, nostalgic and spontaneous
+```
+
+</details>
+
+<a id="vhs-mall-1989"></a>
+
+### 1989년 VHS 속 쇼핑몰
+
+<img src="images/vhs-mall-1989.webp" width="560" alt="1989년 VHS 속 쇼핑몰">
+
+```text
+쇼핑몰에서 녹화한 1989년 홈비디오 테이프의 정지 화면, 파스텔 네온 상점 간판, 야자수가 있는 분수, 부풀린 헤어와 청재킷 차림의 십대들, 천창이 있는 아트리움, VHS 특유의 결함: 가로 트래킹 라인, 색 번짐, 부드럽게 흐릿한 디테일, 바랜 색감, 인터레이스, 모서리에 흰색 캠코더 타임스탬프 "PLAY ▶  JUN 12 1989  4:37 PM", 진짜 4:3 아날로그 비디오 느낌
+```
+
+**모델:** GPT Image 2.5 · **화면 비율:** `4:3` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Still frame from a 1989 home video tape recorded in a shopping mall, pastel neon storefronts, a fountain with palm trees, teenagers with big hair and denim jackets, skylight atrium, VHS artifacts: horizontal tracking lines, color bleeding, soft blurry detail, washed-out colors, interlacing, white camcorder timestamp "PLAY ▶  JUN 12 1989  4:37 PM" in the corner, authentic 4:3 analog video look
+```
+
+</details>
+
+<a id="polaroid-desert-roadtrip"></a>
+
+### 폴라로이드 사막 로드트립
+
+<img src="images/polaroid-desert-roadtrip.webp" width="560" alt="폴라로이드 사막 로드트립">
+
+```text
+자동차 대시보드 위에 놓인 빈티지 폴라로이드 사진, 사진 속에는 해 질 녘 텅 빈 사막 고속도로에서 키 큰 사와로 선인장 옆에 세워진 터키석 색 1970년대 컨버터블, 바랜 따뜻한 색감, 부드러운 비네팅, 약간의 빛샘, 두꺼운 흰색 폴라로이드 테두리에 마커로 쓴 손글씨 "Route 66, summer", 옆에 선글라스와 종이 지도, 향수를 부르는 필름 사진
+```
+
+**모델:** Nano Banana 2.1 · **화면 비율:** `4:5` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+A vintage instant Polaroid photo lying on a car dashboard, the photo shows a turquoise 1970s convertible parked on an empty desert highway beside a tall saguaro cactus at sunset, faded warm colors, soft vignette, slight light leak, thick white Polaroid border with handwritten marker text "Route 66, summer", sunglasses and a paper map next to it, nostalgic film photography
+```
+
+</details>
+
+<a id="editing"></a>
+
+## 이미지 편집 (전 → 후)
+
+<a id="edit-fox-autumn"></a>
+
+### 계절 바꾸기
+
+<table><tr><td width="48%"><img src="images/fox-snow-forest.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-fox-autumn.webp" alt="계절 바꾸기"></td></tr></table>
+
+```text
+이 사진의 계절을 겨울에서 황금빛 가을로 바꿔 주세요: 눈을 떨어진 주황색과 빨간색 단풍잎으로 바꾸고, 나무에 따뜻한 가을 단풍을 입히고, 빛은 부드러운 늦은 오후의 노을빛으로 해 주세요. 여우, 자세, 통나무, 카메라 앵글은 그대로 유지하세요.
+```
+
+**모델:** Nano Banana 2.1 Edit · **화면 비율:** `3:2` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Change the season of this photo from winter to golden autumn: replace the snow with fallen orange and red maple leaves, give the trees warm autumn foliage, and make the light a soft late-afternoon glow. Keep the fox, its pose, the log and the camera angle exactly the same.
+```
+
+</details>
+
+<a id="edit-fisherman-charcoal"></a>
+
+### 사진을 목탄 스케치로
+
+<table><tr><td width="48%"><img src="images/elderly-fisherman.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-fisherman-charcoal.webp" alt="사진을 목탄 스케치로"></td></tr></table>
+
+```text
+이 사진을 질감 있는 미색 종이에 그린 사실적인 목탄 드로잉으로 바꿔 주세요: 주름과 수염은 표현력 있는 해칭으로, 배경은 깊게 문지른 검정으로, 가장자리에는 느슨한 밑그림 선 몇 개를 남기고, 모서리에 작은 작가 서명을 넣어 주세요. 얼굴, 표정, 구도는 그대로 유지하세요.
+```
+
+**모델:** Nano Banana 2.1 Edit · **화면 비율:** `3:4` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Turn this photo into a realistic charcoal drawing on textured off-white paper: expressive hatching strokes for the wrinkles and beard, deep smudged blacks in the background, a few loose construction lines at the edges, and a small artist signature in the corner. Keep the face, expression and composition the same.
+```
+
+</details>
+
+<a id="edit-matcha-ecommerce"></a>
+
+### 라이프스타일 사진을 쇼핑몰 대표 이미지로
+
+<table><tr><td width="48%"><img src="images/matcha-latte-flatlay.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-matcha-ecommerce.webp" alt="라이프스타일 사진을 쇼핑몰 대표 이미지로"></td></tr></table>
+
+```text
+이 플랫레이를 깔끔한 쇼핑몰 제품 이미지로 바꿔 주세요: 도자기 컵에 담긴 말차 라테만 분리해 순백 배경 위에 살짝 비스듬한 3/4 각도로 부드럽고 자연스러운 그림자와 함께 보여 주고, 나뭇잎 라테아트와 컵의 유약 질감은 유지하며, 왼쪽 위에 작고 굵은 라벨 "MATCHA LATTE"를 추가하세요.
+```
+
+**모델:** Nano Banana 2.1 Edit · **화면 비율:** `1:1` · [**▶ AIImage에서 사용해 보기**](https://aiimage.com/ko/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Turn this flat lay into a clean e-commerce product image: isolate only the ceramic cup of matcha latte, show it at a slight three-quarter angle on a pure white background with a soft natural shadow, keep the leaf latte art and the cup's glaze texture, and add a small bold label "MATCHA LATTE" in the top left corner.
 ```
 
 </details>

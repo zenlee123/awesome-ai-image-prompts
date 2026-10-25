@@ -20,6 +20,7 @@ MODEL_NAMES = {
     "google/gemini-nano-banana-2.1-t2i": "Nano Banana 2.1",
     "google/gemini-3-pro-image-t2i": "Gemini 3 Pro Image",
     "openai/gpt-image-2.5-flare-t2i": "GPT Image 2.5",
+    "google/gemini-nano-banana-2.1-edit": "Nano Banana 2.1 Edit",
 }
 
 UI = {
@@ -261,6 +262,7 @@ MODEL_PAGES = {
     "google/gemini-nano-banana-2.1-t2i": "nano-banana-2",
     "google/gemini-3-pro-image-t2i": "nano-banana-pro",
     "openai/gpt-image-2.5-flare-t2i": "gpt-image-2-5",
+    "google/gemini-nano-banana-2.1-edit": "image-to-image",
 }
 
 TOOL_PAGES = ["background-remover", "remove-object", "change-background-color",
@@ -272,6 +274,17 @@ UTM = "utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts
 def site(lang, path=""):
     parts = [x for x in ("" if lang == "en" else lang, path) if x]
     return f"https://aiimage.com/{'/'.join(parts)}?{UTM}"
+
+
+def image_block(p, lang):
+    if not p.get("input"):
+        return f'<img src="images/{p["id"]}.webp" width="560" alt="{p["title"][lang]}">'
+    # Edit prompts: source image → edited result, side by side
+    return ('<table><tr>'
+            f'<td width="48%"><img src="images/{p["input"]}.webp" alt="input"></td>'
+            '<td align="center">→</td>'
+            f'<td width="48%"><img src="images/{p["id"]}.webp" alt="{p["title"][lang]}"></td>'
+            '</tr></table>')
 
 
 def readme_name(lang):
@@ -344,7 +357,7 @@ def build(lang, data):
                 "",
                 f'### {p["title"][lang]}',
                 "",
-                f'<img src="images/{p["id"]}.webp" width="560" alt="{p["title"][lang]}">',
+                image_block(p, lang),
                 "",
                 "```text",
                 p["prompt"][lang],

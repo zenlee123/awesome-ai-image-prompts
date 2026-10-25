@@ -3,7 +3,7 @@
 # Awesome AI Image Prompts
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Prompts](https://img.shields.io/badge/prompts-24-blue)](#photography)
+[![Prompts](https://img.shields.io/badge/prompts-39-blue)](#photography)
 [![Languages](https://img.shields.io/badge/languages-8-green)](#)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/zenlee123/awesome-ai-image-prompts?style=social)](https://github.com/zenlee123/awesome-ai-image-prompts)
@@ -63,6 +63,29 @@
 <td align="center" width="25%"><a href="#forest-spirit-deer"><img src="images/forest-spirit-deer.webp" alt="发光的森林之灵"><br><sub>发光的森林之灵</sub></a></td>
 <td align="center" width="25%"><a href="#steampunk-airship-market"><img src="images/steampunk-airship-market.webp" alt="蒸汽朋克飞艇集市"><br><sub>蒸汽朋克飞艇集市</sub></a></td>
 </tr>
+<tr>
+<td align="center" width="25%"><a href="#coffee-journey-infographic"><img src="images/coffee-journey-infographic.webp" alt="从咖啡豆到咖啡杯信息图"><br><sub>从咖啡豆到咖啡杯信息图</sub></a></td>
+<td align="center" width="25%"><a href="#volcano-cross-section"><img src="images/volcano-cross-section.webp" alt="火山剖面科普图"><br><sub>火山剖面科普图</sub></a></td>
+<td align="center" width="25%"><a href="#water-cycle-kids"><img src="images/water-cycle-kids.webp" alt="儿童版水循环图"><br><sub>儿童版水循环图</sub></a></td>
+<td align="center" width="25%"><a href="#ranger-turnaround-sheet"><img src="images/ranger-turnaround-sheet.webp" alt="角色三视图设定稿"><br><sub>角色三视图设定稿</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#pixel-rpg-items"><img src="images/pixel-rpg-items.webp" alt="像素风 RPG 道具图集"><br><sub>像素风 RPG 道具图集</sub></a></td>
+<td align="center" width="25%"><a href="#mobile-game-level-map"><img src="images/mobile-game-level-map.webp" alt="手游关卡地图"><br><sub>手游关卡地图</sub></a></td>
+<td align="center" width="25%"><a href="#youtube-thumbnail-30days"><img src="images/youtube-thumbnail-30days.webp" alt="爆款 YouTube 封面"><br><sub>爆款 YouTube 封面</sub></a></td>
+<td align="center" width="25%"><a href="#instagram-carousel-cover"><img src="images/instagram-carousel-cover.webp" alt="小红书 / Instagram 图文封面"><br><sub>小红书 / Instagram 图文封面</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#shiba-sticker-pack"><img src="images/shiba-sticker-pack.webp" alt="柴犬表情包"><br><sub>柴犬表情包</sub></a></td>
+<td align="center" width="25%"><a href="#y2k-digicam-night-market"><img src="images/y2k-digicam-night-market.webp" alt="千禧年 CCD 相机夜市"><br><sub>千禧年 CCD 相机夜市</sub></a></td>
+<td align="center" width="25%"><a href="#vhs-mall-1989"><img src="images/vhs-mall-1989.webp" alt="1989 年录像带里的商场"><br><sub>1989 年录像带里的商场</sub></a></td>
+<td align="center" width="25%"><a href="#polaroid-desert-roadtrip"><img src="images/polaroid-desert-roadtrip.webp" alt="拍立得沙漠公路旅行"><br><sub>拍立得沙漠公路旅行</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#edit-fox-autumn"><img src="images/edit-fox-autumn.webp" alt="一键换季"><br><sub>一键换季</sub></a></td>
+<td align="center" width="25%"><a href="#edit-fisherman-charcoal"><img src="images/edit-fisherman-charcoal.webp" alt="照片转炭笔素描"><br><sub>照片转炭笔素描</sub></a></td>
+<td align="center" width="25%"><a href="#edit-matcha-ecommerce"><img src="images/edit-matcha-ecommerce.webp" alt="生活照转电商主图"><br><sub>生活照转电商主图</sub></a></td>
+</tr>
 </table>
 
 ## 目录
@@ -75,6 +98,11 @@
 - [3D 与图标](#3d)
 - [建筑与室内](#architecture)
 - [奇幻与概念艺术](#fantasy)
+- [信息图与科普](#infographic)
+- [角色设定与游戏素材](#character)
+- [社交媒体与封面](#social)
+- [复古与低保真质感](#retro)
+- [图片编辑（前 → 后）](#editing)
 - [免费图片工具](#tools)
 - [通过 API 生成](#api)
 - [提示词写作技巧](#tips)
@@ -588,6 +616,326 @@ A majestic spirit deer made of translucent bioluminescent light standing in an a
 
 ```text
 A bustling steampunk sky market docked between brass towers above the clouds, dozens of airships with patched canvas balloons and copper propellers, merchant stalls with gears, clocks and exotic spices, crowds in Victorian clothing with goggles, steam and smoke drifting, warm sepia and amber tones, intricate detail, wide cinematic shot
+```
+
+</details>
+
+<a id="infographic"></a>
+
+## 信息图与科普
+
+<a id="coffee-journey-infographic"></a>
+
+### 从咖啡豆到咖啡杯信息图
+
+<img src="images/coffee-journey-infographic.webp" width="560" alt="从咖啡豆到咖啡杯信息图">
+
+```text
+简洁的竖版信息图，标题 "FROM BEAN TO CUP"，六个带编号的步骤由虚线路径串联：1 Harvest、2 Dry、3 Roast、4 Grind、5 Brew、6 Enjoy，每一步配一幅扁平矢量插画和一行说明文字，温暖的咖啡棕与奶油色配色，点缀青绿色，大量留白，现代无衬线字体，杂志编辑风格
+```
+
+**模型:** GPT Image 2.5 · **画面比例:** `3:4` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Clean vertical infographic titled "FROM BEAN TO CUP", six numbered steps connected by a dotted path: 1 Harvest, 2 Dry, 3 Roast, 4 Grind, 5 Brew, 6 Enjoy, each step with a flat vector illustration and a one-line caption, warm coffee-brown and cream palette with a teal accent, generous white space, modern sans-serif typography, editorial magazine style
+```
+
+</details>
+
+<a id="volcano-cross-section"></a>
+
+### 火山剖面科普图
+
+<img src="images/volcano-cross-section.webp" width="560" alt="火山剖面科普图">
+
+```text
+学校教科书用的喷发中的层状火山科普剖面图，剖切视图展示岩浆房、主火山口通道、侧火山口、火山灰与熔岩层，以及上方的火山灰云，用细引线标注清晰的英文标签："Magma Chamber"、"Main Vent"、"Lava Flow"、"Ash Cloud"、"Crust"，细致的手绘插画风格，温暖的红橙色对比冷调大地色，白色背景
+```
+
+**模型:** Gemini 3 Pro Image · **画面比例:** `4:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Educational cross-section diagram of an erupting stratovolcano for a school textbook, cutaway showing the magma chamber, main vent, side vent, layers of ash and lava, and an ash cloud above, clear English labels with thin leader lines: "Magma Chamber", "Main Vent", "Lava Flow", "Ash Cloud", "Crust", detailed hand-painted illustration style, warm reds and oranges against cool earth tones, white background
+```
+
+</details>
+
+<a id="water-cycle-kids"></a>
+
+### 儿童版水循环图
+
+<img src="images/water-cycle-kids.webp" width="560" alt="儿童版水循环图">
+
+```text
+欢快的儿童科普海报，讲解水循环：画面有大海、群山和村庄，弯曲的箭头表示海水蒸发、凝结成云、雨落在山上、河流再流回大海，配有微笑的太阳和可爱的云朵角色，大号圆体标签 "Evaporation"、"Condensation"、"Precipitation"、"Collection"，明亮友好的色彩，柔和的 2D 卡通风格
+```
+
+**模型:** Nano Banana 2.1 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Cheerful children's educational poster explaining the water cycle, a landscape with sea, mountains and a village, curved arrows showing evaporation from the sea, condensation into clouds, rain falling on the mountains and rivers flowing back, a smiling sun and cute cloud characters, large rounded labels "Evaporation", "Condensation", "Precipitation", "Collection", bright friendly colors, soft 2D cartoon style
+```
+
+</details>
+
+<a id="character"></a>
+
+## 角色设定与游戏素材
+
+<a id="ranger-turnaround-sheet"></a>
+
+### 角色三视图设定稿
+
+<img src="images/ranger-turnaround-sheet.webp" width="560" alt="角色三视图设定稿">
+
+```text
+专业的原创角色设计三视图设定稿：一位年轻的森林游侠少女，正面、侧面、背面三个全身视图并排站立，赤褐色短辫，绿色连帽斗篷，皮甲，一把长弓和一只小狐狸伙伴，底部一排四个表情特写（开心、生气、惊讶、困倦），右侧是配色色板，干净的线稿配平涂赛璐璐上色，浅灰色背景
+```
+
+**模型:** Gemini 3 Pro Image · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Professional character design turnaround sheet of an original young forest ranger girl, full body shown in front view, side view and back view standing side by side, short auburn braid, green hooded cloak, leather armor, a longbow and a small fox companion, a row of four facial expression close-ups at the bottom (happy, angry, surprised, sleepy), color palette swatches on the right, clean line art with flat cel shading, light gray background
+```
+
+</details>
+
+<a id="pixel-rpg-items"></a>
+
+### 像素风 RPG 道具图集
+
+<img src="images/pixel-rpg-items.webp" width="560" alt="像素风 RPG 道具图集">
+
+```text
+16 位像素风奇幻 RPG 道具精灵图集，在深石板色背景上整齐排成 4×4 网格：红色生命药水、蓝色法力药水、铁剑、金钥匙、木盾、魔法卷轴、宝箱、发光水晶、弓箭、皮靴、红宝石戒指、面包、炸弹、羽毛、骷髅、金币，每个道具居中放在带细边框的格子里，像素清晰锐利，有限的复古调色板，游戏素材
+```
+
+**模型:** GPT Image 2.5 · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+16-bit pixel art sprite sheet of fantasy RPG items arranged in a neat 4x4 grid on a dark slate background: red health potion, blue mana potion, iron sword, golden key, wooden shield, magic scroll, treasure chest, glowing crystal, bow and arrow, leather boots, ruby ring, bread loaf, bomb, feather, skull, gold coins, each item centered in its own cell with a thin border, crisp pixels, limited retro palette, game asset
+```
+
+</details>
+
+<a id="mobile-game-level-map"></a>
+
+### 手游关卡地图
+
+<img src="images/mobile-game-level-map.webp" width="560" alt="手游关卡地图">
+
+```text
+竖版手机休闲解谜游戏的关卡选择地图界面，一条糖果色的蜿蜒小路穿过奇趣的岛屿向上延伸，途经沙滩、蘑菇森林、雪峰和云中城堡，小路上依次排列编号 1 到 12 的圆形关卡按钮，已通关的下方有金色星星，当前关卡有发光标记，顶部 UI 栏显示爱心、金币和设置按钮，光泽感休闲游戏美术风格，明亮饱和的色彩
+```
+
+**模型:** Nano Banana 2.1 · **画面比例:** `9:16` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Vertical mobile puzzle game level-select map screen, a winding candy-colored path climbing through a whimsical island with a beach, a mushroom forest, a snowy peak and a castle in the clouds, numbered round level buttons 1 to 12 along the path with gold stars under the completed ones, a glowing current level marker, top bar UI with hearts, coins and a settings button, glossy casual game art style, bright saturated colors
+```
+
+</details>
+
+<a id="social"></a>
+
+## 社交媒体与封面
+
+<a id="youtube-thumbnail-30days"></a>
+
+### 爆款 YouTube 封面
+
+<img src="images/youtube-thumbnail-30days.webp" width="560" alt="爆款 YouTube 封面">
+
+```text
+高能量的 YouTube 视频封面：左边一个年轻男子露出夸张的震惊表情，手指向右侧，右边是前后对比的分屏——凌乱的书桌变成极简整洁的桌面布置，两者之间是一个大大的红色弯箭头，巨大的白色粗体字加黑色描边 "30 DAYS"，以及较小的黄色文字 "NO PHONE"，明亮饱和的色彩，人物有强烈的轮廓光，干净的抠图质感，吸睛构图
+```
+
+**模型:** GPT Image 2.5 · **画面比例:** `16:9` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+High-energy YouTube thumbnail, on the left a young man with an exaggerated shocked expression pointing to the right, on the right a split before/after of a messy desk turning into a perfectly organized minimalist setup, a big red curved arrow between them, huge bold white text with black outline "30 DAYS" and smaller yellow text "NO PHONE", bright saturated colors, strong rim light on the person, clean cut-out look, eye-catching composition
+```
+
+</details>
+
+<a id="instagram-carousel-cover"></a>
+
+### 小红书 / Instagram 图文封面
+
+<img src="images/instagram-carousel-cover.webp" width="560" alt="小红书 / Instagram 图文封面">
+
+```text
+柔和氛围感风格的 Instagram 图文轮播封面，大号优雅衬线体标题 "5 Morning Habits That Changed My Life"，手写风小副标题 "swipe →"，下半部分是一张阳光洒落的床头柜照片，上面放着一杯水、一本手账和一枝尤加利叶，温暖的米色与鼠尾草绿配色，细微的纸张颗粒质感，版式平衡、层级清晰
+```
+
+**模型:** Gemini 3 Pro Image · **画面比例:** `4:5` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Instagram carousel cover slide in a soft aesthetic style, large elegant serif headline "5 Morning Habits That Changed My Life", a small handwritten-style subtitle "swipe →", a photo of a sunlit bedside table with a glass of water, a journal and a sprig of eucalyptus in the lower half, warm beige and sage green palette, subtle paper grain texture, balanced layout with clear hierarchy
+```
+
+</details>
+
+<a id="shiba-sticker-pack"></a>
+
+### 柴犬表情包
+
+<img src="images/shiba-sticker-pack.webp" width="560" alt="柴犬表情包">
+
+```text
+9 个聊天表情贴纸组成的贴纸图，同一只胖乎乎的卡通柴犬按 3×3 网格排列，每个表情不同并配一句粗体短文字：挥手 "Hi!"、星星眼 "Love it"、大哭 "Nooo"、睡觉 "Zzz"、点赞 "OK!"、生气 "Hmph"、大笑 "LOL"、吃面 "Yum"、躲进被子 "Bye"，每个贴纸都有粗白色模切描边，角色设计保持一致，柔和的粉彩配色，日系可爱风
+```
+
+**模型:** Nano Banana 2.1 · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Sticker sheet of 9 chat stickers featuring the same chubby cartoon shiba inu in a 3x3 grid, each with a different emotion and a short bold caption: waving "Hi!", heart eyes "Love it", crying "Nooo", sleeping "Zzz", thumbs up "OK!", angry "Hmph", laughing "LOL", eating noodles "Yum", hiding under a blanket "Bye", thick white die-cut outline around each sticker, consistent character design, soft pastel colors, kawaii style
+```
+
+</details>
+
+<a id="retro"></a>
+
+## 复古与低保真质感
+
+<a id="y2k-digicam-night-market"></a>
+
+### 千禧年 CCD 相机夜市
+
+<img src="images/y2k-digicam-night-market.webp" width="560" alt="千禧年 CCD 相机夜市">
+
+```text
+用 2000 年代初的卡片数码相机在拥挤的亚洲夜市随手拍的照片，三个朋友笑着分享烤串和珍珠奶茶，生硬的机顶直闪，脸部略微过曝，深色背景中是五彩的摊位灯光，低分辨率 CCD 传感器质感，轻微噪点和色差，右下角有橙色数码日期戳 "'04 07 18"，怀旧又随性
+```
+
+**模型:** Gemini 3 Pro Image · **画面比例:** `4:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Candid photo taken with an early 2000s compact digital camera at a crowded Asian night market, three friends laughing and sharing skewers and bubble tea, harsh direct on-camera flash, slightly overexposed faces, dark background with colorful stall lights, low resolution CCD sensor look, slight noise and chromatic aberration, orange digital date stamp "'04 07 18" in the bottom right corner, nostalgic and spontaneous
+```
+
+</details>
+
+<a id="vhs-mall-1989"></a>
+
+### 1989 年录像带里的商场
+
+<img src="images/vhs-mall-1989.webp" width="560" alt="1989 年录像带里的商场">
+
+```text
+1989 年家用录像带在商场里录下的一帧画面，粉彩霓虹店面，带棕榈树的喷泉，留着蓬松大发型、穿牛仔夹克的青少年，天窗中庭，VHS 瑕疵：水平跟踪线、色彩溢出、柔和模糊的细节、褪色发白的色彩、隔行扫描纹，角落有白色摄像机时间戳 "PLAY ▶  JUN 12 1989  4:37 PM"，真实的 4:3 模拟录像质感
+```
+
+**模型:** GPT Image 2.5 · **画面比例:** `4:3` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Still frame from a 1989 home video tape recorded in a shopping mall, pastel neon storefronts, a fountain with palm trees, teenagers with big hair and denim jackets, skylight atrium, VHS artifacts: horizontal tracking lines, color bleeding, soft blurry detail, washed-out colors, interlacing, white camcorder timestamp "PLAY ▶  JUN 12 1989  4:37 PM" in the corner, authentic 4:3 analog video look
+```
+
+</details>
+
+<a id="polaroid-desert-roadtrip"></a>
+
+### 拍立得沙漠公路旅行
+
+<img src="images/polaroid-desert-roadtrip.webp" width="560" alt="拍立得沙漠公路旅行">
+
+```text
+一张复古拍立得相片放在汽车仪表台上，照片里是一辆 1970 年代绿松石色敞篷车，停在空旷的沙漠公路旁，旁边是一株高大的仙人掌，正值日落，褪色的暖调色彩，柔和暗角，轻微漏光，厚厚的白色拍立得边框上有马克笔手写字 "Route 66, summer"，旁边放着墨镜和纸质地图，怀旧胶片摄影
+```
+
+**模型:** Nano Banana 2.1 · **画面比例:** `4:5` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+A vintage instant Polaroid photo lying on a car dashboard, the photo shows a turquoise 1970s convertible parked on an empty desert highway beside a tall saguaro cactus at sunset, faded warm colors, soft vignette, slight light leak, thick white Polaroid border with handwritten marker text "Route 66, summer", sunglasses and a paper map next to it, nostalgic film photography
+```
+
+</details>
+
+<a id="editing"></a>
+
+## 图片编辑（前 → 后）
+
+<a id="edit-fox-autumn"></a>
+
+### 一键换季
+
+<table><tr><td width="48%"><img src="images/fox-snow-forest.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-fox-autumn.webp" alt="一键换季"></td></tr></table>
+
+```text
+把这张照片的季节从冬天改成金秋：用橙红色的枫叶落叶替换积雪，让树木换上温暖的秋叶，光线改为柔和的傍晚暖光。狐狸、它的姿势、倒木和拍摄角度保持完全不变。
+```
+
+**模型:** Nano Banana 2.1 Edit · **画面比例:** `3:2` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Change the season of this photo from winter to golden autumn: replace the snow with fallen orange and red maple leaves, give the trees warm autumn foliage, and make the light a soft late-afternoon glow. Keep the fox, its pose, the log and the camera angle exactly the same.
+```
+
+</details>
+
+<a id="edit-fisherman-charcoal"></a>
+
+### 照片转炭笔素描
+
+<table><tr><td width="48%"><img src="images/elderly-fisherman.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-fisherman-charcoal.webp" alt="照片转炭笔素描"></td></tr></table>
+
+```text
+把这张照片变成画在有纹理的米白色纸上的写实炭笔素描：用富有表现力的排线刻画皱纹和胡须，背景是深沉晕染的黑色，边缘留几道松散的起稿线，角落加一个小小的画家签名。脸部、表情和构图保持不变。
+```
+
+**模型:** Nano Banana 2.1 Edit · **画面比例:** `3:4` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Turn this photo into a realistic charcoal drawing on textured off-white paper: expressive hatching strokes for the wrinkles and beard, deep smudged blacks in the background, a few loose construction lines at the edges, and a small artist signature in the corner. Keep the face, expression and composition the same.
+```
+
+</details>
+
+<a id="edit-matcha-ecommerce"></a>
+
+### 生活照转电商主图
+
+<table><tr><td width="48%"><img src="images/matcha-latte-flatlay.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-matcha-ecommerce.webp" alt="生活照转电商主图"></td></tr></table>
+
+```text
+把这张平铺图变成干净的电商产品主图：只保留那杯陶瓷杯装的抹茶拿铁，以略微四分之三的角度呈现在纯白背景上，带柔和自然的投影，保留叶子拉花和杯子釉面质感，并在左上角加一个小号粗体标签 "MATCHA LATTE"。
+```
+
+**模型:** Nano Banana 2.1 Edit · **画面比例:** `1:1` · [**▶ 在 AIImage 试用**](https://aiimage.com/zh/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Turn this flat lay into a clean e-commerce product image: isolate only the ceramic cup of matcha latte, show it at a slight three-quarter angle on a pure white background with a soft natural shadow, keep the leaf latte art and the cup's glaze texture, and add a small bold label "MATCHA LATTE" in the top left corner.
 ```
 
 </details>

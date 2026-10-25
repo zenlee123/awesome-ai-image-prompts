@@ -20,6 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 API = "https://routerbase.com/v1/images/generations"
+RAW = "https://raw.githubusercontent.com/zenlee123/awesome-ai-image-prompts/main/images"
 POLL_INTERVAL = 4
 TIMEOUT = 600
 WIDTH = 768
@@ -48,6 +49,9 @@ def result_url(task):
 def generate(item, key, out):
     body = {"model": item["model"], "prompt": item["prompt"]["en"],
             "aspect_ratio": item.get("aspect_ratio", "1:1")}
+    if item.get("input"):
+        # Edit prompts take an existing preview (already pushed to GitHub) as the source image
+        body["image_urls"] = [f"{RAW}/{item['input']}.webp"]
     task = request("POST", API, key, body)
     deadline = time.time() + TIMEOUT
     while not result_url(task):

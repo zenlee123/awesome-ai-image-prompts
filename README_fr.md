@@ -3,7 +3,7 @@
 # Awesome AI Image Prompts
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Prompts](https://img.shields.io/badge/prompts-24-blue)](#photography)
+[![Prompts](https://img.shields.io/badge/prompts-39-blue)](#photography)
 [![Languages](https://img.shields.io/badge/languages-8-green)](#)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/zenlee123/awesome-ai-image-prompts?style=social)](https://github.com/zenlee123/awesome-ai-image-prompts)
@@ -63,6 +63,29 @@ Sans clé API ni configuration : ouvrez [AIImage.com](https://aiimage.com/fr?utm
 <td align="center" width="25%"><a href="#forest-spirit-deer"><img src="images/forest-spirit-deer.webp" alt="Esprit lumineux de la forêt"><br><sub>Esprit lumineux de la forêt</sub></a></td>
 <td align="center" width="25%"><a href="#steampunk-airship-market"><img src="images/steampunk-airship-market.webp" alt="Marché de dirigeables steampunk"><br><sub>Marché de dirigeables steampunk</sub></a></td>
 </tr>
+<tr>
+<td align="center" width="25%"><a href="#coffee-journey-infographic"><img src="images/coffee-journey-infographic.webp" alt="Infographie du grain à la tasse"><br><sub>Infographie du grain à la tasse</sub></a></td>
+<td align="center" width="25%"><a href="#volcano-cross-section"><img src="images/volcano-cross-section.webp" alt="Coupe d'un volcan"><br><sub>Coupe d'un volcan</sub></a></td>
+<td align="center" width="25%"><a href="#water-cycle-kids"><img src="images/water-cycle-kids.webp" alt="Le cycle de l'eau pour enfants"><br><sub>Le cycle de l'eau pour enfants</sub></a></td>
+<td align="center" width="25%"><a href="#ranger-turnaround-sheet"><img src="images/ranger-turnaround-sheet.webp" alt="Model sheet de personnage"><br><sub>Model sheet de personnage</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#pixel-rpg-items"><img src="images/pixel-rpg-items.webp" alt="Set d'objets RPG en pixel art"><br><sub>Set d'objets RPG en pixel art</sub></a></td>
+<td align="center" width="25%"><a href="#mobile-game-level-map"><img src="images/mobile-game-level-map.webp" alt="Carte des niveaux d'un jeu mobile"><br><sub>Carte des niveaux d'un jeu mobile</sub></a></td>
+<td align="center" width="25%"><a href="#youtube-thumbnail-30days"><img src="images/youtube-thumbnail-30days.webp" alt="Miniature YouTube virale"><br><sub>Miniature YouTube virale</sub></a></td>
+<td align="center" width="25%"><a href="#instagram-carousel-cover"><img src="images/instagram-carousel-cover.webp" alt="Couverture de carrousel Instagram"><br><sub>Couverture de carrousel Instagram</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#shiba-sticker-pack"><img src="images/shiba-sticker-pack.webp" alt="Pack de stickers shiba inu"><br><sub>Pack de stickers shiba inu</sub></a></td>
+<td align="center" width="25%"><a href="#y2k-digicam-night-market"><img src="images/y2k-digicam-night-market.webp" alt="Marché de nuit à l'appareil numérique Y2K"><br><sub>Marché de nuit à l'appareil numérique Y2K</sub></a></td>
+<td align="center" width="25%"><a href="#vhs-mall-1989"><img src="images/vhs-mall-1989.webp" alt="Centre commercial en VHS de 1989"><br><sub>Centre commercial en VHS de 1989</sub></a></td>
+<td align="center" width="25%"><a href="#polaroid-desert-roadtrip"><img src="images/polaroid-desert-roadtrip.webp" alt="Road trip dans le désert en Polaroid"><br><sub>Road trip dans le désert en Polaroid</sub></a></td>
+</tr>
+<tr>
+<td align="center" width="25%"><a href="#edit-fox-autumn"><img src="images/edit-fox-autumn.webp" alt="Changer de saison"><br><sub>Changer de saison</sub></a></td>
+<td align="center" width="25%"><a href="#edit-fisherman-charcoal"><img src="images/edit-fisherman-charcoal.webp" alt="De la photo au fusain"><br><sub>De la photo au fusain</sub></a></td>
+<td align="center" width="25%"><a href="#edit-matcha-ecommerce"><img src="images/edit-matcha-ecommerce.webp" alt="De la photo lifestyle à l'image e-commerce"><br><sub>De la photo lifestyle à l'image e-commerce</sub></a></td>
+</tr>
 </table>
 
 ## Sommaire
@@ -75,6 +98,11 @@ Sans clé API ni configuration : ouvrez [AIImage.com](https://aiimage.com/fr?utm
 - [3D et icônes](#3d)
 - [Architecture et intérieur](#architecture)
 - [Fantasy et concept art](#fantasy)
+- [Infographie et éducation](#infographic)
+- [Fiches personnage et assets de jeu](#character)
+- [Réseaux sociaux et miniatures](#social)
+- [Esthétique rétro et lo-fi](#retro)
+- [Retouche d'image (avant → après)](#editing)
 - [Outils d'image gratuits](#tools)
 - [Générer via l'API](#api)
 - [Conseils de rédaction](#tips)
@@ -588,6 +616,326 @@ Un marché céleste steampunk animé amarré entre des tours de laiton au-dessus
 
 ```text
 A bustling steampunk sky market docked between brass towers above the clouds, dozens of airships with patched canvas balloons and copper propellers, merchant stalls with gears, clocks and exotic spices, crowds in Victorian clothing with goggles, steam and smoke drifting, warm sepia and amber tones, intricate detail, wide cinematic shot
+```
+
+</details>
+
+<a id="infographic"></a>
+
+## Infographie et éducation
+
+<a id="coffee-journey-infographic"></a>
+
+### Infographie du grain à la tasse
+
+<img src="images/coffee-journey-infographic.webp" width="560" alt="Infographie du grain à la tasse">
+
+```text
+Infographie verticale épurée intitulée "FROM BEAN TO CUP", six étapes numérotées reliées par un chemin en pointillés : 1 Harvest, 2 Dry, 3 Roast, 4 Grind, 5 Brew, 6 Enjoy, chaque étape avec une illustration vectorielle en aplat et une légende d'une ligne, palette chaleureuse brun café et crème avec une touche de bleu canard, beaucoup d'espace blanc, typographie linéale moderne, style éditorial de magazine
+```
+
+**Modèle:** GPT Image 2.5 · **Format:** `3:4` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Clean vertical infographic titled "FROM BEAN TO CUP", six numbered steps connected by a dotted path: 1 Harvest, 2 Dry, 3 Roast, 4 Grind, 5 Brew, 6 Enjoy, each step with a flat vector illustration and a one-line caption, warm coffee-brown and cream palette with a teal accent, generous white space, modern sans-serif typography, editorial magazine style
+```
+
+</details>
+
+<a id="volcano-cross-section"></a>
+
+### Coupe d'un volcan
+
+<img src="images/volcano-cross-section.webp" width="560" alt="Coupe d'un volcan">
+
+```text
+Schéma pédagogique en coupe d'un stratovolcan en éruption pour un manuel scolaire, vue écorchée montrant la chambre magmatique, la cheminée principale, une cheminée secondaire, des couches de cendres et de lave et un panache de cendres au-dessus, étiquettes claires en anglais avec de fines lignes de rappel : "Magma Chamber", "Main Vent", "Lava Flow", "Ash Cloud", "Crust", style d'illustration détaillée peinte à la main, rouges et oranges chauds sur des tons de terre froids, fond blanc
+```
+
+**Modèle:** Gemini 3 Pro Image · **Format:** `4:3` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Educational cross-section diagram of an erupting stratovolcano for a school textbook, cutaway showing the magma chamber, main vent, side vent, layers of ash and lava, and an ash cloud above, clear English labels with thin leader lines: "Magma Chamber", "Main Vent", "Lava Flow", "Ash Cloud", "Crust", detailed hand-painted illustration style, warm reds and oranges against cool earth tones, white background
+```
+
+</details>
+
+<a id="water-cycle-kids"></a>
+
+### Le cycle de l'eau pour enfants
+
+<img src="images/water-cycle-kids.webp" width="560" alt="Le cycle de l'eau pour enfants">
+
+```text
+Affiche pédagogique joyeuse pour enfants expliquant le cycle de l'eau, un paysage avec la mer, des montagnes et un village, des flèches courbes montrant l'évaporation de la mer, la condensation en nuages, la pluie sur les montagnes et les rivières qui retournent à la mer, un soleil souriant et d'adorables personnages-nuages, grandes étiquettes arrondies "Evaporation", "Condensation", "Precipitation", "Collection", couleurs vives et accueillantes, style dessin animé 2D tout en douceur
+```
+
+**Modèle:** Nano Banana 2.1 · **Format:** `16:9` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Cheerful children's educational poster explaining the water cycle, a landscape with sea, mountains and a village, curved arrows showing evaporation from the sea, condensation into clouds, rain falling on the mountains and rivers flowing back, a smiling sun and cute cloud characters, large rounded labels "Evaporation", "Condensation", "Precipitation", "Collection", bright friendly colors, soft 2D cartoon style
+```
+
+</details>
+
+<a id="character"></a>
+
+## Fiches personnage et assets de jeu
+
+<a id="ranger-turnaround-sheet"></a>
+
+### Model sheet de personnage
+
+<img src="images/ranger-turnaround-sheet.webp" width="560" alt="Model sheet de personnage">
+
+```text
+Model sheet professionnel d'une jeune rôdeuse de la forêt originale, corps entier en vue de face, de profil et de dos côte à côte, courte tresse auburn, cape verte à capuche, armure de cuir, un arc long et un petit renard compagnon, une rangée de quatre gros plans d'expressions en bas (joyeuse, en colère, surprise, endormie), nuancier de couleurs à droite, line art net avec cel shading en aplats, fond gris clair
+```
+
+**Modèle:** Gemini 3 Pro Image · **Format:** `16:9` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Professional character design turnaround sheet of an original young forest ranger girl, full body shown in front view, side view and back view standing side by side, short auburn braid, green hooded cloak, leather armor, a longbow and a small fox companion, a row of four facial expression close-ups at the bottom (happy, angry, surprised, sleepy), color palette swatches on the right, clean line art with flat cel shading, light gray background
+```
+
+</details>
+
+<a id="pixel-rpg-items"></a>
+
+### Set d'objets RPG en pixel art
+
+<img src="images/pixel-rpg-items.webp" width="560" alt="Set d'objets RPG en pixel art">
+
+```text
+Planche de sprites en pixel art 16 bits d'objets de RPG fantasy disposés dans une grille 4×4 sur fond ardoise sombre : potion de vie rouge, potion de mana bleue, épée en fer, clé dorée, bouclier en bois, parchemin magique, coffre au trésor, cristal lumineux, arc et flèche, bottes en cuir, bague en rubis, miche de pain, bombe, plume, crâne, pièces d'or, chaque objet centré dans sa case avec une fine bordure, pixels nets, palette rétro limitée, asset de jeu vidéo
+```
+
+**Modèle:** GPT Image 2.5 · **Format:** `1:1` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+16-bit pixel art sprite sheet of fantasy RPG items arranged in a neat 4x4 grid on a dark slate background: red health potion, blue mana potion, iron sword, golden key, wooden shield, magic scroll, treasure chest, glowing crystal, bow and arrow, leather boots, ruby ring, bread loaf, bomb, feather, skull, gold coins, each item centered in its own cell with a thin border, crisp pixels, limited retro palette, game asset
+```
+
+</details>
+
+<a id="mobile-game-level-map"></a>
+
+### Carte des niveaux d'un jeu mobile
+
+<img src="images/mobile-game-level-map.webp" width="560" alt="Carte des niveaux d'un jeu mobile">
+
+```text
+Écran vertical de carte de sélection des niveaux d'un jeu de puzzle mobile, un chemin sinueux aux couleurs de bonbons qui grimpe sur une île fantaisiste avec plage, forêt de champignons, sommet enneigé et château dans les nuages, boutons ronds numérotés de 1 à 12 le long du chemin avec des étoiles dorées sous les niveaux terminés, un marqueur lumineux sur le niveau actuel, barre d'interface en haut avec cœurs, pièces et bouton de réglages, style graphique brillant de jeu casual, couleurs vives et saturées
+```
+
+**Modèle:** Nano Banana 2.1 · **Format:** `9:16` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Vertical mobile puzzle game level-select map screen, a winding candy-colored path climbing through a whimsical island with a beach, a mushroom forest, a snowy peak and a castle in the clouds, numbered round level buttons 1 to 12 along the path with gold stars under the completed ones, a glowing current level marker, top bar UI with hearts, coins and a settings button, glossy casual game art style, bright saturated colors
+```
+
+</details>
+
+<a id="social"></a>
+
+## Réseaux sociaux et miniatures
+
+<a id="youtube-thumbnail-30days"></a>
+
+### Miniature YouTube virale
+
+<img src="images/youtube-thumbnail-30days.webp" width="560" alt="Miniature YouTube virale">
+
+```text
+Miniature YouTube pleine d'énergie, à gauche un jeune homme à l'expression de choc exagérée pointant vers la droite, à droite un avant/après en écran partagé d'un bureau en désordre devenu un espace minimaliste parfaitement rangé, une grande flèche rouge courbe entre les deux, énorme texte blanc en gras avec contour noir "30 DAYS" et texte jaune plus petit "NO PHONE", couleurs vives et saturées, fort éclairage de contour sur la personne, effet détourage net, composition accrocheuse
+```
+
+**Modèle:** GPT Image 2.5 · **Format:** `16:9` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+High-energy YouTube thumbnail, on the left a young man with an exaggerated shocked expression pointing to the right, on the right a split before/after of a messy desk turning into a perfectly organized minimalist setup, a big red curved arrow between them, huge bold white text with black outline "30 DAYS" and smaller yellow text "NO PHONE", bright saturated colors, strong rim light on the person, clean cut-out look, eye-catching composition
+```
+
+</details>
+
+<a id="instagram-carousel-cover"></a>
+
+### Couverture de carrousel Instagram
+
+<img src="images/instagram-carousel-cover.webp" width="560" alt="Couverture de carrousel Instagram">
+
+```text
+Diapositive de couverture d'un carrousel Instagram au style doux et esthétique, grand titre élégant à empattements "5 Morning Habits That Changed My Life", petit sous-titre façon écriture manuscrite "swipe →", dans la moitié inférieure une photo d'une table de chevet baignée de soleil avec un verre d'eau, un carnet et un brin d'eucalyptus, palette chaude beige et vert sauge, légère texture de grain de papier, mise en page équilibrée avec une hiérarchie claire
+```
+
+**Modèle:** Gemini 3 Pro Image · **Format:** `4:5` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Instagram carousel cover slide in a soft aesthetic style, large elegant serif headline "5 Morning Habits That Changed My Life", a small handwritten-style subtitle "swipe →", a photo of a sunlit bedside table with a glass of water, a journal and a sprig of eucalyptus in the lower half, warm beige and sage green palette, subtle paper grain texture, balanced layout with clear hierarchy
+```
+
+</details>
+
+<a id="shiba-sticker-pack"></a>
+
+### Pack de stickers shiba inu
+
+<img src="images/shiba-sticker-pack.webp" width="560" alt="Pack de stickers shiba inu">
+
+```text
+Planche de 9 stickers de messagerie avec le même shiba inu dodu en dessin animé dans une grille 3×3, chacun avec une émotion différente et une courte légende en gras : fait coucou "Hi!", yeux en cœur "Love it", en pleurs "Nooo", endormi "Zzz", pouce levé "OK!", fâché "Hmph", mort de rire "LOL", mange des nouilles "Yum", caché sous une couverture "Bye", épais contour blanc découpé autour de chaque sticker, design de personnage cohérent, couleurs pastel douces, style kawaii
+```
+
+**Modèle:** Nano Banana 2.1 · **Format:** `1:1` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Sticker sheet of 9 chat stickers featuring the same chubby cartoon shiba inu in a 3x3 grid, each with a different emotion and a short bold caption: waving "Hi!", heart eyes "Love it", crying "Nooo", sleeping "Zzz", thumbs up "OK!", angry "Hmph", laughing "LOL", eating noodles "Yum", hiding under a blanket "Bye", thick white die-cut outline around each sticker, consistent character design, soft pastel colors, kawaii style
+```
+
+</details>
+
+<a id="retro"></a>
+
+## Esthétique rétro et lo-fi
+
+<a id="y2k-digicam-night-market"></a>
+
+### Marché de nuit à l'appareil numérique Y2K
+
+<img src="images/y2k-digicam-night-market.webp" width="560" alt="Marché de nuit à l'appareil numérique Y2K">
+
+```text
+Photo prise sur le vif avec un appareil photo numérique compact du début des années 2000 dans un marché de nuit asiatique bondé, trois amis qui rient en partageant des brochettes et du bubble tea, flash direct et dur de l'appareil, visages légèrement surexposés, fond sombre avec les lumières colorées des stands, rendu de capteur CCD basse résolution, léger bruit et aberration chromatique, date numérique orange "'04 07 18" dans le coin inférieur droit, nostalgique et spontanée
+```
+
+**Modèle:** Gemini 3 Pro Image · **Format:** `4:3` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Candid photo taken with an early 2000s compact digital camera at a crowded Asian night market, three friends laughing and sharing skewers and bubble tea, harsh direct on-camera flash, slightly overexposed faces, dark background with colorful stall lights, low resolution CCD sensor look, slight noise and chromatic aberration, orange digital date stamp "'04 07 18" in the bottom right corner, nostalgic and spontaneous
+```
+
+</details>
+
+<a id="vhs-mall-1989"></a>
+
+### Centre commercial en VHS de 1989
+
+<img src="images/vhs-mall-1989.webp" width="560" alt="Centre commercial en VHS de 1989">
+
+```text
+Image fixe d'une cassette vidéo familiale de 1989 filmée dans un centre commercial, devantures aux néons pastel, une fontaine avec des palmiers, des ados aux cheveux volumineux et vestes en jean, atrium avec verrière, artefacts VHS : lignes de tracking horizontales, bavures de couleur, détails flous et doux, couleurs délavées, entrelacement, horodatage blanc de caméscope "PLAY ▶  JUN 12 1989  4:37 PM" dans le coin, rendu vidéo analogique 4:3 authentique
+```
+
+**Modèle:** GPT Image 2.5 · **Format:** `4:3` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/gpt-image-2-5?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Still frame from a 1989 home video tape recorded in a shopping mall, pastel neon storefronts, a fountain with palm trees, teenagers with big hair and denim jackets, skylight atrium, VHS artifacts: horizontal tracking lines, color bleeding, soft blurry detail, washed-out colors, interlacing, white camcorder timestamp "PLAY ▶  JUN 12 1989  4:37 PM" in the corner, authentic 4:3 analog video look
+```
+
+</details>
+
+<a id="polaroid-desert-roadtrip"></a>
+
+### Road trip dans le désert en Polaroid
+
+<img src="images/polaroid-desert-roadtrip.webp" width="560" alt="Road trip dans le désert en Polaroid">
+
+```text
+Une photo Polaroid instantanée vintage posée sur le tableau de bord d'une voiture, la photo montre un cabriolet turquoise des années 1970 garé sur une autoroute déserte à côté d'un grand cactus saguaro au coucher du soleil, couleurs chaudes délavées, vignettage doux, légère fuite de lumière, épais cadre blanc Polaroid avec un texte manuscrit au marqueur "Route 66, summer", des lunettes de soleil et une carte routière à côté, photographie argentique nostalgique
+```
+
+**Modèle:** Nano Banana 2.1 · **Format:** `4:5` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/nano-banana-2?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+A vintage instant Polaroid photo lying on a car dashboard, the photo shows a turquoise 1970s convertible parked on an empty desert highway beside a tall saguaro cactus at sunset, faded warm colors, soft vignette, slight light leak, thick white Polaroid border with handwritten marker text "Route 66, summer", sunglasses and a paper map next to it, nostalgic film photography
+```
+
+</details>
+
+<a id="editing"></a>
+
+## Retouche d'image (avant → après)
+
+<a id="edit-fox-autumn"></a>
+
+### Changer de saison
+
+<table><tr><td width="48%"><img src="images/fox-snow-forest.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-fox-autumn.webp" alt="Changer de saison"></td></tr></table>
+
+```text
+Change la saison de cette photo de l'hiver à un automne doré : remplace la neige par des feuilles d'érable tombées orange et rouges, donne aux arbres un feuillage d'automne chaleureux et transforme la lumière en une douce lueur de fin d'après-midi. Garde exactement le renard, sa pose, le tronc et l'angle de vue.
+```
+
+**Modèle:** Nano Banana 2.1 Edit · **Format:** `3:2` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Change the season of this photo from winter to golden autumn: replace the snow with fallen orange and red maple leaves, give the trees warm autumn foliage, and make the light a soft late-afternoon glow. Keep the fox, its pose, the log and the camera angle exactly the same.
+```
+
+</details>
+
+<a id="edit-fisherman-charcoal"></a>
+
+### De la photo au fusain
+
+<table><tr><td width="48%"><img src="images/elderly-fisherman.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-fisherman-charcoal.webp" alt="De la photo au fusain"></td></tr></table>
+
+```text
+Transforme cette photo en dessin réaliste au fusain sur papier blanc cassé texturé : hachures expressives pour les rides et la barbe, noirs profonds estompés en arrière-plan, quelques traits de construction libres sur les bords et une petite signature d'artiste dans le coin. Garde le visage, l'expression et la composition identiques.
+```
+
+**Modèle:** Nano Banana 2.1 Edit · **Format:** `3:4` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Turn this photo into a realistic charcoal drawing on textured off-white paper: expressive hatching strokes for the wrinkles and beard, deep smudged blacks in the background, a few loose construction lines at the edges, and a small artist signature in the corner. Keep the face, expression and composition the same.
+```
+
+</details>
+
+<a id="edit-matcha-ecommerce"></a>
+
+### De la photo lifestyle à l'image e-commerce
+
+<table><tr><td width="48%"><img src="images/matcha-latte-flatlay.webp" alt="input"></td><td align="center">→</td><td width="48%"><img src="images/edit-matcha-ecommerce.webp" alt="De la photo lifestyle à l'image e-commerce"></td></tr></table>
+
+```text
+Transforme ce flat lay en une image produit e-commerce épurée : isole uniquement la tasse en céramique de matcha latte, présente-la de trois quarts sur un fond blanc pur avec une ombre naturelle douce, conserve le latte art en forme de feuille et la texture de l'émail, et ajoute une petite étiquette en gras "MATCHA LATTE" dans le coin supérieur gauche.
+```
+
+**Modèle:** Nano Banana 2.1 Edit · **Format:** `1:1` · [**▶ Essayer sur AIImage**](https://aiimage.com/fr/image-to-image?utm_source=github&utm_medium=readme&utm_campaign=awesome-ai-image-prompts)
+
+<details><summary>English</summary>
+
+```text
+Turn this flat lay into a clean e-commerce product image: isolate only the ceramic cup of matcha latte, show it at a slight three-quarter angle on a pure white background with a soft natural shadow, keep the leaf latte art and the cup's glaze texture, and add a small bold label "MATCHA LATTE" in the top left corner.
 ```
 
 </details>
