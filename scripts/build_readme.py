@@ -5,6 +5,9 @@ Usage:
     python3 scripts/build_readme.py
 """
 import json
+import re
+import subprocess
+import unicodedata
 from urllib.parse import quote
 from pathlib import Path
 
@@ -276,14 +279,78 @@ def site(lang, path=""):
     return f"https://aiimage.com/{'/'.join(parts)}?{UTM}"
 
 
+BACK = {"en": "Back to top", "zh": "返回顶部", "ja": "トップへ戻る", "ko": "맨 위로",
+        "es": "Volver arriba", "fr": "Retour en haut", "de": "Nach oben", "pt": "Voltar ao topo"}
+BEFORE_AFTER = {"en": ("Before", "After"), "zh": ("原图", "效果"), "ja": ("元画像", "編集後"),
+                "ko": ("원본", "결과"), "es": ("Antes", "Después"), "fr": ("Avant", "Après"),
+                "de": ("Vorher", "Nachher"), "pt": ("Antes", "Depois")}
+
+# Picks for the 4x2 cover collage at the top of every README
+COVER = ["tokyo-rain-night", "pixar-chef-cat", "ghibli-countryside", "swiss-jazz-poster",
+         "floating-island-castle", "clay-figurine-astronaut", "shiba-sticker-pack", "cyberpunk-girl"]
+THUMB = 320
+WRAP = 78
+IMG = 560
+
+
+def make_thumbs(prompts):
+    """Square center-cropped thumbnails so gallery rows line up, plus the cover collage."""
+    thumbs = ROOT / "images" / "thumbs"
+    thumbs.mkdir(exist_ok=True)
+    for p in prompts:
+        out = thumbs / f"{p['id']}.webp"
+        if not out.exists():
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", ROOT / "images" / f"{p['id']}.webp",
+                            "-vf", f"crop='min(iw,ih)':'min(iw,ih)',scale={THUMB}:{THUMB}",
+                            "-quality", "80", out], check=True)
+    cover = ROOT / "images" / "cover.webp"
+    if not cover.exists():
+        inputs = [arg for pid in COVER for arg in ("-i", thumbs / f"{pid}.webp")]
+        layout = "|".join(f"{(i % 4) * (THUMB + 8)}_{(i // 4) * (THUMB + 8)}" for i in range(8))
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *inputs, "-filter_complex",
+                        f"xstack=inputs=8:layout={layout}:fill=white", "-quality", "85", cover],
+                       check=True)
+
+
+def width(s):
+    return sum(2 if unicodedata.east_asian_width(ch) in "WF" else 1 for ch in s)
+
+
+def wrap(text):
+    """Break a prompt after commas so it reads without horizontal scrolling on GitHub."""
+    def pack(parts):
+        lines, cur = [], ""
+        for part in parts:
+            if cur and width(cur + part.rstrip()) > WRAP:
+                lines.append(cur.rstrip())
+                cur = part.lstrip()
+            else:
+                cur += part
+        return lines + [cur.rstrip()]
+
+    lines = pack(re.findall(r"[^,，、;；。]+[,，、;；。]?\s*", text))
+    # A single clause can still be too long: split it on spaces, or per character for CJK
+    return "\n".join(sub for line in lines for sub in (
+        [line] if width(line) <= WRAP else pack(re.findall(r"\S+\s*", line) if " " in line else line)))
+
+
+def badge(label, message, color):
+    esc = lambda s: quote(s.replace("-", "--").replace("_", "__"), safe="")
+    return f"https://img.shields.io/badge/{esc(label)}-{esc(message)}-{color}"
+
+
 def image_block(p, lang):
     if not p.get("input"):
-        return f'<img src="images/{p["id"]}.webp" width="560" alt="{p["title"][lang]}">'
+        # Cap the long side so portrait images don't take over the page
+        w, h = map(int, p["aspect_ratio"].split(":"))
+        size = f'height="{IMG}"' if h > w else f'width="{IMG if w > h else IMG - 80}"'
+        return f'<img src="images/{p["id"]}.webp" {size} alt="{p["title"][lang]}">'
     # Edit prompts: source image → edited result, side by side
+    before, after = BEFORE_AFTER[lang]
     return ('<table><tr>'
-            f'<td width="48%"><img src="images/{p["input"]}.webp" alt="input"></td>'
-            '<td align="center">→</td>'
-            f'<td width="48%"><img src="images/{p["id"]}.webp" alt="{p["title"][lang]}"></td>'
+            f'<td width="48%" align="center"><img src="images/{p["input"]}.webp" alt="{before}"><br><sub>{before}</sub></td>'
+            '<td align="center">➜</td>'
+            f'<td width="48%" align="center"><img src="images/{p["id"]}.webp" alt="{p["title"][lang]}"><br><sub>{after}</sub></td>'
             '</tr></table>')
 
 
@@ -297,95 +364,113 @@ def build(lang, data):
     prompts = data["prompts"]
     out = []
 
-    switcher = " | ".join(
-        f"**{LANG_NAMES[l]}**" if l == lang else f"[{LANG_NAMES[l]}]({readme_name(l)})"
+    switcher = " · ".join(
+        f"<b>{LANG_NAMES[l]}</b>" if l == lang else f'<a href="{readme_name(l)}">{LANG_NAMES[l]}</a>'
         for l in data["languages"])
+    nav = " · ".join(f"[{label}](#{anchor})" for label, anchor in [
+        (t["gallery"], "gallery"), (t["tools"], "tools"), (t["api"], "api"),
+        (t["tips"], "tips"), (t["contrib"], "contributing")])
 
     out += [
+        '<a id="top"></a>',
+        "",
         '<div align="center">',
         "",
         "# Awesome AI Image Prompts",
         "",
+        f"<p>{switcher}</p>",
+        "",
         f"[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
-        f"[![Prompts](https://img.shields.io/badge/prompts-{len(prompts)}-blue)](#{cats[0]['id']})",
-        f"[![Languages](https://img.shields.io/badge/languages-{len(data['languages'])}-green)](#)",
+        f"[![Prompts](https://img.shields.io/badge/prompts-{len(prompts)}-blue)](#gallery)",
+        f"[![Languages](https://img.shields.io/badge/languages-{len(data['languages'])}-green)](#top)",
         f"[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey)](LICENSE)",
         f"[![GitHub stars](https://img.shields.io/github/stars/{REPO}?style=social)](https://github.com/{REPO})",
         "",
-        switcher,
+        f"**{t['tagline']}**",
         "",
-        t["tagline"],
+        f'<a href="#gallery"><img src="images/cover.webp" width="840" alt="Awesome AI Image Prompts"></a>',
         "",
         f'<a href="{site(lang)}"><img src="https://img.shields.io/badge/'
-        f'%F0%9F%8E%A8%20{t["try"].replace(" ", "%20")}-AIImage.com-ff5a5f?style=for-the-badge" '
+        f'{quote("🎨 " + t["try"].replace("-", "--"))}-AIImage.com-ff5a5f?style=for-the-badge" '
         f'alt="{t["try"]}"></a>',
+        "",
+        nav,
         "",
         "</div>",
         "",
         t["intro"],
         "",
+        "> [!TIP]",
+        f"> **{t['promo_title']}**",
+        ">",
+        f"> {t['promo_desc'].format(home=site(lang))}",
+        "",
+        "> [!NOTE]",
         f"> {t['note']}",
-        "",
-        f"### 🎨 {t['promo_title']}",
-        "",
-        t["promo_desc"].format(home=site(lang)),
         "",
     ]
 
-    # Gallery: 4-column thumbnail grid linking to each entry
-    out += [f"## {t['gallery']}", "", "<table>"]
-    for i in range(0, len(prompts), 4):
+    # Gallery doubles as the table of contents: one row per category, square thumbs link to entries
+    out += ['<a id="gallery"></a>', "", f"## {t['gallery']}", "", "<table>"]
+    for c in cats:
+        items = [p for p in prompts if p["category"] == c["id"]]
         out.append("<tr>")
-        for p in prompts[i:i + 4]:
-            out.append(f'<td align="center" width="25%"><a href="#{p["id"]}">'
-                       f'<img src="images/{p["id"]}.webp" alt="{p["title"][lang]}"><br>'
-                       f'<sub>{p["title"][lang]}</sub></a></td>')
+        out.append(f'<td width="22%"><a href="#{c["id"]}"><b>{c["title"][lang]}</b></a></td>')
+        for p in items:
+            out.append(f'<td align="center" width="26%"><a href="#{p["id"]}">'
+                       f'<img src="images/thumbs/{p["id"]}.webp" alt="{p["title"][lang]}"></a><br>'
+                       f'<sub>{p["title"][lang]}</sub></td>')
         out.append("</tr>")
     out += ["</table>", ""]
 
-    out += [f"## {t['contents']}", ""]
-    for c in cats:
-        out.append(f'- [{c["title"][lang]}](#{c["id"]})')
-    out += [f"- [{t['tools']}](#tools)", f"- [{t['api']}](#api)", f"- [{t['tips']}](#tips)",
-            f"- [{t['contrib']}](#contributing)", ""]
-
+    n = 0
     for c in cats:
         out += [f'<a id="{c["id"]}"></a>', "", f'## {c["title"][lang]}', ""]
         for p in (p for p in prompts if p["category"] == c["id"]):
+            n += 1
+            model = MODEL_NAMES.get(p["model"], p["model"])
             out += [
                 f'<a id="{p["id"]}"></a>',
                 "",
-                f'### {p["title"][lang]}',
+                f'### {n:02d}. {p["title"][lang]}',
                 "",
                 image_block(p, lang),
                 "",
-                "```text",
-                p["prompt"][lang],
-                "```",
+                f'<img src="{badge(t["model"], model, "6f42c1")}" alt="{model}"> '
+                f'<img src="{badge(t["ratio"], p["aspect_ratio"], "0969da")}" alt="{p["aspect_ratio"]}"> '
+                f'<a href="{site(lang, MODEL_PAGES[p["model"]])}">'
+                f'<img src="{badge("▶", t["try"], "ff5a5f")}" alt="{t["try"]}"></a>',
                 "",
-                f'**{t["model"]}:** {MODEL_NAMES.get(p["model"], p["model"])} · '
-                f'**{t["ratio"]}:** `{p["aspect_ratio"]}` · '
-                f'[**▶ {t["try"]}**]({site(lang, MODEL_PAGES[p["model"]])})',
+                "```text",
+                wrap(p["prompt"][lang]),
+                "```",
                 "",
             ]
             if lang != "en":
                 out += ["<details><summary>English</summary>", "", "```text",
-                        p["prompt"]["en"], "```", "", "</details>", ""]
+                        wrap(p["prompt"]["en"]), "```", "", "</details>", ""]
+        out += [f'<div align="right"><a href="#top">⬆ {BACK[lang]}</a></div>', ""]
 
-    out += ['<a id="tools"></a>', "", f"## {t['tools']}", "", t["tools_desc"], ""]
-    out += [f"- [{name}]({site(lang, path)})" for name, path in zip(t["tool_names"], TOOL_PAGES)]
-    out += [f"- [{t['tools']} →]({site(lang, 'tools')})", ""]
+    # Tools as a 3x2 grid of links
+    tools = [f'<td align="center" width="33%"><a href="{site(lang, path)}"><b>{name}</b></a></td>'
+             for name, path in zip(t["tool_names"], TOOL_PAGES)]
+    out += ['<a id="tools"></a>', "", f"## {t['tools']}", "", t["tools_desc"], "", "<table>",
+            "<tr>" + "".join(tools[:3]) + "</tr>", "<tr>" + "".join(tools[3:]) + "</tr>", "</table>", "",
+            f"[{t['tools']} →]({site(lang, 'tools')})", ""]
     out += ['<a id="api"></a>', "", f"## {t['api']}", "", t["api_desc"], "", API_SNIPPET, ""]
     out += ['<a id="tips"></a>', "", f"## {t['tips']}", ""]
     out += [f"{i}. {tip}" for i, tip in enumerate(t["tips_list"], 1)]
     out += ["", '<a id="contributing"></a>', "", f"## {t['contrib']}", "", t["contrib_desc"], ""]
     out += [f"## {t['license']}", "", t["license_desc"], "", "---", "",
-            f'<div align="center">{t["star"]}</div>', ""]
+            '<div align="center">', "", t["star"], "",
+            f'<a href="{site(lang)}">AIImage.com</a> · <a href="https://routerbase.com">RouterBase</a>'
+            f' · <a href="#top">⬆ {BACK[lang]}</a>', "", "</div>", ""]
     return "\n".join(out)
 
 
 def main():
     data = json.loads((ROOT / "prompts.json").read_text())
+    make_thumbs(data["prompts"])
     for lang in data["languages"]:
         (ROOT / readme_name(lang)).write_text(build(lang, data))
         print(f"wrote {readme_name(lang)}")
